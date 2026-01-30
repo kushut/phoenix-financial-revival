@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { AlertTriangle, CheckCircle, Shield, TrendingUp, Lock, BadgeCheck } from "lucide-react";
+import OfferButton from "./OfferButton";
 
 const ArticlePage10 = () => {
-  const affiliateLink = "https://example.com/affiliate";
 
   return (
     <div className="min-h-screen bg-background">
@@ -281,13 +281,9 @@ const ArticlePage10 = () => {
                 Die Bank hat jedoch angekündigt, die Kapazitäten für Neukunden zu begrenzen, sobald 
                 die EU-Übergangsfristen auslaufen.
               </p>
-              <Button 
-                className="w-full" 
-                size="lg"
-                onClick={() => window.open(affiliateLink, '_blank')}
-              >
+              <OfferButton className="w-full">
                 Zugang zum Angebot prüfen
-              </Button>
+              </OfferButton>
               <p className="text-xs text-center text-muted-foreground mt-2">
                 Unverbindlich · Keine Verpflichtung · Kostenlose Prüfung
               </p>

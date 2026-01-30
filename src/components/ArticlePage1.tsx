@@ -3,6 +3,7 @@ import heroImage from "@/assets/sparkasse-polizei.jpg";
 import lochImage from "@/assets/sparkasse-loch.jpg";
 import ehepaarImage from "@/assets/ehepaar-heinz-maria.png";
 import SpiegelHeader from "./SpiegelHeader";
+import OfferButton from "./OfferButton";
 
 const ArticlePage = () => {
   const comments = [
@@ -357,19 +358,12 @@ const ArticlePage = () => {
                     </li>
                   </ul>
 
-                  <a 
-                    href="#" 
-                    className="cta-button"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      alert('Link zum Bank-Angebot');
-                    }}
-                  >
+                  <OfferButton>
                     👉 Zum exklusiven Angebot (von der Redaktion recherchiert)
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
-                  </a>
+                  </OfferButton>
                   <p className="text-sm text-muted-foreground mt-4">
                     <strong>Hinweis:</strong> Dieses Angebot wird nicht aktiv beworben. Der Link führt Sie direkt zur Anmeldung 
                     bei einer der größten deutschen Banken mit voller BaFin-Regulierung und 100.000€ Einlagensicherung.
@@ -439,16 +433,9 @@ const ArticlePage = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   Nutzen Sie jetzt das exklusive Angebot dieser deutschen Großbank, bevor es nicht mehr verfügbar ist.
                 </p>
-                <a 
-                  href="#" 
-                  className="cta-button inline-flex"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    alert('Link zum Bank-Angebot');
-                  }}
-                >
+                <OfferButton>
                   Zum Angebot →
-                </a>
+                </OfferButton>
               </div>
             </div>
           </div>

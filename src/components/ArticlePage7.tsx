@@ -1,5 +1,6 @@
 import SpiegelHeader from "./SpiegelHeader";
 import { Button } from "@/components/ui/button";
+import OfferButton from "./OfferButton";
 
 const ArticlePage7 = () => {
   const comments = [
@@ -146,9 +147,9 @@ const ArticlePage7 = () => {
                 <span>BaFin-reguliert und staatlich überwacht</span>
               </li>
             </ul>
-            <Button className="w-full bg-[#1e3a5f] hover:bg-[#2a4a6f] text-white">
+            <OfferButton className="w-full">
               Direkt zum Angebot dieser Bank →
-            </Button>
+            </OfferButton>
           </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-6 font-spiegel-serif">„Ich habe zwei Nächte nicht geschlafen"</h2>
@@ -262,9 +263,9 @@ const ArticlePage7 = () => {
             <p className="mb-6 opacity-90">
               Über diesen Link gelangen Sie direkt zum exklusiven Depot-Angebot der Bank, die auch Petra Schneider nutzt.
             </p>
-            <Button className="bg-white text-[#1e3a5f] hover:bg-gray-100 text-lg px-8 py-6">
+            <OfferButton className="bg-white text-[#1e3a5f] hover:bg-gray-100 text-lg px-8 py-6">
               🔒 Jetzt zum Bank-Angebot →
-            </Button>
+            </OfferButton>
             <p className="text-sm mt-4 opacity-75">
               100.000€ Einlagensicherung • BaFin-reguliert • Jederzeit kündbar
             </p>

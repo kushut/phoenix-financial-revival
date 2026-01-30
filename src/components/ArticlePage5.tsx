@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Scale, FileText, Building2 } from "lucide-react";
+import OfferButton from "./OfferButton";
 
 const ArticlePage5 = () => {
   const comments = [
@@ -299,12 +300,9 @@ const ArticlePage5 = () => {
 
         {/* CTA Section */}
         <div className="my-12 text-center">
-          <a 
-            href="#" 
-            className="cta-button text-xl"
-          >
+          <OfferButton className="text-xl">
             👉 Zum EU-regulierten Angebot (von der Redaktion recherchiert)
-          </a>
+          </OfferButton>
           <p className="text-sm text-muted-foreground mt-4">
             * Das Angebot ist CRD VI-konform und unterliegt der deutschen Einlagensicherung.
           </p>
@@ -324,12 +322,9 @@ const ArticlePage5 = () => {
           <p className="mb-4">
             Nutzen Sie den von unserer Redaktion recherchierten Zugang zum CRD VI-konformen Angebot. Institutionelle Renditen, professionelles Trading-Management, 100.000€ Einlagensicherung.
           </p>
-          <a 
-            href="#" 
-            className="cta-button inline-block"
-          >
+          <OfferButton>
             Jetzt Zugang sichern →
-          </a>
+          </OfferButton>
         </div>
 
         {/* Comments Section */}
@@ -377,12 +372,9 @@ const ArticlePage5 = () => {
           <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
             Die EU hat den Weg geebnet. Nutzen Sie jetzt den exklusiven Zugang zum Angebot, bevor die begrenzten Plätze vergeben sind.
           </p>
-          <a 
-            href="#" 
-            className="cta-button text-lg"
-          >
+          <OfferButton className="text-lg">
             👉 Zum versteckten Angebot
-          </a>
+          </OfferButton>
         </div>
       </article>
 

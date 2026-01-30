@@ -2,6 +2,7 @@ import { Bookmark, Play, Share2, CheckCircle, ThumbsUp, MessageCircle } from "lu
 import heroImage from "@/assets/sparkasse-polizei.jpg";
 import seniorinImage from "@/assets/seniorin-portrait.png";
 import SpiegelHeader from "./SpiegelHeader";
+import OfferButton from "./OfferButton";
 
 const ArticlePage2 = () => {
   const comments = [
@@ -326,19 +327,12 @@ const ArticlePage2 = () => {
                     </li>
                   </ul>
 
-                  <a 
-                    href="#" 
-                    className="cta-button"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      alert('Link zum Bank-Angebot');
-                    }}
-                  >
+                  <OfferButton>
                     👉 Direkt zum Angebot dieser Bank
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
-                  </a>
+                  </OfferButton>
                   <p className="text-sm text-muted-foreground mt-4">
                     <strong>Hinweis:</strong> Dieses Angebot wird nicht aktiv beworben. Der Link führt Sie direkt zur Anmeldung.
                   </p>
@@ -392,19 +386,12 @@ const ArticlePage2 = () => {
                 <p className="font-semibold mb-3">
                   Viele Leser haben das Consorsbank-Angebot bereits genutzt!
                 </p>
-                <a 
-                  href="#" 
-                  className="cta-button inline-flex"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    alert('Link zum Consorsbank-Angebot');
-                  }}
-                >
+                <OfferButton>
                   👉 Jetzt selbst informieren
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
-                </a>
+                </OfferButton>
               </div>
             </div>
           </div>

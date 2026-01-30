@@ -3,6 +3,7 @@ import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Award } from "lucide-react";
 import maschmeyer from "@/assets/carsten-maschmeyer.png";
+import OfferButton from "./OfferButton";
 
 const ArticlePage3 = () => {
   const comments = [
@@ -269,12 +270,9 @@ const ArticlePage3 = () => {
 
         {/* CTA Section */}
         <div className="my-12 text-center">
-          <a 
-            href="#" 
-            className="cta-button text-xl"
-          >
+          <OfferButton className="text-xl">
             👉 Zum exklusiven Angebot (von der Redaktion recherchiert)
-          </a>
+          </OfferButton>
           <p className="text-sm text-muted-foreground mt-4">
             * Das Angebot ist zeitlich begrenzt und richtet sich an ausgewählte Kunden.
           </p>
@@ -294,12 +292,9 @@ const ArticlePage3 = () => {
           <p className="mb-4">
             Nutzen Sie den von unserer Redaktion recherchierten Zugang zum exklusiven Angebot. Professionelles Trading-Management, bis zu 17% Rendite im Monat, 100.000€ Einlagensicherung.
           </p>
-          <a 
-            href="#" 
-            className="cta-button inline-block"
-          >
+          <OfferButton>
             Jetzt Zugang sichern →
-          </a>
+          </OfferButton>
         </div>
 
         {/* Comments Section */}
@@ -347,12 +342,9 @@ const ArticlePage3 = () => {
           <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
             Carsten Maschmeyer hat den Weg gezeigt. Nutzen Sie jetzt den exklusiven Zugang zum Angebot, bevor die begrenzten Plätze vergeben sind.
           </p>
-          <a 
-            href="#" 
-            className="cta-button text-lg"
-          >
+          <OfferButton className="text-lg">
             👉 Zum versteckten Angebot
-          </a>
+          </OfferButton>
         </div>
       </article>
 

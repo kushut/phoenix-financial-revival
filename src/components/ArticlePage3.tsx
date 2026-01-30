@@ -3,6 +3,7 @@ import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Award } from "lucide-react";
 import maschmeyer from "@/assets/carsten-maschmeyer.png";
+import dkbLogo from "@/assets/dkb-logo.png";
 
 const ArticlePage3 = () => {
   const comments = [
@@ -150,8 +151,17 @@ const ArticlePage3 = () => {
 
           <h2 className="article-subheading">Was macht dieses Angebot so besonders?</h2>
 
+          {/* DKB Bank Box */}
+          <div className="bg-white border-2 border-[#00A3E0] rounded-lg p-6 my-6 flex items-center gap-6">
+            <img src={dkbLogo} alt="DKB Deutsche Kreditbank AG Logo" className="h-16 w-auto" />
+            <div>
+              <p className="font-bold text-lg">Deutsche Kreditbank AG (DKB)</p>
+              <p className="text-muted-foreground text-sm">Eine der größten Direktbanken Deutschlands mit über 5 Millionen Kunden</p>
+            </div>
+          </div>
+
           <p>
-            Die DKB Bank, eine der größten Direktbanken Deutschlands, bietet ausgewählten Kunden Zugang zu einem Programm, das normalerweise nur Hedgefonds, Pensionskassen und vermögenden Family Offices zur Verfügung steht: <strong>Professionelles Trading durch bankinterne Experten</strong>.
+            Die <strong>DKB – Deutsche Kreditbank AG</strong>, eine der größten Direktbanken Deutschlands, bietet ausgewählten Kunden Zugang zu einem Programm, das normalerweise nur Hedgefonds, Pensionskassen und vermögenden Family Offices zur Verfügung steht: <strong>Professionelles Trading durch bankinterne Experten</strong>.
           </p>
 
           {/* Feature Box */}

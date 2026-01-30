@@ -1,16 +1,6 @@
 import { useState } from "react";
-import { Menu, Search } from "lucide-react";
+import { Menu, Search, X } from "lucide-react";
 import ArticleSidebar from "./ArticleSidebar";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
 
 interface SpiegelHeaderProps {
   breadcrumbTitle?: string;
@@ -26,27 +16,40 @@ const SpiegelHeader = ({ breadcrumbTitle = "42.000 Euro verloren – wie eine Fr
       {showMenu && <ArticleSidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />}
       
       {/* Warning Dialog */}
-      <AlertDialog open={warningOpen} onOpenChange={setWarningOpen}>
-        <AlertDialogContent>
-          <AlertDialogHeader>
-            <AlertDialogTitle>Hinweis</AlertDialogTitle>
-            <AlertDialogDescription>
-              Du verlässt nun diesen Artikel und gehst zur Anmeldung über.
-            </AlertDialogDescription>
-          </AlertDialogHeader>
-          <AlertDialogFooter>
-            <AlertDialogAction 
+      {warningOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
+          <div 
+            className="fixed inset-0 bg-black/50" 
+            onClick={() => setWarningOpen(false)}
+          />
+          <div className="relative bg-white rounded-lg shadow-xl max-w-md w-full mx-4 p-6">
+            <button 
               onClick={() => setWarningOpen(false)}
-              className="bg-primary hover:bg-primary/90"
+              className="absolute top-4 right-4 text-muted-foreground hover:text-foreground"
             >
-              Nicht fortfahren
-            </AlertDialogAction>
-            <AlertDialogCancel className="border-muted-foreground/30">
-              Fortfahren
-            </AlertDialogCancel>
-          </AlertDialogFooter>
-        </AlertDialogContent>
-      </AlertDialog>
+              <X className="w-5 h-5" />
+            </button>
+            <h2 className="text-lg font-semibold mb-2">Hinweis</h2>
+            <p className="text-muted-foreground mb-6">
+              Du verlässt nun diesen Artikel und gehst zur Anmeldung über.
+            </p>
+            <div className="flex gap-3 justify-end">
+              <button 
+                onClick={() => setWarningOpen(false)}
+                className="px-4 py-2 border border-muted-foreground/30 rounded text-sm hover:bg-muted"
+              >
+                Fortfahren
+              </button>
+              <button 
+                onClick={() => setWarningOpen(false)}
+                className="px-4 py-2 bg-primary text-white rounded text-sm hover:bg-primary/90"
+              >
+                Nicht fortfahren
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Main Header - Orange Bar */}
       <header className="spiegel-header">

@@ -109,20 +109,20 @@ const ArticlePage7 = () => {
             <p className="text-sm text-muted-foreground">– Petra Schneider, 59, ehemalige Krankenschwester</p>
           </div>
 
-          <h2 className="text-2xl font-bold mt-10 mb-6 font-spiegel-serif">Das „versteckte" Angebot der großen Banken</h2>
+          <h2 className="text-2xl font-bold mt-10 mb-6 font-spiegel-serif">Das „versteckte" Angebot dieser einen Großbank</h2>
 
           <p className="text-lg leading-relaxed mb-6">
-            Was Petra Schneider an diesem Tag erfuhr, ist den meisten Deutschen nicht bekannt: Große deutsche Banken – darunter mehrere mit staatlicher Beteiligung – bieten seit der Umsetzung neuer EU-Richtlinien aktive Vermögensverwaltung an, die früher nur institutionellen Großanlegern vorbehalten war.
+            Was Petra Schneider an diesem Tag erfuhr, ist den meisten Deutschen nicht bekannt: Eine der größten deutschen Banken – mit staatlicher Beteiligung und über 5 Millionen Kunden – bietet seit der Umsetzung neuer EU-Richtlinien aktive Vermögensverwaltung an, die früher nur institutionellen Großanlegern vorbehalten war.
           </p>
 
           <p className="text-lg leading-relaxed mb-6">
-            „Der Berater erklärte mir, dass die Bank durch neue Regulierungen gezwungen ist, diese Angebote auch Privatpersonen zugänglich zu machen. Sie bewerben es nicht aktiv, weil es für die Bank weniger profitabel ist als andere Produkte. Aber für die Kunden ist es oft die bessere Wahl."
+            „Der Berater erklärte mir, dass diese Bank durch neue Regulierungen gezwungen ist, dieses Angebot auch Privatpersonen zugänglich zu machen. Sie bewerben es nicht aktiv, weil es für die Bank weniger profitabel ist als andere Produkte. Aber für die Kunden ist es die bessere Wahl."
           </p>
 
           <div className="bg-card p-6 rounded-lg my-8 border shadow-sm">
             <div className="mb-4">
-              <h3 className="font-bold text-lg">Aktives Depot-Management</h3>
-              <p className="text-sm text-muted-foreground">Jetzt auch für Privatanleger bei ausgewählten deutschen Banken</p>
+              <h3 className="font-bold text-lg">Aktives Depot-Management dieser Bank</h3>
+              <p className="text-sm text-muted-foreground">Das exklusive Angebot, das Petra Schneider nutzt – jetzt auch für Privatanleger</p>
             </div>
             <ul className="space-y-2 mb-4 text-sm">
               <li className="flex items-center gap-2">
@@ -147,7 +147,7 @@ const ArticlePage7 = () => {
               </li>
             </ul>
             <Button className="w-full bg-[#1e3a5f] hover:bg-[#2a4a6f] text-white">
-              Zum exklusiven Angebot →
+              Direkt zum Angebot dieser Bank →
             </Button>
           </div>
 
@@ -213,25 +213,25 @@ const ArticlePage7 = () => {
             <p className="text-sm text-muted-foreground">– Petra Schneider</p>
           </div>
 
-          <h2 className="text-2xl font-bold mt-10 mb-6 font-spiegel-serif">Die große Frage: Ist das seriös?</h2>
+          <h2 className="text-2xl font-bold mt-10 mb-6 font-spiegel-serif">Die große Frage: Ist diese Bank seriös?</h2>
 
           <p className="text-lg leading-relaxed mb-6">
-            Wir haben mit unabhängigen Finanzexperten gesprochen. Dr. Martin Krause, Wirtschaftsprofessor an der Universität Mannheim, erklärt: „Die neuen EU-Regulierungen, insbesondere die CRD VI-Richtlinie und deren nationale Umsetzung durch das BRUBEG, haben tatsächlich dazu geführt, dass Banken bestimmte Angebote, die früher nur institutionellen Anlegern vorbehalten waren, nun auch Privatpersonen zugänglich machen müssen."
+            Wir haben mit unabhängigen Finanzexperten gesprochen. Dr. Martin Krause, Wirtschaftsprofessor an der Universität Mannheim, erklärt: „Die neuen EU-Regulierungen, insbesondere die CRD VI-Richtlinie und deren nationale Umsetzung durch das BRUBEG, haben tatsächlich dazu geführt, dass diese Bank ihr exklusives Angebot, das früher nur institutionellen Anlegern vorbehalten war, nun auch Privatpersonen zugänglich machen muss."
           </p>
 
           <p className="text-lg leading-relaxed mb-6">
-            Er ergänzt: „Die 100.000-Euro-Einlagensicherung ist ein wichtiger Schutzfaktor. Sie gilt EU-weit und wird von den nationalen Sicherungsfonds garantiert. Das bedeutet: Selbst wenn die Bank in Schwierigkeiten geraten sollte, ist das Geld bis zu dieser Grenze geschützt."
+            Er ergänzt: „Die 100.000-Euro-Einlagensicherung ist ein wichtiger Schutzfaktor. Bei dieser Bank mit staatlicher Beteiligung gilt sie EU-weit und wird von den nationalen Sicherungsfonds garantiert. Das bedeutet: Selbst wenn die Bank in Schwierigkeiten geraten sollte, ist das Geld bis zu dieser Grenze geschützt."
           </p>
 
           <div className="bg-amber-50 border border-amber-200 p-6 rounded-lg my-8">
-            <h3 className="text-lg font-bold text-amber-800 mb-2">Wichtiger Hinweis:</h3>
+            <h3 className="text-lg font-bold text-amber-800 mb-2">Über diese Bank:</h3>
             <p className="text-amber-700 mb-4">
-              Nicht alle Banken bieten dieses aktive Depot-Management an. Es handelt sich um ausgewählte Institute, die unter vollständiger BaFin-Aufsicht stehen und die gesetzliche Einlagensicherung von 100.000€ garantieren.
+              Die Bank, deren Angebot Petra Schneider nutzt, ist eine der größten deutschen Banken mit staatlicher Beteiligung. Das aktive Depot-Management steht seit der EU-Regulierung nun auch Privatanlegern offen – über den Link unten gelangen Sie direkt zum Angebot.
             </p>
             <ul className="text-amber-700 space-y-1 text-sm">
               <li>• Vollständige BaFin-Regulierung</li>
               <li>• EU-Einlagensicherung bis 100.000€</li>
-              <li>• Transparente Gebührenstruktur</li>
+              <li>• Über 5 Millionen Kunden deutschlandweit</li>
               <li>• Jederzeitige Kündigung möglich</li>
             </ul>
           </div>
@@ -252,18 +252,18 @@ const ArticlePage7 = () => {
 
           <div className="bg-muted/50 p-6 rounded-lg my-8 border-l-4 border-primary">
             <p className="text-lg italic">
-              „Geh zu deiner Bank und frag nach dem aktiven Depot-Management. Wenn sie es nicht anbieten, such dir eine Bank, die es tut. Das Schlimmste, was passieren kann, ist, dass du es nicht versuchst und dein Geld weiter auf einem Sparbuch verrottet."
+              „Nutze den Link unten und schau dir das Angebot dieser Bank an. Du musst ja nicht sofort alles investieren – fang klein an wie ich. Das Schlimmste, was passieren kann, ist, dass du es nicht versuchst und dein Geld weiter auf einem Sparbuch verrottet."
             </p>
           </div>
 
           {/* Final CTA */}
           <div className="bg-gradient-to-r from-[#1e3a5f] to-[#2a4a6f] text-white p-8 rounded-lg my-10 text-center">
-            <h3 className="text-2xl font-bold mb-4">Entdecken Sie das Angebot selbst</h3>
+            <h3 className="text-2xl font-bold mb-4">Direkter Zugang zum Angebot dieser Bank</h3>
             <p className="mb-6 opacity-90">
-              Finden Sie heraus, ob auch Ihre Bank dieses exklusive Angebot für aktives Depot-Management anbietet.
+              Über diesen Link gelangen Sie direkt zum exklusiven Depot-Angebot der Bank, die auch Petra Schneider nutzt.
             </p>
             <Button className="bg-white text-[#1e3a5f] hover:bg-gray-100 text-lg px-8 py-6">
-              Jetzt informieren →
+              🔒 Jetzt zum Bank-Angebot →
             </Button>
             <p className="text-sm mt-4 opacity-75">
               100.000€ Einlagensicherung • BaFin-reguliert • Jederzeit kündbar

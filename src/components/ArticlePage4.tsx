@@ -66,7 +66,7 @@ const ArticlePage4 = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <SpiegelHeader />
+      <SpiegelHeader showMenu={false} />
       
       {/* Breadcrumb */}
       <div className="max-w-[var(--container-max-width)] mx-auto px-4">

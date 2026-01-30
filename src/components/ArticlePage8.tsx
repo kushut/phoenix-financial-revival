@@ -9,7 +9,7 @@ const ArticlePage8 = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <SpiegelHeader />
+      <SpiegelHeader showMenu={false} />
       
       <main className="max-w-[680px] mx-auto px-4 py-8">
         {/* Category Tag */}

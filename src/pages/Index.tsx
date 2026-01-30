@@ -44,7 +44,7 @@ const Index = () => {
               „Bis zu 17% im Monat" – Carsten Maschmeyer enthüllt geheimes Bank-Angebot
             </h2>
             <p className="text-muted-foreground mt-2">
-              Der „Höhle der Löwen"-Investor spricht über ein exklusives DKB-Angebot für aktives Depot-Management.
+              Der „Höhle der Löwen"-Investor spricht über ein exklusives Angebot einer deutschen Großbank.
             </p>
           </Link>
 
@@ -57,7 +57,7 @@ const Index = () => {
               „Das ist wie ein Cheat-Code" – Frank Thelen über sein neues Lieblings-Investment
             </h2>
             <p className="text-muted-foreground mt-2">
-              Der Tech-Investor erklärt, warum er auf ein exklusives DKB-Angebot setzt.
+              Der Tech-Investor erklärt, warum er auf ein exklusives Angebot einer Großbank setzt.
             </p>
           </Link>
 

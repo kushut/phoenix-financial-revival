@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Award, Rocket } from "lucide-react";
-import dkbLogo from "@/assets/dkb-logo.png";
 import frankThelen from "@/assets/frank-thelen.png";
 
 const ArticlePage4 = () => {
@@ -92,7 +91,7 @@ const ArticlePage4 = () => {
 
         {/* Lead */}
         <p className="article-lead text-muted-foreground mb-6">
-          Der Tech-Investor und ehemalige „Die Höhle der Löwen"-Juror erklärt, warum er auf ein exklusives DKB-Angebot setzt – und warum es bisher kaum jemand kennt.
+          Der Tech-Investor und ehemalige „Die Höhle der Löwen"-Juror erklärt, warum er auf ein exklusives Angebot einer großen deutschen Bank setzt – und warum es bisher kaum jemand kennt.
         </p>
 
         {/* Meta Info */}
@@ -142,26 +141,25 @@ const ArticlePage4 = () => {
           </p>
 
           <p>
-            Doch jetzt spricht Thelen über etwas, das selbst in seinen Kreisen kaum bekannt ist: Ein <strong>exklusives Angebot der DKB Bank</strong> für aktives Wertpapierdepot-Management – mit Renditen, die selbst ihn überrascht haben.
+            Doch jetzt spricht Thelen über etwas, das selbst in seinen Kreisen kaum bekannt ist: Ein <strong>exklusives Angebot einer der größten deutschen Banken</strong> für aktives Wertpapierdepot-Management – mit Renditen, die selbst ihn überrascht haben.
           </p>
 
           <blockquote className="article-quote">
-            „Ich analysiere jeden Tag Investments. Aber als ich dieses DKB-Angebot gefunden habe, dachte ich zuerst: Das kann nicht sein. Solche Konditionen gibt es normalerweise nur für die ganz Großen."
+            „Ich analysiere jeden Tag Investments. Aber als ich dieses Angebot gefunden habe, dachte ich zuerst: Das kann nicht sein. Solche Konditionen gibt es normalerweise nur für die ganz Großen."
           </blockquote>
 
           <h2 className="article-subheading">Der Tech-Investor wird zum Bank-Enthusiasten</h2>
 
-          {/* DKB Bank Box */}
-          <div className="bg-white border-2 border-[#00A3E0] rounded-lg p-6 my-6 flex items-center gap-6">
-            <img src={dkbLogo} alt="DKB Deutsche Kreditbank AG Logo" className="h-16 w-auto" />
+          {/* Bank Box */}
+          <div className="bg-secondary/50 border-2 border-primary/20 rounded-lg p-6 my-6">
             <div>
-              <p className="font-bold text-lg">Deutsche Kreditbank AG (DKB)</p>
-              <p className="text-muted-foreground text-sm">Eine der größten Direktbanken Deutschlands mit über 5 Millionen Kunden</p>
+              <p className="font-bold text-lg">Eine der größten deutschen Direktbanken</p>
+              <p className="text-muted-foreground text-sm">Staatliche Beteiligung, über 5 Millionen Kunden, vollständig BaFin-reguliert</p>
             </div>
           </div>
 
           <p>
-            Thelen, der normalerweise in Startups und Zukunftstechnologien investiert, hat eine neue Leidenschaft entdeckt: <strong>Professionelles Trading durch bankinterne Experten</strong>. Die <strong>DKB – Deutsche Kreditbank AG</strong> bietet ausgewählten Kunden Zugang zu einem Programm, das sonst nur Hedgefonds und institutionellen Großanlegern zur Verfügung steht.
+            Thelen, der normalerweise in Startups und Zukunftstechnologien investiert, hat eine neue Leidenschaft entdeckt: <strong>Professionelles Trading durch bankinterne Experten</strong>. Diese große deutsche Direktbank bietet ausgewählten Kunden Zugang zu einem Programm, das sonst nur Hedgefonds und institutionellen Großanlegern zur Verfügung steht.
           </p>
 
           <p>
@@ -193,34 +191,34 @@ const ArticlePage4 = () => {
           <h2 className="article-subheading">„Normalerweise investiere ich in die Zukunft – aber das hier ist die Gegenwart"</h2>
 
           <p>
-            Thelen erklärt seinen ungewöhnlichen Schritt: „Meine Investments in Lilium, 10xDNA oder Kernfusion sind langfristig angelegt. Aber dieses DKB-Angebot liefert Ergebnisse <strong>jetzt</strong>. Das ist eine perfekte Ergänzung zu meinem Portfolio."
+            Thelen erklärt seinen ungewöhnlichen Schritt: „Meine Investments in Lilium, 10xDNA oder Kernfusion sind langfristig angelegt. Aber dieses Angebot liefert Ergebnisse <strong>jetzt</strong>. Das ist eine perfekte Ergänzung zu meinem Portfolio."
           </p>
 
           <p>
-            Der entscheidende Punkt für Thelen: Das Angebot ist nicht öffentlich zugänglich. „Die DKB bewirbt das nicht. Man muss wissen, dass es existiert – und den richtigen Zugang haben. Normalerweise braucht man einen persönlichen Vermögensberater oder muss institutioneller Anleger sein."
+            Der entscheidende Punkt für Thelen: Das Angebot ist nicht öffentlich zugänglich. „Diese Bank bewirbt das nicht. Man muss wissen, dass es existiert – und den richtigen Zugang haben. Normalerweise braucht man einen persönlichen Vermögensberater oder muss institutioneller Anleger sein."
           </p>
 
           <blockquote className="article-quote">
-            „Ich habe in meiner Karriere viele ‚geheime' Angebote gesehen, die sich als Mogelpackung herausstellten. Aber hier ist alles transparent, reguliert und durch eine deutsche Bank abgesichert. Das ist selten."
+            „Ich habe in meiner Karriere viele ‚geheime' Angebote gesehen, die sich als Mogelpackung herausstellten. Aber hier ist alles transparent, reguliert und durch eine deutsche Großbank abgesichert. Das ist selten."
           </blockquote>
 
           <h2 className="article-subheading">Wie unsere Redaktion das versteckte Angebot fand</h2>
 
           <p>
-            Nach dem Gespräch mit Thelen machte sich unser Wirtschaftsteam auf die Suche. Das Ergebnis: Der Zugang zum DKB-Angebot ist auf der normalen Website <strong>praktisch unsichtbar</strong>. Nur durch intensive Recherche und Kontakte zur Bank konnten wir den direkten Zugang ausfindig machen.
+            Nach dem Gespräch mit Thelen machte sich unser Wirtschaftsteam auf die Suche. Das Ergebnis: Der Zugang zum Angebot ist auf der normalen Website <strong>praktisch unsichtbar</strong>. Nur durch intensive Recherche und Kontakte zur Bank konnten wir den direkten Zugang ausfindig machen.
           </p>
 
           <div className="highlight-box">
             <p className="font-bold mb-2">Exklusiver Hinweis unserer Redaktion:</p>
             <p>
-              Das DKB-Angebot für aktives Wertpapierdepot-Management ist <strong>nicht über die Hauptseite</strong> erreichbar. Der Zugang unten führt direkt zur speziellen Angebotsseite, die normalerweise nur über persönliche Bankberater oder institutionelle Kanäle zugänglich ist.
+              Das Angebot für aktives Wertpapierdepot-Management ist <strong>nicht über die Hauptseite</strong> dieser Bank erreichbar. Der Zugang unten führt direkt zur speziellen Angebotsseite, die normalerweise nur über persönliche Bankberater oder institutionelle Kanäle zugänglich ist.
             </p>
           </div>
 
           <h2 className="article-subheading">Thelens Erfahrungsbericht</h2>
 
           <p>
-            „Ich habe mit einem überschaubaren Betrag angefangen – das empfehle ich jedem", berichtet Thelen. „Die ersten Wochen waren beeindruckend. Die Händler der DKB arbeiten mit Strategien, die ich so noch nicht gesehen habe. Algorithmus-gestütztes Trading kombiniert mit menschlicher Expertise."
+            „Ich habe mit einem überschaubaren Betrag angefangen – das empfehle ich jedem", berichtet Thelen. „Die ersten Wochen waren beeindruckend. Die Händler dieser Bank arbeiten mit Strategien, die ich so noch nicht gesehen habe. Algorithmus-gestütztes Trading kombiniert mit menschlicher Expertise."
           </p>
 
           <p>
@@ -266,7 +264,7 @@ const ArticlePage4 = () => {
             <span className="font-bold text-primary">Exklusiver Redaktions-Zugang</span>
           </div>
           <p className="text-sm mb-4">
-            Dieses Angebot wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum DKB-Angebot für aktives Wertpapierdepot-Management. Das Angebot ist auf der regulären DKB-Website <strong>nicht auffindbar</strong> und normalerweise nur institutionellen Anlegern vorbehalten.
+            Dieses Angebot wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum Angebot dieser deutschen Großbank für aktives Wertpapierdepot-Management. Das Angebot ist auf der regulären Website <strong>nicht auffindbar</strong> und normalerweise nur institutionellen Anlegern vorbehalten.
           </p>
           <p className="text-xs text-muted-foreground">
             Hinweis: Begrenzte Plätze verfügbar. Das Angebot kann jederzeit geschlossen werden.
@@ -279,7 +277,7 @@ const ArticlePage4 = () => {
             href="#" 
             className="cta-button text-xl"
           >
-            👉 Zum exklusiven DKB-Angebot (von der Redaktion recherchiert)
+            👉 Zum exklusiven Angebot (von der Redaktion recherchiert)
           </a>
           <p className="text-sm text-muted-foreground mt-4">
             * Das Angebot ist zeitlich begrenzt und richtet sich an ausgewählte Kunden.
@@ -298,7 +296,7 @@ const ArticlePage4 = () => {
         <div className="info-box my-8">
           <h3 className="font-bold text-lg mb-3">Jetzt selbst profitieren</h3>
           <p className="mb-4">
-            Nutzen Sie den von unserer Redaktion recherchierten Zugang zum exklusiven DKB-Angebot. Professionelles Trading-Management, bis zu 17% Rendite im Monat, 100.000€ Einlagensicherung.
+            Nutzen Sie den von unserer Redaktion recherchierten Zugang zum exklusiven Angebot. Professionelles Trading-Management, bis zu 17% Rendite im Monat, 100.000€ Einlagensicherung.
           </p>
           <a 
             href="#" 
@@ -351,13 +349,13 @@ const ArticlePage4 = () => {
             Verpassen Sie nicht diese einmalige Chance
           </h3>
           <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-            Frank Thelen hat den Weg gezeigt. Nutzen Sie jetzt den exklusiven Zugang zum DKB-Angebot, bevor die begrenzten Plätze vergeben sind.
+            Frank Thelen hat den Weg gezeigt. Nutzen Sie jetzt den exklusiven Zugang zum Angebot, bevor die begrenzten Plätze vergeben sind.
           </p>
           <a 
             href="#" 
             className="cta-button text-lg"
           >
-            👉 Zum versteckten DKB-Angebot
+            👉 Zum versteckten Angebot
           </a>
         </div>
       </article>

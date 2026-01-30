@@ -60,6 +60,69 @@ const ArticlePage = () => {
       text: "Toll, dass Heinz und Maria so offen darüber berichten. Gibt anderen Betroffenen Hoffnung. Das Consorsbank-Angebot scheint wirklich gut zu sein.",
       likes: 41,
       isHighlight: true
+    },
+    {
+      name: "Erika L.",
+      date: "vor 10 Stunden",
+      text: "Bin 67 und hatte ähnliche Bedenken wie Heinz und Maria. Habe mich dann aber doch für das Consorsbank-Angebot entschieden – beste Entscheidung seit Jahren! Schon nach 2 Wochen erste Erfolge.",
+      likes: 73,
+      isHighlight: true
+    },
+    {
+      name: "Dieter S.",
+      date: "vor 11 Stunden",
+      text: "Die Polizei ermittelt noch immer. Hoffentlich werden die Täter bald gefasst. Unfassbar, dass so etwas in einer deutschen Großstadt passieren kann.",
+      likes: 118,
+      isHighlight: false
+    },
+    {
+      name: "Ursula K.",
+      date: "vor 12 Stunden",
+      text: "Mein Mann und ich haben uns gestern bei der Consorsbank angemeldet. Der Prozess war super einfach und die Beratung am Telefon sehr freundlich. Danke für diesen Artikel!",
+      likes: 56,
+      isHighlight: true
+    },
+    {
+      name: "Günther M.",
+      date: "vor 13 Stunden",
+      text: "Als ehemaliger Sparkassen-Kunde kann ich nur sagen: Der Wechsel zur Consorsbank war überfällig. Endlich transparente Gebühren und besserer Service!",
+      likes: 82,
+      isHighlight: true
+    },
+    {
+      name: "Brigitte W.",
+      date: "vor 14 Stunden",
+      text: "Herzzerreißende Geschichte. Aber schön zu sehen, dass es für Heinz und Maria doch noch ein Happy End gab. Das Consorsbank-Angebot werde ich mir auch anschauen.",
+      likes: 44,
+      isHighlight: true
+    },
+    {
+      name: "Karl-Heinz P.",
+      date: "vor 15 Stunden",
+      text: "Bin skeptisch bei solchen Angeboten, aber die Consorsbank ist ja eine seriöse Bank. Hat jemand Erfahrungen gemacht?",
+      likes: 31,
+      isHighlight: false
+    },
+    {
+      name: "Hildegard F.",
+      date: "vor 15 Stunden",
+      text: "@Karl-Heinz P. Ja, bin seit 3 Wochen dabei und kann es nur empfehlen! Alles sehr transparent und professionell. Meine Rente ist dort gut aufgehoben.",
+      likes: 67,
+      isHighlight: true
+    },
+    {
+      name: "Werner T.",
+      date: "vor 16 Stunden",
+      text: "Schade, dass man erst durch so eine Katastrophe aufwacht. Aber besser spät als nie. Habe das Consorsbank-Angebot auch genutzt und bereue es nicht.",
+      likes: 49,
+      isHighlight: true
+    },
+    {
+      name: "Margarete B.",
+      date: "vor 17 Stunden",
+      text: "Meine Nachbarin wurde auch Opfer des Einbruchs. Sie hat 30.000 Euro verloren. Werde ihr diesen Artikel zeigen – vielleicht hilft ihr das Consorsbank-Angebot auch.",
+      likes: 38,
+      isHighlight: true
     }
   ];
 

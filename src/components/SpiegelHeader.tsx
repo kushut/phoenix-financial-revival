@@ -1,15 +1,28 @@
+import { useState } from "react";
 import { Menu, Search } from "lucide-react";
+import ArticleSidebar from "./ArticleSidebar";
 
-const SpiegelHeader = () => {
+interface SpiegelHeaderProps {
+  breadcrumbTitle?: string;
+}
+
+const SpiegelHeader = ({ breadcrumbTitle = "42.000 Euro verloren – wie eine Frau ihr finan..." }: SpiegelHeaderProps) => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
     <>
+      <ArticleSidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
+      
       {/* Main Header - Orange Bar */}
       <header className="spiegel-header">
         <div className="max-w-[1020px] mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between h-14">
             {/* Left: Menu */}
             <div className="flex items-center gap-4">
-              <button className="flex items-center gap-2 text-white hover:opacity-80">
+              <button 
+                onClick={() => setSidebarOpen(true)}
+                className="flex items-center gap-2 text-white hover:opacity-80"
+              >
                 <Menu className="w-5 h-5" />
                 <span className="hidden md:inline font-semibold text-sm">Menü</span>
               </button>
@@ -48,14 +61,14 @@ const SpiegelHeader = () => {
       <div className="bg-white border-b">
         <div className="max-w-[1020px] mx-auto px-4 md:px-6">
           <nav className="breadcrumb overflow-x-auto">
-            <a href="#" className="text-foreground hover:text-primary whitespace-nowrap">Startseite</a>
+            <a href="/" className="text-foreground hover:text-primary whitespace-nowrap">Startseite</a>
             <span className="breadcrumb-separator">›</span>
             <a href="#" className="text-foreground hover:text-primary whitespace-nowrap">Wirtschaft</a>
             <span className="breadcrumb-separator">›</span>
             <a href="#" className="text-foreground hover:text-primary whitespace-nowrap">Finanzen</a>
             <span className="breadcrumb-separator hidden md:inline">›</span>
             <span className="text-muted-foreground hidden md:inline truncate max-w-[300px]">
-              42.000 Euro verloren – wie eine Frau ihr finanzielles Leben zurückgewann
+              {breadcrumbTitle}
             </span>
           </nav>
         </div>

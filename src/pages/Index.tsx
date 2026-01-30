@@ -99,6 +99,32 @@ const Index = () => {
               Petra Schneider wollte nur ihr Erspartes sicher anlegen. Was sie fand, veränderte ihr Leben.
             </p>
           </Link>
+
+          <Link 
+            to="/rentner-verdoppelt-alterseinkommen" 
+            className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-sm">Ruhestand & Finanzen</span>
+            <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
+              „Meine Rente reicht jetzt locker" – Wie Werner Berger (71) sein Alterseinkommen verdoppelte
+            </h2>
+            <p className="text-muted-foreground mt-2">
+              Der ehemalige Postbeamte wollte nur seine Ersparnisse vor der Inflation schützen.
+            </p>
+          </Link>
+
+          <Link 
+            to="/finanztest-warnung-rentner" 
+            className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-sm">Verbraucherschutz</span>
+            <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
+              Finanztest warnt: Warum Rentner ihr Erspartes nicht auf dem Girokonto lassen sollten
+            </h2>
+            <p className="text-muted-foreground mt-2">
+              Stiftung Warentest empfiehlt Alternativen – ein Ehepaar aus Dresden zeigt, wie es besser geht.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

@@ -9,6 +9,7 @@ import Site2 from "./pages/Site2";
 import Site3 from "./pages/Site3";
 import Site4 from "./pages/Site4";
 import Site5 from "./pages/Site5";
+import Site6 from "./pages/Site6";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/maschmeyer-investment-geheimnis" element={<Site3 />} />
           <Route path="/frank-thelen-cheat-code" element={<Site4 />} />
           <Route path="/eu-bankenregeln-fair-access" element={<Site5 />} />
+          <Route path="/vw-ingenieur-finanzielle-freiheit" element={<Site6 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

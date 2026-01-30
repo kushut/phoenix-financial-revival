@@ -3,7 +3,6 @@ import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Award } from "lucide-react";
 import maschmeyer from "@/assets/carsten-maschmeyer.png";
-import dkbLogo from "@/assets/dkb-logo.png";
 
 const ArticlePage3 = () => {
   const comments = [
@@ -53,7 +52,7 @@ const ArticlePage3 = () => {
       id: 7,
       author: "Ralf S.",
       time: "vor 8 Stunden",
-      text: "17% im Monat klingt ambitioniert, aber bei aktivem Trading durch Profis durchaus machbar. Habe selbst früher getradet.",
+      text: "Bis zu 17% im Monat klingt ambitioniert, aber bei aktivem Trading durch Profis durchaus machbar. Habe selbst früher getradet.",
       likes: 178
     },
     {
@@ -92,7 +91,7 @@ const ArticlePage3 = () => {
 
         {/* Lead */}
         <p className="article-lead text-muted-foreground mb-6">
-          Der bekannte Investor und „Die Höhle der Löwen"-Juror spricht erstmals über ein exklusives DKB-Angebot, das bisher nur institutionellen Anlegern vorbehalten war – und jetzt auch für Privatpersonen zugänglich ist.
+          Der bekannte Investor und „Die Höhle der Löwen"-Juror spricht erstmals über ein exklusives Angebot einer großen deutschen Bank, das bisher nur institutionellen Anlegern vorbehalten war – und jetzt auch für Privatpersonen zugänglich ist.
         </p>
 
         {/* Meta Info */}
@@ -142,26 +141,25 @@ const ArticlePage3 = () => {
           </p>
 
           <p>
-            In einem exklusiven Interview spricht Maschmeyer nun erstmals über eine Entdeckung, die selbst ihn überrascht hat: Ein Angebot der DKB Bank für <strong>aktives Wertpapierdepot-Management durch bankinterne Händler</strong> – mit Renditen von bis zu 17% im Monat.
+            In einem exklusiven Interview spricht Maschmeyer nun erstmals über eine Entdeckung, die selbst ihn überrascht hat: Ein Angebot einer der größten deutschen Banken für <strong>aktives Wertpapierdepot-Management durch bankinterne Händler</strong> – mit Renditen von bis zu 17% im Monat.
           </p>
 
           <blockquote className="article-quote">
-            „Ich habe in meiner Karriere viele Anlageformen gesehen. Aber als ich dieses DKB-Angebot entdeckte, war ich ehrlich überrascht. Solche Konditionen waren bisher ausschließlich institutionellen Großanlegern vorbehalten."
+            „Ich habe in meiner Karriere viele Anlageformen gesehen. Aber als ich dieses Angebot entdeckte, war ich ehrlich überrascht. Solche Konditionen waren bisher ausschließlich institutionellen Großanlegern vorbehalten."
           </blockquote>
 
           <h2 className="article-subheading">Was macht dieses Angebot so besonders?</h2>
 
-          {/* DKB Bank Box */}
-          <div className="bg-white border-2 border-[#00A3E0] rounded-lg p-6 my-6 flex items-center gap-6">
-            <img src={dkbLogo} alt="DKB Deutsche Kreditbank AG Logo" className="h-16 w-auto" />
+          {/* Bank Box */}
+          <div className="bg-secondary/50 border-2 border-primary/20 rounded-lg p-6 my-6">
             <div>
-              <p className="font-bold text-lg">Deutsche Kreditbank AG (DKB)</p>
-              <p className="text-muted-foreground text-sm">Eine der größten Direktbanken Deutschlands mit über 5 Millionen Kunden</p>
+              <p className="font-bold text-lg">Eine der größten deutschen Direktbanken</p>
+              <p className="text-muted-foreground text-sm">Staatliche Beteiligung, über 5 Millionen Kunden, BaFin-reguliert</p>
             </div>
           </div>
 
           <p>
-            Die <strong>DKB – Deutsche Kreditbank AG</strong>, eine der größten Direktbanken Deutschlands, bietet ausgewählten Kunden Zugang zu einem Programm, das normalerweise nur Hedgefonds, Pensionskassen und vermögenden Family Offices zur Verfügung steht: <strong>Professionelles Trading durch bankinterne Experten</strong>.
+            Diese große deutsche Direktbank bietet ausgewählten Kunden Zugang zu einem Programm, das normalerweise nur Hedgefonds, Pensionskassen und vermögenden Family Offices zur Verfügung steht: <strong>Professionelles Trading durch bankinterne Experten</strong>.
           </p>
 
           {/* Feature Box */}
@@ -193,30 +191,30 @@ const ArticlePage3 = () => {
           </p>
 
           <p>
-            Was hat sich geändert? Die DKB hat offenbar entschieden, dieses Premium-Angebot <strong>für einen begrenzten Zeitraum</strong> auch Privatanlegern zugänglich zu machen – allerdings nicht öffentlich beworben.
+            Was hat sich geändert? Diese Bank hat offenbar entschieden, dieses Premium-Angebot <strong>für einen begrenzten Zeitraum</strong> auch Privatanlegern zugänglich zu machen – allerdings nicht öffentlich beworben.
           </p>
 
           <blockquote className="article-quote">
-            „Dieses Angebot ist auf der normalen DKB-Website praktisch nicht zu finden. Man braucht entweder einen persönlichen Kontakt zur Bank oder muss sehr genau wissen, wonach man sucht. Die meisten Menschen werden nie davon erfahren."
+            „Dieses Angebot ist auf der normalen Bank-Website praktisch nicht zu finden. Man braucht entweder einen persönlichen Kontakt zur Bank oder muss sehr genau wissen, wonach man sucht. Die meisten Menschen werden nie davon erfahren."
           </blockquote>
 
           <h2 className="article-subheading">Wie die Redaktion das versteckte Angebot fand</h2>
 
           <p>
-            Nach dem Interview mit Maschmeyer machte sich unsere Wirtschaftsredaktion auf die Suche nach dem besagten Angebot. Nach intensiver Recherche – und mit Hilfe von Kontakten zur DKB – gelang es uns tatsächlich, den <strong>direkten Zugang</strong> zu finden.
+            Nach dem Interview mit Maschmeyer machte sich unsere Wirtschaftsredaktion auf die Suche nach dem besagten Angebot. Nach intensiver Recherche – und mit Hilfe von Kontakten zur Bank – gelang es uns tatsächlich, den <strong>direkten Zugang</strong> zu finden.
           </p>
 
           <div className="highlight-box">
             <p className="font-bold mb-2">Wichtiger Hinweis unserer Redaktion:</p>
             <p>
-              Dieses Angebot ist <strong>nicht über die normale DKB-Homepage</strong> erreichbar. Der Zugang unten führt direkt zur speziellen Angebotsseite, die normalerweise nur über persönliche Vermögensberater oder direkte Bankenkontakte zugänglich ist. Wir haben dieses Angebot ausschließlich für unsere Leser recherchiert.
+              Dieses Angebot ist <strong>nicht über die normale Homepage</strong> dieser Großbank erreichbar. Der Zugang unten führt direkt zur speziellen Angebotsseite, die normalerweise nur über persönliche Vermögensberater oder direkte Bankenkontakte zugänglich ist. Wir haben dieses Angebot ausschließlich für unsere Leser recherchiert.
             </p>
           </div>
 
           <h2 className="article-subheading">Maschmeyers persönliche Erfahrung</h2>
 
           <p>
-            Der Investor berichtet von seinen eigenen Erfahrungen: „Ich habe das Angebot natürlich selbst getestet, bevor ich darüber spreche. Die Ergebnisse waren beeindruckend. Die Händler der DKB arbeiten mit Strategien, die normalerweise nur den Profis vorbehalten sind – Arbitrage, Momentum-Trading, gezielte Absicherungsgeschäfte."
+            Der Investor berichtet von seinen eigenen Erfahrungen: „Ich habe das Angebot natürlich selbst getestet, bevor ich darüber spreche. Die Ergebnisse waren beeindruckend. Die Händler dieser Bank arbeiten mit Strategien, die normalerweise nur den Profis vorbehalten sind – Arbitrage, Momentum-Trading, gezielte Absicherungsgeschäfte."
           </p>
 
           <p>
@@ -251,7 +249,7 @@ const ArticlePage3 = () => {
           </p>
 
           <p>
-            Unsere Redaktion hat dies bei der DKB verifiziert: <strong>Das Angebot ist zeitlich begrenzt</strong> und nur über den speziellen Zugangslink erreichbar.
+            Unsere Redaktion hat dies bei der Bank verifiziert: <strong>Das Angebot ist zeitlich begrenzt</strong> und nur über den speziellen Zugangslink erreichbar.
           </p>
         </div>
 
@@ -262,7 +260,7 @@ const ArticlePage3 = () => {
             <span className="font-bold text-primary">Exklusiver Redaktions-Zugang</span>
           </div>
           <p className="text-sm mb-4">
-            Dieses Angebot wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum DKB-Angebot für aktives Wertpapierdepot-Management. Das Angebot ist auf der regulären DKB-Website <strong>nicht auffindbar</strong> und normalerweise nur institutionellen Anlegern vorbehalten.
+            Dieses Angebot wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum Angebot dieser deutschen Großbank für aktives Wertpapierdepot-Management. Das Angebot ist auf der regulären Website <strong>nicht auffindbar</strong> und normalerweise nur institutionellen Anlegern vorbehalten.
           </p>
           <p className="text-xs text-muted-foreground">
             Hinweis: Begrenzte Plätze verfügbar. Das Angebot kann jederzeit geschlossen werden.
@@ -275,7 +273,7 @@ const ArticlePage3 = () => {
             href="#" 
             className="cta-button text-xl"
           >
-            👉 Zum exklusiven DKB-Angebot (von der Redaktion recherchiert)
+            👉 Zum exklusiven Angebot (von der Redaktion recherchiert)
           </a>
           <p className="text-sm text-muted-foreground mt-4">
             * Das Angebot ist zeitlich begrenzt und richtet sich an ausgewählte Kunden.
@@ -294,7 +292,7 @@ const ArticlePage3 = () => {
         <div className="info-box my-8">
           <h3 className="font-bold text-lg mb-3">Jetzt selbst profitieren</h3>
           <p className="mb-4">
-            Nutzen Sie den von unserer Redaktion recherchierten Zugang zum exklusiven DKB-Angebot. Professionelles Trading-Management, bis zu 17% Rendite im Monat, 100.000€ Einlagensicherung.
+            Nutzen Sie den von unserer Redaktion recherchierten Zugang zum exklusiven Angebot. Professionelles Trading-Management, bis zu 17% Rendite im Monat, 100.000€ Einlagensicherung.
           </p>
           <a 
             href="#" 
@@ -347,13 +345,13 @@ const ArticlePage3 = () => {
             Verpassen Sie nicht diese einmalige Chance
           </h3>
           <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-            Carsten Maschmeyer hat den Weg gezeigt. Nutzen Sie jetzt den exklusiven Zugang zum DKB-Angebot, bevor die begrenzten Plätze vergeben sind.
+            Carsten Maschmeyer hat den Weg gezeigt. Nutzen Sie jetzt den exklusiven Zugang zum Angebot, bevor die begrenzten Plätze vergeben sind.
           </p>
           <a 
             href="#" 
             className="cta-button text-lg"
           >
-            👉 Zum versteckten DKB-Angebot
+            👉 Zum versteckten Angebot
           </a>
         </div>
       </article>

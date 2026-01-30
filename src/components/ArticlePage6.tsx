@@ -1,6 +1,5 @@
 import SpiegelHeader from "./SpiegelHeader";
 import { Button } from "@/components/ui/button";
-import dkbLogo from "@/assets/dkb-logo.png";
 
 const ArticlePage6 = () => {
   const comments = [
@@ -13,13 +12,13 @@ const ArticlePage6 = () => {
     {
       author: "FinanzExpertin_MUC",
       time: "vor 3 Stunden", 
-      text: "Als Finanzberaterin kann ich bestätigen: Die DKB gehört zu den seriösesten Banken Deutschlands. Das hier ist kein Scam, sondern ein legitimes Angebot.",
+      text: "Als Finanzberaterin kann ich bestätigen: Diese Bank gehört zu den seriösesten in Deutschland. Das hier ist kein Scam, sondern ein legitimes Angebot.",
       likes: 189
     },
     {
       author: "SkeptischerLeser2024",
       time: "vor 4 Stunden",
-      text: "Habe den Artikel zuerst für Werbung gehalten. Dann habe ich recherchiert – die DKB ist tatsächlich eine der größten Direktbanken Deutschlands mit staatlicher Einlagensicherung.",
+      text: "Habe den Artikel zuerst für Werbung gehalten. Dann habe ich recherchiert – es ist tatsächlich eine der größten Direktbanken Deutschlands mit staatlicher Einlagensicherung.",
       likes: 156
     },
     {
@@ -31,7 +30,7 @@ const ArticlePage6 = () => {
     {
       author: "JuliaMueller_Berlin",
       time: "vor 6 Stunden",
-      text: "Ich arbeite selbst bei einer Bank (nicht DKB). Diese Art von aktivem Management wird normalerweise erst ab 500k angeboten. Dass die DKB das für Kleinanleger öffnet, ist wirklich ungewöhnlich.",
+      text: "Ich arbeite selbst bei einer Bank (nicht diese). Diese Art von aktivem Management wird normalerweise erst ab 500k angeboten. Dass sie das für Kleinanleger öffnen, ist wirklich ungewöhnlich.",
       likes: 345
     },
     {
@@ -49,7 +48,7 @@ const ArticlePage6 = () => {
     {
       author: "KritischerGeist",
       time: "vor 9 Stunden",
-      text: "Habe extra bei der BaFin nachgefragt – die DKB ist vollständig reguliert und das Angebot ist legal. Die 100.000€ Einlagensicherung gilt auch hier.",
+      text: "Habe extra bei der BaFin nachgefragt – diese Bank ist vollständig reguliert und das Angebot ist legal. Die 100.000€ Einlagensicherung gilt auch hier.",
       likes: 412
     }
   ];
@@ -100,7 +99,7 @@ const ArticlePage6 = () => {
           </p>
 
           <p className="text-lg leading-relaxed mb-6">
-            Der Wendepunkt kam durch einen Zufall. Hoffmann hatte einen Termin bei seiner Bank, der DKB, um über die Anlage seiner Abfindung zu sprechen. „Ich wollte eigentlich nur Festgeld machen. Sicher, langweilig, 2% vielleicht. Aber der Berater fragte mich, ob ich von ihrem aktiven Depot-Management gehört hätte."
+            Der Wendepunkt kam durch einen Zufall. Hoffmann hatte einen Termin bei seiner Bank, um über die Anlage seiner Abfindung zu sprechen. „Ich wollte eigentlich nur Festgeld machen. Sicher, langweilig, 2% vielleicht. Aber der Berater fragte mich, ob ich von ihrem aktiven Depot-Management gehört hätte."
           </p>
 
           <div className="bg-muted/50 p-6 rounded-lg my-8 border-l-4 border-primary">
@@ -110,10 +109,10 @@ const ArticlePage6 = () => {
             <p className="text-sm text-muted-foreground">– Rainer Hoffmann, 55, ehemaliger VW-Ingenieur</p>
           </div>
 
-          <h2 className="text-2xl font-bold mt-10 mb-6 font-spiegel-serif">Das „versteckte" Angebot der DKB</h2>
+          <h2 className="text-2xl font-bold mt-10 mb-6 font-spiegel-serif">Das „versteckte" Angebot dieser Großbank</h2>
 
           <p className="text-lg leading-relaxed mb-6">
-            Was Hoffmann an diesem Tag erfuhr, ist vielen Deutschen nicht bekannt: Die DKB, eine der größten Direktbanken des Landes, bietet seit einiger Zeit ein aktives Wertpapierdepot-Management an, das ursprünglich nur für institutionelle Kunden gedacht war. Durch regulatorische Änderungen – insbesondere die neue EU-Bankenrichtlinie CRD VI – müssen Banken solche Angebote nun auch Privatkunden zugänglich machen.
+            Was Hoffmann an diesem Tag erfuhr, ist vielen Deutschen nicht bekannt: Eine der größten Direktbanken des Landes – mit staatlicher Beteiligung und über 5 Millionen Kunden – bietet seit einiger Zeit ein aktives Wertpapierdepot-Management an, das ursprünglich nur für institutionelle Kunden gedacht war. Durch regulatorische Änderungen – insbesondere die neue EU-Bankenrichtlinie CRD VI – müssen Banken solche Angebote nun auch Privatkunden zugänglich machen.
           </p>
 
           <p className="text-lg leading-relaxed mb-6">
@@ -121,12 +120,9 @@ const ArticlePage6 = () => {
           </p>
 
           <div className="bg-card p-6 rounded-lg my-8 border shadow-sm">
-            <div className="flex items-center gap-4 mb-4">
-              <img src={dkbLogo} alt="DKB Logo" className="h-10 object-contain" />
-              <div>
-                <h3 className="font-bold text-lg">DKB Aktives Depot-Management</h3>
-                <p className="text-sm text-muted-foreground">Jetzt auch für Privatanleger verfügbar</p>
-              </div>
+            <div className="mb-4">
+              <h3 className="font-bold text-lg">Aktives Depot-Management dieser Großbank</h3>
+              <p className="text-sm text-muted-foreground">Jetzt auch für Privatanleger verfügbar</p>
             </div>
             <ul className="space-y-2 mb-4 text-sm">
               <li className="flex items-center gap-2">
@@ -135,7 +131,7 @@ const ArticlePage6 = () => {
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-green-600">✓</span>
-                <span>Historische Renditen von bis zu 17% monatlich</span>
+                <span>Historische Renditen von 7-17% monatlich</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-green-600">✓</span>
@@ -154,7 +150,7 @@ const ArticlePage6 = () => {
           <h2 className="text-2xl font-bold mt-10 mb-6 font-spiegel-serif">„Ich habe mit 50.000 Euro angefangen"</h2>
 
           <p className="text-lg leading-relaxed mb-6">
-            Hoffmann war skeptisch. Als Ingenieur war er es gewohnt, Dinge zu hinterfragen. Er verbrachte zwei Wochen damit, das Angebot zu recherchieren. Er las Testberichte, sprach mit anderen Kunden, überprüfte die BaFin-Registrierung der DKB. „Alles war sauber. Die DKB gehört zur Bayerischen Landesbank, ist also quasi staatlich. Das Risiko erschien mir überschaubar."
+            Hoffmann war skeptisch. Als Ingenieur war er es gewohnt, Dinge zu hinterfragen. Er verbrachte zwei Wochen damit, das Angebot zu recherchieren. Er las Testberichte, sprach mit anderen Kunden, überprüfte die BaFin-Registrierung. „Alles war sauber. Diese Bank ist quasi staatlich, gehört zu den größten Direktbanken Deutschlands. Das Risiko erschien mir überschaubar."
           </p>
 
           <p className="text-lg leading-relaxed mb-6">
@@ -191,7 +187,7 @@ const ArticlePage6 = () => {
           <div className="bg-amber-50 border border-amber-200 p-6 rounded-lg my-8">
             <h3 className="text-lg font-bold text-amber-800 mb-2">Wichtiger Hinweis zur Seriosität:</h3>
             <p className="text-amber-700">
-              Die DKB (Deutsche Kreditbank AG) ist eine der größten Direktbanken Deutschlands mit über 5 Millionen Kunden. Sie ist eine Tochter der Bayerischen Landesbank und unterliegt der vollständigen Aufsicht durch die BaFin. Alle Einlagen sind bis 100.000€ gesetzlich geschützt.
+              Die Bank, die Rainer Hoffmann nutzt, ist eine der größten Direktbanken Deutschlands mit staatlicher Beteiligung. Sie unterliegt der vollständigen Aufsicht durch die BaFin. Alle Einlagen sind bis 100.000€ gesetzlich geschützt.
             </p>
           </div>
 
@@ -202,7 +198,7 @@ const ArticlePage6 = () => {
           </p>
 
           <p className="text-lg leading-relaxed mb-6">
-            „Ich habe ihm von der DKB erzählt. Erst wollte er nicht glauben. Aber ich habe ihm meine App gezeigt, meine Kontoauszüge. Jetzt macht er auch mit. Und er ist mir unendlich dankbar." Das, sagt Hoffmann, sei der Grund, warum er sich entschieden habe, seine Geschichte zu teilen.
+            „Ich habe ihm von dieser Bank erzählt. Erst wollte er nicht glauben. Aber ich habe ihm meine App gezeigt, meine Kontoauszüge. Jetzt macht er auch mit. Und er ist mir unendlich dankbar." Das, sagt Hoffmann, sei der Grund, warum er sich entschieden habe, seine Geschichte zu teilen.
           </p>
 
           <div className="bg-muted/50 p-6 rounded-lg my-8 border-l-4 border-primary">

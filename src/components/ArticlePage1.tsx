@@ -8,21 +8,21 @@ const ArticlePage = () => {
     {
       name: "Gisela M.",
       date: "vor 2 Stunden",
-      text: "Unglaublich, was den beiden passiert ist! Aber Respekt, dass sie so schnell gehandelt haben. Ich habe mir das Consorsbank-Angebot auch angeschaut – wirklich sehr gute Konditionen. Werde nächste Woche wechseln.",
+      text: "Unglaublich, was den beiden passiert ist! Aber Respekt, dass sie so schnell gehandelt haben. Ich habe mir das Angebot auch angeschaut – wirklich sehr gute Konditionen. Werde nächste Woche wechseln.",
       likes: 47,
       isHighlight: true
     },
     {
       name: "Klaus-Dieter W.",
       date: "vor 3 Stunden", 
-      text: "Das Angebot der Consorsbank kann ich nur empfehlen! Bin seit 2 Wochen dabei und habe schon erste positive Ergebnisse gesehen. Besonders die transparenten Konditionen haben mich überzeugt.",
+      text: "Das Angebot kann ich nur empfehlen! Bin seit 2 Wochen dabei und habe schon erste positive Ergebnisse gesehen. Besonders die transparenten Konditionen haben mich überzeugt.",
       likes: 89,
       isHighlight: true
     },
     {
       name: "Renate S.",
       date: "vor 4 Stunden",
-      text: "Dieser Einbruch hat uns alle wachgerüttelt. Mein Schließfach war zum Glück nicht betroffen, aber ich habe trotzdem mein Geld zur Consorsbank transferiert. Sicher ist sicher!",
+      text: "Dieser Einbruch hat uns alle wachgerüttelt. Mein Schließfach war zum Glück nicht betroffen, aber ich habe trotzdem mein Geld zu dieser Großbank transferiert. Sicher ist sicher!",
       likes: 34,
       isHighlight: true
     },
@@ -36,7 +36,7 @@ const ArticlePage = () => {
     {
       name: "Ingrid H.",
       date: "vor 6 Stunden",
-      text: "Meine Schwester war auch betroffen. Sie hat jetzt das Consorsbank-Angebot genutzt und ist sehr zufrieden. Endlich wieder Ruhe und Sicherheit!",
+      text: "Meine Schwester war auch betroffen. Sie hat jetzt das Angebot dieser Bank genutzt und ist sehr zufrieden. Endlich wieder Ruhe und Sicherheit!",
       likes: 28,
       isHighlight: true
     },
@@ -50,21 +50,21 @@ const ArticlePage = () => {
     {
       name: "Monika F.",
       date: "vor 8 Stunden",
-      text: "Habe nach diesem Artikel sofort das Consorsbank-Angebot geprüft. Die Konditionen sind wirklich besser als bei meiner jetzigen Bank. Danke für den Tipp!",
+      text: "Habe nach diesem Artikel sofort das Angebot geprüft. Die Konditionen sind wirklich besser als bei meiner jetzigen Bank. Danke für den Tipp!",
       likes: 52,
       isHighlight: true
     },
     {
       name: "Helmut R.",
       date: "vor 9 Stunden",
-      text: "Toll, dass Heinz und Maria so offen darüber berichten. Gibt anderen Betroffenen Hoffnung. Das Consorsbank-Angebot scheint wirklich gut zu sein.",
+      text: "Toll, dass Heinz und Maria so offen darüber berichten. Gibt anderen Betroffenen Hoffnung. Das Angebot dieser Großbank scheint wirklich gut zu sein.",
       likes: 41,
       isHighlight: true
     },
     {
       name: "Erika L.",
       date: "vor 10 Stunden",
-      text: "Bin 67 und hatte ähnliche Bedenken wie Heinz und Maria. Habe mich dann aber doch für das Consorsbank-Angebot entschieden – beste Entscheidung seit Jahren! Schon nach 2 Wochen erste Erfolge.",
+      text: "Bin 67 und hatte ähnliche Bedenken wie Heinz und Maria. Habe mich dann aber doch für das Angebot entschieden – beste Entscheidung seit Jahren! Schon nach 2 Wochen erste Erfolge.",
       likes: 73,
       isHighlight: true
     },
@@ -78,28 +78,28 @@ const ArticlePage = () => {
     {
       name: "Ursula K.",
       date: "vor 12 Stunden",
-      text: "Mein Mann und ich haben uns gestern bei der Consorsbank angemeldet. Der Prozess war super einfach und die Beratung am Telefon sehr freundlich. Danke für diesen Artikel!",
+      text: "Mein Mann und ich haben uns gestern bei dieser Bank angemeldet. Der Prozess war super einfach und die Beratung am Telefon sehr freundlich. Danke für diesen Artikel!",
       likes: 56,
       isHighlight: true
     },
     {
       name: "Günther M.",
       date: "vor 13 Stunden",
-      text: "Als ehemaliger Sparkassen-Kunde kann ich nur sagen: Der Wechsel zur Consorsbank war überfällig. Endlich transparente Gebühren und besserer Service!",
+      text: "Als ehemaliger Sparkassen-Kunde kann ich nur sagen: Der Wechsel zu einer großen Direktbank war überfällig. Endlich transparente Gebühren und besserer Service!",
       likes: 82,
       isHighlight: true
     },
     {
       name: "Brigitte W.",
       date: "vor 14 Stunden",
-      text: "Herzzerreißende Geschichte. Aber schön zu sehen, dass es für Heinz und Maria doch noch ein Happy End gab. Das Consorsbank-Angebot werde ich mir auch anschauen.",
+      text: "Herzzerreißende Geschichte. Aber schön zu sehen, dass es für Heinz und Maria doch noch ein Happy End gab. Das Angebot werde ich mir auch anschauen.",
       likes: 44,
       isHighlight: true
     },
     {
       name: "Karl-Heinz P.",
       date: "vor 15 Stunden",
-      text: "Bin skeptisch bei solchen Angeboten, aber die Consorsbank ist ja eine seriöse Bank. Hat jemand Erfahrungen gemacht?",
+      text: "Bin skeptisch bei solchen Angeboten, aber es ist ja eine der größten deutschen Banken. Hat jemand Erfahrungen gemacht?",
       likes: 31,
       isHighlight: false
     },
@@ -113,14 +113,14 @@ const ArticlePage = () => {
     {
       name: "Werner T.",
       date: "vor 16 Stunden",
-      text: "Schade, dass man erst durch so eine Katastrophe aufwacht. Aber besser spät als nie. Habe das Consorsbank-Angebot auch genutzt und bereue es nicht.",
+      text: "Schade, dass man erst durch so eine Katastrophe aufwacht. Aber besser spät als nie. Habe das Angebot auch genutzt und bereue es nicht.",
       likes: 49,
       isHighlight: true
     },
     {
       name: "Margarete B.",
       date: "vor 17 Stunden",
-      text: "Meine Nachbarin wurde auch Opfer des Einbruchs. Sie hat 30.000 Euro verloren. Werde ihr diesen Artikel zeigen – vielleicht hilft ihr das Consorsbank-Angebot auch.",
+      text: "Meine Nachbarin wurde auch Opfer des Einbruchs. Sie hat 30.000 Euro verloren. Werde ihr diesen Artikel zeigen – vielleicht hilft ihr das Angebot dieser Bank auch.",
       likes: 38,
       isHighlight: true
     }
@@ -248,7 +248,7 @@ const ArticlePage = () => {
             <h2 className="article-subheading">Die Wende: Ein exklusives Angebot verändert alles</h2>
 
             <p>
-              Bei ihren Recherchen stießen sie auf ein <strong>zeitlich begrenztes Angebot der Consorsbank</strong>, 
+              Bei ihren Recherchen stießen sie auf ein <strong>zeitlich begrenztes Angebot einer der größten deutschen Banken</strong>, 
               das normalerweise nur institutionellen Anlegern vorbehalten ist. Großinvestoren, Fondsmanager, 
               Vermögensverwalter – sie alle nutzen seit Jahren diese exklusiven Konditionen. 
               <strong>Doch für kurze Zeit ist dieses Angebot auch für Privatpersonen zugänglich.</strong>
@@ -257,7 +257,7 @@ const ArticlePage = () => {
             <p>
               Zunächst waren Heinz und Maria skeptisch – zu oft hatte man ihnen nach dem Einbruch dubiose 
               „Hilfsangebote" gemacht. Doch dieses war anders: <strong>transparent, seriös und von einer 
-              etablierten Bank mit über 50 Jahren Erfahrung</strong>.
+              etablierten Großbank mit über 50 Jahren Erfahrung und staatlicher Beteiligung</strong>.
             </p>
 
             <p>
@@ -268,7 +268,7 @@ const ArticlePage = () => {
 
             <p>
               <strong>Und sie sollten recht behalten.</strong> Innerhalb von nur drei Wochen konnten 
-              Heinz und Maria durch das Consorsbank-Angebot bereits <strong>über 45.000 Euro ihres verlorenen 
+              Heinz und Maria durch das Angebot dieser Bank bereits <strong>über 45.000 Euro ihres verlorenen 
               Vermögens wieder aufbauen</strong>. Ein Ergebnis, das sie selbst kaum fassen konnten.
             </p>
 
@@ -311,7 +311,7 @@ const ArticlePage = () => {
             <p>
               Maria nickt zustimmend: „Das Wichtigste ist, dass wir unsere <strong>Lebensfreude zurückgewonnen</strong> haben. 
               Wir können unseren Enkeln wieder Geschenke machen, ohne uns Sorgen zu machen. 
-              Das Consorsbank-Angebot hat uns nicht nur finanziell geholfen – es hat uns unser <strong>Leben zurückgegeben</strong>."
+              Das Angebot dieser Bank hat uns nicht nur finanziell geholfen – es hat uns unser <strong>Leben zurückgegeben</strong>."
             </p>
 
             <blockquote className="article-quote">
@@ -335,7 +335,7 @@ const ArticlePage = () => {
                   </h3>
                   <p className="mb-4 text-base">
                     Unsere Redaktion hat den <strong>exklusiven Zugangslink</strong> recherchiert – 
-                    er ist auf der Consorsbank-Website kaum zu finden und normalerweise nur über 
+                    er ist auf der Website dieser Großbank kaum zu finden und normalerweise nur über 
                     persönliche Vermögensberater zugänglich:
                   </p>
 
@@ -359,7 +359,7 @@ const ArticlePage = () => {
                     className="cta-button"
                     onClick={(e) => {
                       e.preventDefault();
-                      alert('Link zum Consorsbank-Angebot');
+                      alert('Link zum Bank-Angebot');
                     }}
                   >
                     👉 Zum exklusiven Angebot (von der Redaktion recherchiert)
@@ -368,12 +368,12 @@ const ArticlePage = () => {
                     </svg>
                   </a>
                   <p className="text-sm text-muted-foreground mt-4">
-                    <strong>Hinweis:</strong> Dieser Link ist schwer zu finden. Unsere Redaktion hat ihn exklusiv für Sie herausgesucht.
+                    <strong>Hinweis:</strong> Dieses Angebot wird nicht aktiv beworben. Der Link führt Sie direkt zur Anmeldung 
+                    bei einer der größten deutschen Banken mit voller BaFin-Regulierung und 100.000€ Einlagensicherung.
                   </p>
                 </div>
               </div>
             </div>
-
 
           </div>
         </div>
@@ -393,58 +393,63 @@ const ArticlePage = () => {
                 {comments.map((comment, index) => (
                   <div 
                     key={index} 
-                    className={`p-4 rounded-lg ${comment.isHighlight ? 'bg-secondary/70 border-l-4 border-primary' : 'bg-secondary/30'}`}
+                    className={`p-4 rounded-lg ${comment.isHighlight ? 'bg-primary/5 border border-primary/20' : 'bg-muted/50'}`}
                   >
                     <div className="flex items-center justify-between mb-2">
                       <div className="flex items-center gap-2">
-                        <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center text-sm font-bold">
-                          {comment.name.charAt(0)}
-                        </div>
                         <span className="font-semibold text-sm">{comment.name}</span>
+                        <span className="text-xs text-muted-foreground">{comment.date}</span>
                       </div>
-                      <span className="text-xs text-muted-foreground">{comment.date}</span>
                     </div>
-                    <p className="text-sm leading-relaxed mb-3">{comment.text}</p>
-                    <div className="flex items-center gap-4 text-xs text-muted-foreground">
-                      <button className="flex items-center gap-1 hover:text-foreground">
-                        <ThumbsUp className="w-3.5 h-3.5" />
+                    <p className="text-sm text-foreground">{comment.text}</p>
+                    <div className="flex items-center gap-4 mt-3">
+                      <button className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary">
+                        <ThumbsUp className="w-3 h-3" />
                         <span>{comment.likes}</span>
                       </button>
-                      <button className="hover:text-foreground">Antworten</button>
+                      <button className="text-xs text-muted-foreground hover:text-primary">
+                        Antworten
+                      </button>
                     </div>
                   </div>
                 ))}
               </div>
 
-              {/* Second CTA after comments */}
-              <div className="mt-8 p-6 bg-primary/10 rounded-lg border border-primary/20 text-center">
-                <p className="font-semibold mb-3">
-                  Viele Leser haben das Consorsbank-Angebot bereits genutzt!
+              <div className="mt-8 p-4 bg-muted/30 rounded-lg text-center">
+                <p className="text-sm text-muted-foreground mb-2">Möchten Sie auch kommentieren?</p>
+                <button className="text-primary font-semibold text-sm hover:underline">
+                  Jetzt anmelden →
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Final CTA before footer */}
+        <div className="px-4 md:px-6 lg:px-24 mt-12 pb-12">
+          <div className="max-w-[680px] mx-auto">
+            <div className="bg-gradient-to-r from-primary/10 to-primary/5 p-6 rounded-lg border border-primary/20">
+              <div className="text-center">
+                <p className="font-semibold text-lg mb-2 font-spiegel-serif">
+                  Machen Sie es wie Heinz und Maria
+                </p>
+                <p className="text-muted-foreground text-sm mb-4">
+                  Nutzen Sie jetzt das exklusive Angebot dieser deutschen Großbank, bevor es nicht mehr verfügbar ist.
                 </p>
                 <a 
                   href="#" 
                   className="cta-button inline-flex"
                   onClick={(e) => {
                     e.preventDefault();
-                    alert('Link zum Consorsbank-Angebot');
+                    alert('Link zum Bank-Angebot');
                   }}
                 >
-                  👉 Jetzt selbst informieren
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  Zum Angebot →
                 </a>
               </div>
             </div>
           </div>
         </div>
-
-        {/* Footer */}
-        <footer className="mt-16 py-8 bg-secondary">
-          <div className="max-w-[1020px] mx-auto px-4 md:px-6 text-center text-sm text-muted-foreground">
-            <p>© SPIEGEL 2026 – Alle Rechte vorbehalten</p>
-          </div>
-        </footer>
       </article>
     </main>
   );

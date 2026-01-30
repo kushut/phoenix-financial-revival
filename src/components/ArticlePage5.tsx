@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Scale, FileText, Building2 } from "lucide-react";
-import dkbLogo from "@/assets/dkb-logo.png";
 
 const ArticlePage5 = () => {
   const comments = [
@@ -17,7 +16,7 @@ const ArticlePage5 = () => {
       id: 2,
       author: "Karin H.",
       time: "vor 2 Stunden", 
-      text: "Ich habe das DKB-Angebot letzte Woche genutzt. Die Konditionen sind wirklich so gut wie beschrieben. Danke an die EU!",
+      text: "Ich habe das Angebot letzte Woche genutzt. Die Konditionen sind wirklich so gut wie beschrieben. Danke an die EU!",
       likes: 156
     },
     {
@@ -38,7 +37,7 @@ const ArticlePage5 = () => {
       id: 5,
       author: "Rainer K.",
       time: "vor 5 Stunden",
-      text: "Habe mich sofort angemeldet. Die DKB war sehr transparent und der persönliche Berater hat alles erklärt.",
+      text: "Habe mich sofort angemeldet. Die Bank war sehr transparent und der persönliche Berater hat alles erklärt.",
       likes: 98
     },
     {
@@ -185,19 +184,18 @@ const ArticlePage5 = () => {
             </ul>
           </div>
 
-          <h2 className="article-subheading">Die DKB als Vorreiter: Institutionelle Renditen für alle</h2>
+          <h2 className="article-subheading">Diese Großbank als Vorreiter: Institutionelle Renditen für alle</h2>
 
-          {/* DKB Bank Box */}
-          <div className="bg-white border-2 border-[#00A3E0] rounded-lg p-6 my-6 flex items-center gap-6">
-            <img src={dkbLogo} alt="DKB Deutsche Kreditbank AG Logo" className="h-16 w-auto" />
+          {/* Bank Box */}
+          <div className="bg-secondary/50 border-2 border-primary/20 rounded-lg p-6 my-6">
             <div>
-              <p className="font-bold text-lg">Deutsche Kreditbank AG (DKB)</p>
-              <p className="text-muted-foreground text-sm">Erste deutsche Bank mit vollständiger CRD VI-Umsetzung</p>
+              <p className="font-bold text-lg">Eine der größten deutschen Direktbanken</p>
+              <p className="text-muted-foreground text-sm">Erste Bank mit vollständiger CRD VI-Umsetzung, staatliche Beteiligung, BaFin-reguliert</p>
             </div>
           </div>
 
           <p>
-            Die <strong>DKB – Deutsche Kreditbank AG</strong> gehört zu den ersten Banken in Deutschland, die die neuen EU-Vorgaben vollständig umgesetzt haben. Das Ergebnis: Ein Angebot für <strong>aktives Wertpapierdepot-Management</strong>, das bisher ausschließlich institutionellen Großkunden vorbehalten war.
+            Diese große deutsche Direktbank gehört zu den ersten in Deutschland, die die neuen EU-Vorgaben vollständig umgesetzt haben. Das Ergebnis: Ein Angebot für <strong>aktives Wertpapierdepot-Management</strong>, das bisher ausschließlich institutionellen Großkunden vorbehalten war.
           </p>
 
           <p>
@@ -205,15 +203,15 @@ const ArticlePage5 = () => {
           </p>
 
           <blockquote className="article-quote">
-            „Wir bei der DKB haben die neue EU-Richtlinie nicht als Last verstanden, sondern als Chance. Endlich können wir unseren Privatkunden dieselben hervorragenden Konditionen anbieten wie unseren institutionellen Partnern."
-            <footer className="mt-2 text-base not-italic">— DKB-Vorstand (interne Mitteilung)</footer>
+            „Wir haben die neue EU-Richtlinie nicht als Last verstanden, sondern als Chance. Endlich können wir unseren Privatkunden dieselben hervorragenden Konditionen anbieten wie unseren institutionellen Partnern."
+            <footer className="mt-2 text-base not-italic">— Vorstand dieser Großbank (interne Mitteilung)</footer>
           </blockquote>
 
           {/* Feature Box */}
           <div className="info-box">
             <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
               <TrendingUp className="w-5 h-5 text-primary" />
-              Das DKB-Angebot im Überblick:
+              Das Angebot im Überblick:
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
@@ -242,20 +240,20 @@ const ArticlePage5 = () => {
           </p>
 
           <p>
-            Die DKB hingegen hat das Angebot bereits frühzeitig umgesetzt – allerdings <strong>ohne große Werbekampagne</strong>. Das Angebot ist auf der normalen DKB-Website praktisch nicht zu finden. Man muss wissen, dass es existiert – und den richtigen Zugang haben.
+            Diese Großbank hingegen hat das Angebot bereits frühzeitig umgesetzt – allerdings <strong>ohne große Werbekampagne</strong>. Das Angebot ist auf der normalen Website praktisch nicht zu finden. Man muss wissen, dass es existiert – und den richtigen Zugang haben.
           </p>
 
           <div className="highlight-box">
             <p className="font-bold mb-2">Wichtiger Hinweis unserer Redaktion:</p>
             <p>
-              Durch intensive Recherche ist es uns gelungen, den <strong>direkten Zugang</strong> zum CRD VI-konformen DKB-Angebot zu finden. Dieser Zugang ist auf der regulären DKB-Website nicht sichtbar und wird von der Bank nicht aktiv beworben.
+              Durch intensive Recherche ist es uns gelungen, den <strong>direkten Zugang</strong> zum CRD VI-konformen Angebot dieser Bank zu finden. Dieser Zugang ist auf der regulären Website nicht sichtbar und wird von der Bank nicht aktiv beworben.
             </p>
           </div>
 
           <h2 className="article-subheading">Die Zeit drängt: Begrenzte Kapazitäten</h2>
 
           <p>
-            Die DKB hat zwar das Angebot für Privatanleger geöffnet, doch es gibt einen Haken: Die <strong>Kapazitäten der Händler sind begrenzt</strong>. Die professionellen Trading-Teams können nicht unbegrenzt viele Kunden betreuen, ohne die Qualität des Service zu beeinträchtigen.
+            Diese Bank hat zwar das Angebot für Privatanleger geöffnet, doch es gibt einen Haken: Die <strong>Kapazitäten der Händler sind begrenzt</strong>. Die professionellen Trading-Teams können nicht unbegrenzt viele Kunden betreuen, ohne die Qualität des Service zu beeinträchtigen.
           </p>
 
           <p>
@@ -270,7 +268,7 @@ const ArticlePage5 = () => {
           <h2 className="article-subheading">Für wen ist das Angebot geeignet?</h2>
 
           <p>
-            Das CRD VI-konforme DKB-Angebot richtet sich an Menschen, die:
+            Das CRD VI-konforme Angebot richtet sich an Menschen, die:
           </p>
 
           <ul className="list-disc pl-6 mb-6 space-y-2">
@@ -292,7 +290,7 @@ const ArticlePage5 = () => {
             <span className="font-bold text-primary">CRD VI-konformes Angebot – Exklusiver Zugang</span>
           </div>
           <p className="text-sm mb-4">
-            Dieses Angebot wurde durch die neue EU-Bankenrichtlinie möglich gemacht. Es wurde von unserer Redaktion recherchiert und ist auf der regulären DKB-Website <strong>nicht auffindbar</strong>. Nutzen Sie den direkten Zugang, solange noch Plätze verfügbar sind.
+            Dieses Angebot wurde durch die neue EU-Bankenrichtlinie möglich gemacht. Es wurde von unserer Redaktion recherchiert und ist auf der regulären Website dieser Großbank <strong>nicht auffindbar</strong>. Nutzen Sie den direkten Zugang, solange noch Plätze verfügbar sind.
           </p>
           <p className="text-xs text-muted-foreground">
             Hinweis: Begrenzte Plätze verfügbar. Das Angebot wird geschlossen, sobald die Kapazitäten erreicht sind.
@@ -305,7 +303,7 @@ const ArticlePage5 = () => {
             href="#" 
             className="cta-button text-xl"
           >
-            👉 Zum EU-regulierten DKB-Angebot (von der Redaktion recherchiert)
+            👉 Zum EU-regulierten Angebot (von der Redaktion recherchiert)
           </a>
           <p className="text-sm text-muted-foreground mt-4">
             * Das Angebot ist CRD VI-konform und unterliegt der deutschen Einlagensicherung.
@@ -315,7 +313,7 @@ const ArticlePage5 = () => {
         {/* Final Quote */}
         <div className="article-body">
           <blockquote className="article-quote">
-            „Die EU hat den Banken einen klaren Auftrag gegeben: Mehr Fairness für alle. Das DKB-Angebot ist das beste Beispiel dafür, wie Privatanleger endlich von institutionellen Konditionen profitieren können."
+            „Die EU hat den Banken einen klaren Auftrag gegeben: Mehr Fairness für alle. Dieses Angebot ist das beste Beispiel dafür, wie Privatanleger endlich von institutionellen Konditionen profitieren können."
             <footer className="mt-2 text-base not-italic">— Unsere Wirtschaftsredaktion</footer>
           </blockquote>
         </div>
@@ -324,7 +322,7 @@ const ArticlePage5 = () => {
         <div className="info-box my-8">
           <h3 className="font-bold text-lg mb-3">Jetzt von der neuen EU-Regulierung profitieren</h3>
           <p className="mb-4">
-            Nutzen Sie den von unserer Redaktion recherchierten Zugang zum CRD VI-konformen DKB-Angebot. Institutionelle Renditen, professionelles Trading-Management, 100.000€ Einlagensicherung.
+            Nutzen Sie den von unserer Redaktion recherchierten Zugang zum CRD VI-konformen Angebot. Institutionelle Renditen, professionelles Trading-Management, 100.000€ Einlagensicherung.
           </p>
           <a 
             href="#" 
@@ -374,16 +372,16 @@ const ArticlePage5 = () => {
         {/* Final CTA */}
         <div className="my-12 p-8 bg-secondary rounded-lg text-center">
           <h3 className="text-2xl font-bold mb-4 font-spiegel-serif">
-            Die EU hat die Tür geöffnet – gehen Sie hindurch
+            Verpassen Sie nicht diese historische Chance
           </h3>
           <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-            Zum ersten Mal in der Geschichte haben Privatanleger Zugang zu institutionellen Finanzprodukten. Nutzen Sie diese einmalige Chance, bevor die Plätze vergeben sind.
+            Die EU hat den Weg geebnet. Nutzen Sie jetzt den exklusiven Zugang zum Angebot, bevor die begrenzten Plätze vergeben sind.
           </p>
           <a 
             href="#" 
             className="cta-button text-lg"
           >
-            👉 Zum exklusiven DKB-Angebot
+            👉 Zum versteckten Angebot
           </a>
         </div>
       </article>

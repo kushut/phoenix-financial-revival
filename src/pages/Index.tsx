@@ -211,6 +211,45 @@ const Index = () => {
               Die Rentnerin aus Nürnberg konnte ihren Enkeln jahrelang nicht mal ein Eis kaufen.
             </p>
           </Link>
+
+          <Link 
+            to="/chefarzt-verdoppelt-50000" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Exklusiv-Recherche</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              Bankgeheimnis gelüftet: So verdoppelte ein Chefarzt seine 50.000 Euro Ersparnisse in nur 8 Monaten
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Dr. Friedrich Lange wollte sein Erspartes schützen. Was sein Private-Banking-Berater ihm zeigte, hätte nie öffentlich werden sollen.
+            </p>
+          </Link>
+
+          <Link 
+            to="/bankgeheimnis-insider-dokument" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Investigativ</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              Internes Dokument enthüllt: Diese Anlageform nutzen Bankvorstände für ihr eigenes Vermögen
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Ein geleakter Report zeigt, wie Top-Manager ihr Privatvermögen anlegen – und warum Kunden davon nichts erfahren.
+            </p>
+          </Link>
+
+          <Link 
+            to="/siemens-manager-beste-entscheidung" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Ruhestand & Vermögen</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              „Mit 50.000 Euro gestartet, heute unabhängig": Ex-Siemens-Manager über seine beste Entscheidung
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Wolfgang Brenner plante, von seinen Ersparnissen zu leben. Dann erfuhr er von einer Anlagemöglichkeit, die alles änderte.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

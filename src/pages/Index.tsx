@@ -315,6 +315,45 @@ const Index = () => {
               Der Investor spricht erstmals über persönliche Beweggründe und seine Hilfe für deutsche Rentner.
             </p>
           </Link>
+
+          <Link 
+            to="/rentner-ehepaar-muenster-ruhestand" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Leserbericht</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              Nach 48 Jahren Ehe: Wie ein Rentner-Ehepaar aus Münster endlich sorgenfrei in den Ruhestand geht
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Heinz und Maria hatten ihr Leben lang gespart – und trotzdem Angst vor der Zukunft.
+            </p>
+          </Link>
+
+          <Link 
+            to="/goldene-hochzeit-duesseldorf" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Gesellschaft</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              Goldene Hochzeit ohne Geldsorgen: Wie ein Ehepaar aus Düsseldorf seinen Ruhestand rettete
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Nach 50 Jahren Ehe stand das Fest auf der Kippe – dann entdeckte Christa etwas Neues.
+            </p>
+          </Link>
+
+          <Link 
+            to="/rentner-ehepaare-versteckte-alternative" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Rente & Vorsorge</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              „Endlich können wir unseren Enkeln etwas geben": Wie Rentner-Ehepaare die versteckte Alternative entdecken
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Immer mehr ältere Paare berichten von einem Programm, das ihre finanzielle Situation verändert hat.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

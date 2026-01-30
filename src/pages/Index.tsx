@@ -60,6 +60,19 @@ const Index = () => {
               Der Tech-Investor erklärt, warum er auf ein exklusives DKB-Angebot setzt.
             </p>
           </Link>
+
+          <Link 
+            to="/site5" 
+            className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-sm">Site 5 – EU-Regulierung</span>
+            <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
+              EU-Gesetz zwingt Banken zur Fairness: Institutionelle Renditen jetzt für alle
+            </h2>
+            <p className="text-muted-foreground mt-2">
+              Die neue CRD VI-Richtlinie revolutioniert den Finanzmarkt – so profitieren Privatanleger.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

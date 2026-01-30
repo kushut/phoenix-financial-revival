@@ -18,7 +18,7 @@ const ArticlePage20 = () => {
 
         {/* Headline */}
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold font-spiegel-serif leading-tight mb-4">
-          „Unsere Rentner werden betrogen" – Bekannte Wirtschaftspolitikerin fordert Gerechtigkeit für deutsche Senioren
+          „Unsere Rentner werden betrogen" – Bekannte Parteichefin fordert Gerechtigkeit für deutsche Senioren
         </h1>
 
         {/* Teaser */}

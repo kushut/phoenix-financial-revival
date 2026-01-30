@@ -11,7 +11,7 @@ const ArticlePage3 = () => {
       id: 1,
       author: "Thomas K.",
       time: "vor 2 Stunden",
-      text: "Ich habe den Link ausprobiert – funktioniert tatsächlich! Die Registrierung war einfach und der persönliche Berater hat sich sofort gemeldet.",
+      text: "Ich habe das Angebot ausprobiert – funktioniert tatsächlich! Die Registrierung war einfach und der persönliche Berater hat sich sofort gemeldet.",
       likes: 89
     },
     {
@@ -60,7 +60,7 @@ const ArticlePage3 = () => {
       id: 8,
       author: "Martina H.",
       time: "vor 9 Stunden",
-      text: "Der Link war wirklich schwer zu finden – gut, dass die Redaktion ihn recherchiert hat!",
+      text: "Das Angebot war wirklich schwer zu finden – gut, dass die Redaktion es recherchiert hat!",
       likes: 92
     }
   ];
@@ -197,19 +197,19 @@ const ArticlePage3 = () => {
           </p>
 
           <blockquote className="article-quote">
-            „Der Link zu diesem Angebot ist auf der normalen DKB-Website praktisch nicht zu finden. Man braucht entweder einen persönlichen Kontakt zur Bank oder muss sehr genau wissen, wonach man sucht. Die meisten Menschen werden nie davon erfahren."
+            „Dieses Angebot ist auf der normalen DKB-Website praktisch nicht zu finden. Man braucht entweder einen persönlichen Kontakt zur Bank oder muss sehr genau wissen, wonach man sucht. Die meisten Menschen werden nie davon erfahren."
           </blockquote>
 
-          <h2 className="article-subheading">Wie die Redaktion den versteckten Link fand</h2>
+          <h2 className="article-subheading">Wie die Redaktion das versteckte Angebot fand</h2>
 
           <p>
-            Nach dem Interview mit Maschmeyer machte sich unsere Wirtschaftsredaktion auf die Suche nach dem besagten Angebot. Nach intensiver Recherche – und mit Hilfe von Kontakten zur DKB – gelang es uns tatsächlich, den <strong>direkten Zugangslink</strong> zu finden.
+            Nach dem Interview mit Maschmeyer machte sich unsere Wirtschaftsredaktion auf die Suche nach dem besagten Angebot. Nach intensiver Recherche – und mit Hilfe von Kontakten zur DKB – gelang es uns tatsächlich, den <strong>direkten Zugang</strong> zu finden.
           </p>
 
           <div className="highlight-box">
             <p className="font-bold mb-2">Wichtiger Hinweis unserer Redaktion:</p>
             <p>
-              Dieses Angebot ist <strong>nicht über die normale DKB-Homepage</strong> erreichbar. Der Link unten führt direkt zur speziellen Angebotsseite, die normalerweise nur über persönliche Vermögensberater oder direkte Bankenkontakte zugänglich ist. Wir haben diesen Link ausschließlich für unsere Leser recherchiert.
+              Dieses Angebot ist <strong>nicht über die normale DKB-Homepage</strong> erreichbar. Der Zugang unten führt direkt zur speziellen Angebotsseite, die normalerweise nur über persönliche Vermögensberater oder direkte Bankenkontakte zugänglich ist. Wir haben dieses Angebot ausschließlich für unsere Leser recherchiert.
             </p>
           </div>
 
@@ -262,7 +262,7 @@ const ArticlePage3 = () => {
             <span className="font-bold text-primary">Exklusiver Redaktions-Zugang</span>
           </div>
           <p className="text-sm mb-4">
-            Dieser Link wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum DKB-Angebot für aktives Wertpapierdepot-Management. Das Angebot ist auf der regulären DKB-Website <strong>nicht auffindbar</strong> und normalerweise nur institutionellen Anlegern vorbehalten.
+            Dieses Angebot wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum DKB-Angebot für aktives Wertpapierdepot-Management. Das Angebot ist auf der regulären DKB-Website <strong>nicht auffindbar</strong> und normalerweise nur institutionellen Anlegern vorbehalten.
           </p>
           <p className="text-xs text-muted-foreground">
             Hinweis: Begrenzte Plätze verfügbar. Das Angebot kann jederzeit geschlossen werden.

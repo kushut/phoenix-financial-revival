@@ -8,6 +8,7 @@ import Site1 from "./pages/Site1";
 import Site2 from "./pages/Site2";
 import Site3 from "./pages/Site3";
 import Site4 from "./pages/Site4";
+import Site5 from "./pages/Site5";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/site2" element={<Site2 />} />
           <Route path="/site3" element={<Site3 />} />
           <Route path="/site4" element={<Site4 />} />
+          <Route path="/site5" element={<Site5 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

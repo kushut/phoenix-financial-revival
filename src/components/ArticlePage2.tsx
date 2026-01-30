@@ -8,49 +8,49 @@ const ArticlePage2 = () => {
     {
       name: "Petra H.",
       date: "vor 1 Stunde",
-      text: "Ich bin selbst 68 und diese Geschichte macht mir Mut. Habe mir das Consorsbank-Angebot auch angeschaut und bin beeindruckt von den Konditionen!",
+      text: "Ich bin selbst 68 und diese Geschichte macht mir Mut. Habe mir das Angebot bei meiner Bank auch angeschaut – 100.000€ Einlagensicherung, das beruhigt!",
       likes: 52,
       isHighlight: true
     },
     {
       name: "Manfred K.",
       date: "vor 2 Stunden", 
-      text: "Stark, wie die Dame das gemeistert hat! Das Consorsbank-Angebot klingt sehr interessant. Werde es mir heute noch anschauen.",
+      text: "Stark, wie die Dame das gemeistert hat! Das Angebot mit dem aktiven Depot-Management klingt sehr interessant. Werde es mir heute noch anschauen.",
       likes: 78,
       isHighlight: true
     },
     {
       name: "Elisabeth M.",
       date: "vor 3 Stunden",
-      text: "Genau so ist es mir auch ergangen. Nach dem Schock habe ich ebenfalls zur Consorsbank gewechselt und bin sehr zufrieden!",
+      text: "Genau so ist es mir auch ergangen. Nach dem Schock habe ich ebenfalls zu einer großen deutschen Bank gewechselt und bin sehr zufrieden!",
       likes: 63,
       isHighlight: true
     },
     {
       name: "Rolf B.",
       date: "vor 4 Stunden",
-      text: "Unglaublich, dass die Sparkasse nur 10.000 Euro absichert. Das ist ein Skandal! Gut, dass es Alternativen wie die Consorsbank gibt.",
+      text: "Unglaublich, dass die Sparkasse nur 10.000 Euro absichert. Das ist ein Skandal! Gut, dass es seriöse Alternativen mit voller EU-Einlagensicherung gibt.",
       likes: 124,
       isHighlight: false
     },
     {
       name: "Christa W.",
       date: "vor 5 Stunden",
-      text: "Meine Freundin hat das Consorsbank-Angebot letzte Woche genutzt und ist begeistert. Der Service ist wirklich erstklassig!",
+      text: "Meine Freundin hat das Angebot letzte Woche genutzt und ist begeistert. Der Service bei den großen Banken ist wirklich erstklassig!",
       likes: 45,
       isHighlight: true
     },
     {
       name: "Herbert S.",
       date: "vor 6 Stunden",
-      text: "Als Rentner ist Sicherheit das Wichtigste. Die Consorsbank bietet genau das – transparente Konditionen und echte Beratung.",
+      text: "Als Rentner ist Sicherheit das Wichtigste. Die großen deutschen Banken bieten genau das – transparente Konditionen und BaFin-Regulierung.",
       likes: 91,
       isHighlight: true
     },
     {
       name: "Gerda F.",
       date: "vor 7 Stunden",
-      text: "Habe gestern mit meinem Sohn das Angebot durchgesehen. Er war auch überzeugt und hat mir bei der Anmeldung geholfen. Sehr einfach!",
+      text: "Habe gestern mit meinem Sohn das Angebot durchgesehen. Er war auch überzeugt – vor allem wegen der 100.000€ Einlagensicherung. Sehr einfach!",
       likes: 37,
       isHighlight: true
     },
@@ -64,28 +64,28 @@ const ArticlePage2 = () => {
     {
       name: "Irmgard T.",
       date: "vor 9 Stunden",
-      text: "Bin seit 3 Wochen bei der Consorsbank und habe schon erste positive Entwicklungen gesehen. Kann es nur empfehlen!",
+      text: "Bin seit 3 Wochen bei einer großen deutschen Bank und habe schon erste positive Entwicklungen gesehen. Kann es nur empfehlen!",
       likes: 56,
       isHighlight: true
     },
     {
       name: "Wolfgang H.",
       date: "vor 10 Stunden",
-      text: "Diese Geschichte zeigt: Man darf sich nicht unterkriegen lassen! Respekt an die Dame. Das Consorsbank-Angebot werde ich mir auch ansehen.",
+      text: "Diese Geschichte zeigt: Man darf sich nicht unterkriegen lassen! Respekt an die Dame. Das Angebot werde ich mir auch ansehen.",
       likes: 72,
       isHighlight: true
     },
     {
       name: "Hannelore P.",
       date: "vor 11 Stunden",
-      text: "Endlich mal ein Artikel der zeigt, dass es Lösungen gibt! Die Consorsbank scheint wirklich seriös zu sein.",
+      text: "Endlich mal ein Artikel der zeigt, dass es Lösungen gibt! Die BaFin-regulierten Großbanken sind wirklich seriös.",
       likes: 48,
       isHighlight: true
     },
     {
       name: "Siegfried R.",
       date: "vor 12 Stunden",
-      text: "Meine Frau und ich haben uns ebenfalls für das Consorsbank-Angebot entschieden. Der Wechsel war problemlos und wir fühlen uns sicher.",
+      text: "Meine Frau und ich haben uns ebenfalls für das Angebot entschieden. Der Wechsel war problemlos und wir fühlen uns sicher.",
       likes: 83,
       isHighlight: true
     }
@@ -211,16 +211,17 @@ const ArticlePage2 = () => {
             </p>
 
             <p>
-              Bei ihren Recherchen stieß sie auf ein <strong>exklusives Angebot der Consorsbank</strong>, 
+              Bei ihren Recherchen stieß sie auf ein <strong>exklusives Angebot einer großen deutschen Bank</strong>, 
               das normalerweise nur institutionellen Anlegern vorbehalten ist. Großinvestoren, Fondsmanager, 
               Vermögensverwalter – sie alle nutzen seit Jahren diese besonderen Konditionen. 
-              <strong>Doch für kurze Zeit ist dieses Angebot auch für Privatpersonen zugänglich.</strong>
+              <strong>Doch durch neue EU-Regulierungen ist dieses Angebot jetzt auch für Privatpersonen zugänglich.</strong>
             </p>
 
             <p>
               Anders als andere Produkte versprach es keinen leeren Gewinn, sondern einen klaren, strukturierten Weg, 
               Schritt für Schritt ihr Vermögen wieder aufzubauen – mit den <strong>gleichen Konditionen, 
-              die sonst nur professionelle Anleger erhalten</strong>.
+              die sonst nur professionelle Anleger erhalten</strong>. Dazu kam die volle <strong>EU-Einlagensicherung 
+              von 100.000 Euro</strong> und vollständige BaFin-Regulierung.
             </p>
 
             <blockquote className="article-quote">
@@ -289,15 +290,15 @@ const ArticlePage2 = () => {
                   <div className="bg-primary/10 border border-primary/30 rounded-lg p-3 mb-4">
                     <p className="text-sm font-semibold text-primary">
                       🔒 Exklusiv: Dieses Angebot war bisher nur institutionellen Anlegern vorbehalten – 
-                      jetzt für kurze Zeit auch für Privatpersonen verfügbar!
+                      durch neue EU-Regulierungen jetzt auch für Privatpersonen verfügbar!
                     </p>
                   </div>
                   <h3 className="font-bold text-xl mb-4 font-spiegel-serif">
                     Jetzt selbst handeln – Vermögen schützen und Schritt für Schritt wieder aufbauen
                   </h3>
                   <p className="mb-4 text-base">
-                    Unsere Redaktion hat den <strong>exklusiven Zugangslink</strong> recherchiert – 
-                    er ist auf der Consorsbank-Website kaum zu finden und normalerweise nur über 
+                    Unsere Redaktion hat das <strong>exklusive Angebot</strong> recherchiert – 
+                    es wird von großen deutschen Banken kaum beworben und ist normalerweise nur über 
                     persönliche Vermögensberater zugänglich:
                   </p>
 
@@ -308,11 +309,15 @@ const ArticlePage2 = () => {
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Sonst nur für Großinvestoren & Fondsmanager</span>
+                      <span><strong>100.000€ EU-Einlagensicherung</strong> garantiert</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Zeitlich <strong>streng limitiert</strong></span>
+                      <span>Vollständig <strong>BaFin-reguliert</strong></span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                      <span>Jederzeit kündbar – <strong>keine Mindestlaufzeit</strong></span>
                     </li>
                   </ul>
 
@@ -321,7 +326,7 @@ const ArticlePage2 = () => {
                     className="cta-button"
                     onClick={(e) => {
                       e.preventDefault();
-                      alert('Link zum Consorsbank-Angebot');
+                      alert('Link zum Bank-Angebot');
                     }}
                   >
                     👉 Zum exklusiven Angebot (von der Redaktion recherchiert)
@@ -330,7 +335,7 @@ const ArticlePage2 = () => {
                     </svg>
                   </a>
                   <p className="text-sm text-muted-foreground mt-4">
-                    <strong>Hinweis:</strong> Dieser Link ist schwer zu finden. Unsere Redaktion hat ihn exklusiv für Sie herausgesucht.
+                    <strong>Hinweis:</strong> Dieses Angebot wird von den Banken nicht aktiv beworben. Unsere Redaktion hat es exklusiv für Sie recherchiert.
                   </p>
                 </div>
               </div>

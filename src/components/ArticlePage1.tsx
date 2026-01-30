@@ -137,7 +137,7 @@ const ArticlePage = () => {
             </span>
 
             <h1 className="article-title mt-3 mb-6">
-              65.000 Euro verloren – wie Heinz und Maria ihr Vermögen zurückgewannen
+              65.000 Euro im Gelsenkirchener Sparkassen-Fiasko verloren – wie Heinz und Maria ihr Vermögen zurückgewannen
             </h1>
 
             <p className="article-lead text-muted-foreground">

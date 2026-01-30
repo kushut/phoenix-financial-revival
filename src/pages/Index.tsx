@@ -276,6 +276,45 @@ const Index = () => {
               Die promovierte Ökonomin fordert: Rentner sollen endlich von den gleichen Renditen profitieren wie Großinvestoren.
             </p>
           </Link>
+
+          <Link 
+            to="/loewen-milliardaer-warnt-rentner" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Enthüllung</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              „Die Banken betrügen Rentner seit Jahrzehnten" – „Löwen"-Milliardär enthüllt Ausweg
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              In einem brisanten Interview rechnet der TV-Investor mit dem Bankensystem ab.
+            </p>
+          </Link>
+
+          <Link 
+            to="/eu-richtlinie-neue-anlage-chance" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Exklusiv-Interview</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              „Die EU hat die Banken gezwungen" – TV-Milliardär erklärt neue Anlage-Chance für Rentner
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Der bekannte Investor enthüllt, wie eine EU-Richtlinie die Finanzwelt verändert.
+            </p>
+          </Link>
+
+          <Link 
+            to="/loewen-investor-mission-rentner" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Persönliche Einblicke</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              „Meine Großeltern haben es verdient" – „Löwen"-Milliardär über seine Mission für Rentner
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Der Investor spricht erstmals über persönliche Beweggründe und seine Hilfe für deutsche Rentner.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

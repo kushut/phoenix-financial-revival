@@ -24,6 +24,9 @@ import Site17 from "./pages/Site17";
 import Site18 from "./pages/Site18";
 import Site19 from "./pages/Site19";
 import Site20 from "./pages/Site20";
+import Site21 from "./pages/Site21";
+import Site22 from "./pages/Site22";
+import Site23 from "./pages/Site23";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
@@ -57,6 +60,9 @@ const App = () => (
           <Route path="/siemens-manager-beste-entscheidung" element={<Site18 />} />
           <Route path="/oppositionsfuehrerin-fordert-fair-access" element={<Site19 />} />
           <Route path="/wirtschaftspolitikerin-exklusiv-interview" element={<Site20 />} />
+          <Route path="/loewen-milliardaer-warnt-rentner" element={<Site21 />} />
+          <Route path="/eu-richtlinie-neue-anlage-chance" element={<Site22 />} />
+          <Route path="/loewen-investor-mission-rentner" element={<Site23 />} />
           <Route path="/admin" element={<Admin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

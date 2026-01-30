@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Award } from "lucide-react";
+import maschmeyer from "@/assets/carsten-maschmeyer.png";
 
 const ArticlePage3 = () => {
   const comments = [
@@ -123,15 +124,11 @@ const ArticlePage3 = () => {
 
         {/* Hero Image */}
         <figure className="mb-8">
-          <div className="bg-gradient-to-br from-secondary to-muted p-8 rounded-lg flex items-center justify-center">
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-primary/20 flex items-center justify-center">
-                <span className="text-4xl font-bold text-primary">CM</span>
-              </div>
-              <p className="font-spiegel-serif text-xl font-bold">Carsten Maschmeyer</p>
-              <p className="text-muted-foreground">Investor & Unternehmer</p>
-            </div>
-          </div>
+          <img 
+            src={maschmeyer} 
+            alt="Carsten Maschmeyer im Interview" 
+            className="w-full rounded-lg"
+          />
           <figcaption className="image-caption">
             Carsten Maschmeyer (65), bekannt aus „Die Höhle der Löwen", hat ein exklusives Bankangebot entdeckt
           </figcaption>

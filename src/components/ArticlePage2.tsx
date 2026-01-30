@@ -1,5 +1,6 @@
 import { Bookmark, Play, Share2, CheckCircle, ThumbsUp, MessageCircle } from "lucide-react";
 import heroImage from "@/assets/sparkasse-polizei.jpg";
+import seniorinImage from "@/assets/seniorin-portrait.png";
 import SpiegelHeader from "./SpiegelHeader";
 
 const ArticlePage2 = () => {
@@ -146,20 +147,35 @@ const ArticlePage2 = () => {
           </div>
         </div>
 
-        {/* Hero Image */}
-        <figure className="mt-6 px-4 md:px-6 lg:px-24">
-          <div className="rounded overflow-hidden">
-            <img 
-              src={heroImage} 
-              alt="Polizeieinsatz vor der Sparkasse Gelsenkirchen-Buer" 
-              className="w-full h-auto object-cover"
-            />
+        {/* Hero Images - Side by Side */}
+        <div className="mt-6 px-4 md:px-6 lg:px-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {/* Police Image */}
+            <figure className="rounded overflow-hidden">
+              <img 
+                src={heroImage} 
+                alt="Polizeieinsatz vor der Sparkasse Gelsenkirchen-Buer" 
+                className="w-full h-auto object-cover"
+              />
+              <figcaption className="image-caption">
+                <p>Polizeieinsatz vor der Sparkassen-Filiale</p>
+                <span className="text-xs text-muted-foreground ml-1">Foto: WDR</span>
+              </figcaption>
+            </figure>
+
+            {/* Senior Woman Image */}
+            <figure className="rounded overflow-hidden">
+              <img 
+                src={seniorinImage} 
+                alt="Betroffene Seniorin" 
+                className="w-full h-auto object-cover"
+              />
+              <figcaption className="image-caption">
+                <p>Die betroffene Seniorin (69) hat ihr Vermögen stabilisiert</p>
+              </figcaption>
+            </figure>
           </div>
-          <figcaption className="image-caption">
-            <p>Polizeieinsatz vor der Sparkassen-Filiale in Gelsenkirchen-Buer</p>
-            <span className="text-xs text-muted-foreground ml-1">Foto: WDR</span>
-          </figcaption>
-        </figure>
+        </div>
 
         {/* Article Body */}
         <div className="px-4 md:px-6 lg:px-24 mt-10">

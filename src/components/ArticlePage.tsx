@@ -196,7 +196,7 @@ const ArticlePage = () => {
             </p>
 
             <p>
-              <strong>Und sie sollten recht behalten.</strong> Innerhalb von nur sechs Wochen konnten 
+              <strong>Und sie sollten recht behalten.</strong> Innerhalb von nur drei Wochen konnten 
               Heinz und Maria durch das Consorsbank-Angebot bereits <strong>über 45.000 Euro ihres verlorenen 
               Vermögens wieder aufbauen</strong>. Ein Ergebnis, das sie selbst kaum fassen konnten.
             </p>
@@ -212,7 +212,7 @@ const ArticlePage = () => {
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span><strong>45.000 Euro</strong> in nur 6 Wochen zurückgewonnen</span>
+                  <span><strong>45.000 Euro</strong> in nur 3 Wochen zurückgewonnen</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />

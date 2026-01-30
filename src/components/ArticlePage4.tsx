@@ -18,7 +18,7 @@ const ArticlePage4 = () => {
       id: 2,
       author: "Julia K.",
       time: "vor 2 Stunden", 
-      text: "Habe den Link getestet – die Anmeldung war super einfach. Bin gespannt auf die ersten Ergebnisse!",
+      text: "Habe das Angebot getestet – die Anmeldung war super einfach. Bin gespannt auf die ersten Ergebnisse!",
       likes: 98
     },
     {
@@ -60,7 +60,7 @@ const ArticlePage4 = () => {
       id: 8,
       author: "Monika F.",
       time: "vor 8 Stunden",
-      text: "Der versteckte Link war wirklich schwer zu finden. Gut, dass die Redaktion ihn ausgegraben hat!",
+      text: "Das versteckte Angebot war wirklich schwer zu finden. Gut, dass die Redaktion es ausgegraben hat!",
       likes: 112
     }
   ];
@@ -204,16 +204,16 @@ const ArticlePage4 = () => {
             „Ich habe in meiner Karriere viele ‚geheime' Angebote gesehen, die sich als Mogelpackung herausstellten. Aber hier ist alles transparent, reguliert und durch eine deutsche Bank abgesichert. Das ist selten."
           </blockquote>
 
-          <h2 className="article-subheading">Wie unsere Redaktion den versteckten Link fand</h2>
+          <h2 className="article-subheading">Wie unsere Redaktion das versteckte Angebot fand</h2>
 
           <p>
-            Nach dem Gespräch mit Thelen machte sich unser Wirtschaftsteam auf die Suche. Das Ergebnis: Der Zugang zum DKB-Angebot ist auf der normalen Website <strong>praktisch unsichtbar</strong>. Nur durch intensive Recherche und Kontakte zur Bank konnten wir den direkten Link ausfindig machen.
+            Nach dem Gespräch mit Thelen machte sich unser Wirtschaftsteam auf die Suche. Das Ergebnis: Der Zugang zum DKB-Angebot ist auf der normalen Website <strong>praktisch unsichtbar</strong>. Nur durch intensive Recherche und Kontakte zur Bank konnten wir den direkten Zugang ausfindig machen.
           </p>
 
           <div className="highlight-box">
             <p className="font-bold mb-2">Exklusiver Hinweis unserer Redaktion:</p>
             <p>
-              Das DKB-Angebot für aktives Wertpapierdepot-Management ist <strong>nicht über die Hauptseite</strong> erreichbar. Der Link unten führt direkt zur speziellen Angebotsseite, die normalerweise nur über persönliche Bankberater oder institutionelle Kanäle zugänglich ist.
+              Das DKB-Angebot für aktives Wertpapierdepot-Management ist <strong>nicht über die Hauptseite</strong> erreichbar. Der Zugang unten führt direkt zur speziellen Angebotsseite, die normalerweise nur über persönliche Bankberater oder institutionelle Kanäle zugänglich ist.
             </p>
           </div>
 
@@ -255,7 +255,7 @@ const ArticlePage4 = () => {
           </p>
 
           <p>
-            Unsere Recherche bestätigt: <strong>Das Angebot ist zeitlich limitiert</strong> und nur über den speziellen Zugangslink erreichbar.
+            Unsere Recherche bestätigt: <strong>Das Angebot ist zeitlich limitiert</strong> und nur über den speziellen Zugang erreichbar.
           </p>
         </div>
 
@@ -266,7 +266,7 @@ const ArticlePage4 = () => {
             <span className="font-bold text-primary">Exklusiver Redaktions-Zugang</span>
           </div>
           <p className="text-sm mb-4">
-            Dieser Link wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum DKB-Angebot für aktives Wertpapierdepot-Management. Das Angebot ist auf der regulären DKB-Website <strong>nicht auffindbar</strong> und normalerweise nur institutionellen Anlegern vorbehalten.
+            Dieses Angebot wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum DKB-Angebot für aktives Wertpapierdepot-Management. Das Angebot ist auf der regulären DKB-Website <strong>nicht auffindbar</strong> und normalerweise nur institutionellen Anlegern vorbehalten.
           </p>
           <p className="text-xs text-muted-foreground">
             Hinweis: Begrenzte Plätze verfügbar. Das Angebot kann jederzeit geschlossen werden.

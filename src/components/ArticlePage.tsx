@@ -166,42 +166,86 @@ const ArticlePage = () => {
 
             <blockquote className="article-quote">
               „Es fühlte sich an, als hätte jemand ein Stück unseres Lebens weggenommen. 
-              Wir wussten sofort: Wir müssen handeln."
+              Wir haben nächtelang nicht geschlafen. Die Angst, alles verloren zu haben, war unerträglich."
               <footer className="text-base mt-2 not-italic text-muted-foreground">– Maria (69)</footer>
             </blockquote>
 
             <p>
-              Die Bank konnte nur <strong>maximal 10.000 Euro</strong> absichern. Enttäuscht kündigten Heinz 
-              und Maria alle Konten bei der betroffenen Sparkasse und suchten nach Alternativen.
+              Die Bank konnte nur <strong>maximal 10.000 Euro</strong> absichern – ein Bruchteil dessen, 
+              was das Ehepaar über Jahrzehnte angespart hatte. Die Enttäuschung war grenzenlos. 
+              „Wir haben unser ganzes Leben hart gearbeitet", erzählt Heinz mit Tränen in den Augen. 
+              „Dieses Geld sollte unseren Kindern und Enkeln zugutekommen."
             </p>
-
-            <h2 className="article-subheading">Die Lösung: Schritt für Schritt zurück zur Sicherheit</h2>
 
             <p>
-              Bei ihren Recherchen stießen sie auf ein <strong>zeitlich begrenztes Angebot der Consorsbank</strong> – 
-              kein riskanter Gewinn, sondern ein strukturierter Weg zum Vermögensaufbau. Innerhalb weniger 
-              Wochen konnten sie einen Großteil ihres Verlustes kompensieren.
+              Doch Heinz und Maria gaben nicht auf. Entschlossen kündigten sie alle Konten bei der 
+              betroffenen Sparkasse und begannen, nach Alternativen zu suchen.
             </p>
 
+            <h2 className="article-subheading">Die Wende: Ein Angebot verändert alles</h2>
+
+            <p>
+              Bei ihren Recherchen stießen sie auf ein <strong>zeitlich begrenztes Angebot der Consorsbank</strong>. 
+              Zunächst waren sie skeptisch – zu oft hatte man ihnen nach dem Einbruch dubiose „Hilfsangebote" gemacht. 
+              Doch dieses war anders: <strong>transparent, seriös und von einer etablierten Bank</strong>.
+            </p>
+
+            <p>
+              „Wir haben uns lange informiert, bevor wir den Schritt gewagt haben", erklärt Maria. 
+              „Aber als wir gesehen haben, wie das Programm funktioniert, wussten wir: Das ist unsere Chance."
+            </p>
+
+            <p>
+              <strong>Und sie sollten recht behalten.</strong> Innerhalb von nur sechs Wochen konnten 
+              Heinz und Maria durch das Consorsbank-Angebot bereits <strong>über 45.000 Euro ihres verlorenen 
+              Vermögens wieder aufbauen</strong>. Ein Ergebnis, das sie selbst kaum fassen konnten.
+            </p>
+
+            <blockquote className="article-quote">
+              „Als ich den Kontostand gesehen habe, musste ich weinen – diesmal vor Freude. 
+              Ich hätte nie gedacht, dass wir so schnell wieder auf die Beine kommen."
+              <footer className="text-base mt-2 not-italic text-muted-foreground">– Maria (69)</footer>
+            </blockquote>
+
             <div className="highlight-box my-8">
+              <h3 className="font-bold text-lg mb-4 font-spiegel-serif">Was Heinz und Maria erreicht haben:</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Restliches Vermögen geschützt</span>
+                  <span><strong>45.000 Euro</strong> in nur 6 Wochen zurückgewonnen</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Kontrolle und Vertrauen zurückgewonnen</span>
+                  <span>Restliches Vermögen <strong>sicher angelegt</strong></span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Sicherheit und innere Ruhe wiederhergestellt</span>
+                  <span>Endlich wieder <strong>ruhig schlafen</strong> können</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                  <span>Die <strong>Zukunft der Enkel</strong> ist wieder gesichert</span>
                 </li>
               </ul>
             </div>
 
+            <h2 className="article-subheading">„Wir genießen endlich wieder unser Leben"</h2>
+
+            <p>
+              Heute, wenige Monate nach dem traumatischen Einbruch, strahlt das Ehepaar wieder. 
+              „Wir haben gerade einen wunderschönen Urlaub auf Mallorca gebucht – den ersten seit fünf Jahren", 
+              erzählt Heinz stolz. „Das hätten wir uns vor ein paar Monaten nie vorstellen können."
+            </p>
+
+            <p>
+              Maria nickt zustimmend: „Das Wichtigste ist, dass wir unsere <strong>Lebensfreude zurückgewonnen</strong> haben. 
+              Wir können unseren Enkeln wieder Geschenke machen, ohne uns Sorgen zu machen. 
+              Das Consorsbank-Angebot hat uns nicht nur finanziell geholfen – es hat uns unser <strong>Leben zurückgegeben</strong>."
+            </p>
+
             <blockquote className="article-quote">
-              „Dieser Rückschlag hat uns stärker gemacht. Das Consorsbank-Angebot war genau das Richtige für uns."
+              „Wenn Sie in einer ähnlichen Situation sind: Geben Sie nicht auf! 
+              Es gibt Wege aus der Krise. Wir sind der lebende Beweis dafür."
               <footer className="text-base mt-2 not-italic text-muted-foreground">– Heinz (71)</footer>
             </blockquote>
 

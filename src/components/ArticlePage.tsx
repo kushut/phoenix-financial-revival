@@ -1,7 +1,8 @@
 import { Bookmark, Play, Share2 } from "lucide-react";
-import heroImage from "@/assets/hero-bank-victim.jpg";
-import moneySavingsImage from "@/assets/money-savings.jpg";
-import womanLaptopImage from "@/assets/woman-laptop-hope.jpg";
+import heroImage from "@/assets/sparkasse-polizei.jpg";
+import lochImage from "@/assets/sparkasse-loch.jpg";
+import protesteImage from "@/assets/sparkasse-proteste.jpg";
+import taeterImage from "@/assets/sparkasse-taeter.png";
 
 const ArticlePage = () => {
   return (
@@ -12,18 +13,19 @@ const ArticlePage = () => {
           <div className="max-w-[680px] mx-auto">
             {/* Category Tag */}
             <span className="category-tag">
-              Exklusiv: Bankraub-Opfer berichtet
+              Exklusiv: Sparkassen-Einbruch Gelsenkirchen
             </span>
 
             {/* Title */}
             <h1 className="article-title mt-3 mb-6">
-              42.000 Euro verloren – wie eine Frau nach dem Bankraub von Gelsenkirchen ihr finanzielles Leben zurückgewann
+              42.000 Euro verloren – wie eine Frau nach dem Sparkassen-Einbruch von Gelsenkirchen ihr finanzielles Leben zurückgewann
             </h1>
 
             {/* Lead */}
             <p className="article-lead text-muted-foreground">
-              Eine 71-jährige Rentnerin verliert beim dramatischen Banküberfall ihr gesamtes Erspartes. 
-              Was dann geschah, hätte sie selbst nicht erwartet – und könnte auch anderen helfen.
+              Beim spektakulären Einbruch in die Sparkasse Gelsenkirchen-Buer wurden rund 3.200 Schließfächer aufgebrochen – 
+              einer der größten Coups in der bundesdeutschen Kriminalgeschichte. Eine 71-jährige Betroffene erzählt, wie sie 
+              sich von dem Schock erholte.
             </p>
 
             {/* Meta */}
@@ -73,7 +75,7 @@ const ArticlePage = () => {
           <div className="relative rounded overflow-hidden">
             <img 
               src={heroImage} 
-              alt="Die Betroffene vor der Bank in Gelsenkirchen" 
+              alt="Polizeieinsatz vor der Sparkasse Gelsenkirchen-Buer" 
               className="w-full h-auto object-cover"
             />
             <button className="absolute top-4 right-4 p-2 bg-black/50 hover:bg-black/70 rounded text-white">
@@ -83,8 +85,8 @@ const ArticlePage = () => {
             </button>
           </div>
           <figcaption className="image-caption px-0 md:px-0 lg:px-0">
-            <p>Die Betroffene vor dem Bankgebäude in Gelsenkirchen: „Es fühlte sich an, als hätte mir jemand den Boden unter den Füßen weggezogen"</p>
-            <span className="text-xs text-muted-foreground ml-1">Foto: dpa</span>
+            <p>Polizeieinsatz vor der Sparkassen-Filiale in Gelsenkirchen-Buer: Einer der größten Coups in der bundesdeutschen Kriminalgeschichte</p>
+            <span className="text-xs text-muted-foreground ml-1">Foto: WDR</span>
           </figcaption>
         </figure>
 
@@ -93,63 +95,117 @@ const ArticlePage = () => {
           <div className="max-w-[680px] mx-auto article-body">
             
             <p className="text-muted-foreground italic mb-8 text-lg">
-              <strong>Gelsenkirchen.</strong> Es sind oft nur Sekunden, die ein ganzes Leben verändern.
+              <strong>Gelsenkirchen.</strong> Es sind oft nur Sekunden, die ein ganzes Leben verändern – 
+              oder in diesem Fall: eine Nacht zwischen den Weihnachtsfeiertagen.
             </p>
 
             <p>
-              Für eine 71-jährige Seniorin aus Nordrhein-Westfalen begann dieser Tag wie jeder andere: 
-              ein kurzer Termin bei der Bank, ein paar Überweisungen, dann zurück nach Hause. 
-              Doch was folgte, war ein Ereignis, das sie noch Monate später nicht losließ.
+              Für eine 71-jährige Seniorin aus Nordrhein-Westfalen begann das neue Jahr mit einem Schock: 
+              Beim spektakulären <strong>Einbruch in die Sparkasse Gelsenkirchen-Buer</strong> wurden rund 
+              3.200 Schließfächer aufgebrochen. Die Täter erbeuteten eine Millionensumme – Ermittler halten 
+              inzwischen eine <strong>Beute von mehr als 100 Millionen Euro</strong> für möglich.
             </p>
 
             <p>
-              Während sie sich im Gebäude aufhielt, kam es zum Bankraub von Gelsenkirchen. 
-              Chaos, Sirenen, Angst. Inmitten der Unruhe verlor sie das, was sie sich über 
-              viele Jahre mühsam aufgebaut hatte: <strong>42.000 Euro Erspartes</strong> – Geld, das für 
-              Sicherheit, Zukunft und ein ruhiges Gefühl im Alter gedacht war.
+              Die Rentnerin war eine der Betroffenen. In ihrem Schließfach: <strong>42.000 Euro</strong> – 
+              ihr gesamtes Erspartes, zusammengetragen über Jahrzehnte. Geld, das für Sicherheit im Alter, 
+              für Notfälle und für ein ruhiges Gefühl gedacht war.
             </p>
 
             <blockquote className="article-quote">
-              „Ich stand einfach nur da und habe gezittert. Es fühlte sich an, als hätte mir 
-              jemand den Boden unter den Füßen weggezogen."
+              „Als ich davon erfuhr, stand ich einfach nur da und habe gezittert. Es fühlte sich an, 
+              als hätte mir jemand den Boden unter den Füßen weggezogen."
             </blockquote>
 
-            <h2 className="article-subheading">Der Verlust traf sie härter als erwartet</h2>
-
-            <p>
-              Das Geld war kein Luxus. Es war Rücklage. Notgroschen. <em>Zukunft.</em> Gedacht für 
-              unvorhergesehene Situationen – ironischerweise genau für einen Moment wie diesen.
-            </p>
+            <h2 className="article-subheading">Der Coup: Wie die Täter vorgingen</h2>
 
             <figure className="my-8">
               <img 
-                src={moneySavingsImage}
-                alt="Symbolbild: Ersparnisse zählen"
+                src={lochImage}
+                alt="Das Loch in der Wand des Tresorraums"
                 className="w-full rounded"
               />
               <figcaption className="image-caption">
-                Jahrelange Ersparnisse – innerhalb von Minuten verloren
-                <span className="text-xs text-muted-foreground ml-1">Foto: Illustration</span>
+                Das riesige Loch in der Stahlbetonwand: Die Täter bohrten sich vom Archivraum in den Tresor
+                <span className="text-xs text-muted-foreground ml-1">Foto: WDR</span>
               </figcaption>
             </figure>
 
             <p>
-              Nach dem ersten Schock kam die Realität: Rechnungen, Miete, laufende Kosten. 
-              Die Gewissheit, dass ein Großteil des Geldes vermutlich nie wieder auftauchen würde. 
-              Schlaflose Nächte folgten, begleitet von der immer gleichen Frage: 
-              <em>„Wie soll ich das wieder aufholen?"</em>
+              Der Tatzeitpunkt liegt vermutlich zwischen den <strong>Weihnachtsfeiertagen und dem darauffolgenden 
+              Wochenende</strong>. Am 29. Dezember 2025 wurde der Einbruch schließlich entdeckt, als um 03:58 Uhr 
+              ein Brandmeldealarm einging.
+            </p>
+
+            <p>
+              Die Täter verschafften sich von einer <strong>benachbarten Tiefgarage</strong> aus Zugang zu einem 
+              Archivraum der Bank. Von dort aus arbeiteten sie sich mit einem Spezialbohrer in den Tresorraum vor – 
+              dafür rissen sie ein riesiges Loch in die Stahlbetonwand. Für die Kühlung des Bohrers verlegten sie 
+              sogar einen Schlauch vom Wasserhahn der benachbarten Damentoilette.
+            </p>
+
+            <figure className="my-8">
+              <img 
+                src={taeterImage}
+                alt="Fahndungsfoto der maskierten Täter"
+                className="w-full rounded"
+              />
+              <figcaption className="image-caption">
+                Fahndungsbild: Die Polizei sucht nach den maskierten Einbrechern
+                <span className="text-xs text-muted-foreground ml-1">Foto: Polizei Gelsenkirchen</span>
+              </figcaption>
+            </figure>
+
+            <h2 className="article-subheading">Tumultartige Szenen vor der Filiale</h2>
+
+            <figure className="my-8">
+              <img 
+                src={protesteImage}
+                alt="Kunden protestieren vor der Sparkasse"
+                className="w-full rounded"
+              />
+              <figcaption className="image-caption">
+                Wütende Kunden vor der Filiale: Die Lage drohte zu eskalieren
+                <span className="text-xs text-muted-foreground ml-1">Foto: WDR</span>
+              </figcaption>
+            </figure>
+
+            <p>
+              Nach Bekanntwerden des Einbruchs versammelten sich am 29. und 30. Dezember <strong>bis zu 200 
+              betroffene Kunden</strong> vor der Filiale. Die Lage drohte zu eskalieren – es kam zu tumultartigen 
+              Szenen. Mehrere Menschen stürmten in den Vorraum der Sparkasse. Polizeikräfte mussten anrücken und 
+              den Eingang sichern.
             </p>
 
             <blockquote className="article-quote">
-              „Man fühlt sich hilflos. Man macht sich Vorwürfe, zweifelt an sich selbst 
-              und hat Angst vor der Zukunft."
+              „Man fühlt sich hilflos. Man macht sich Vorwürfe, zweifelt an sich selbst und hat Angst vor der Zukunft."
             </blockquote>
+
+            <p>
+              Die Sparkasse selbst informierte: <em>„Die Wahrscheinlichkeit, dass auch Ihr Fach betroffen ist, 
+              ist sehr hoch."</em> Einzelne Kunden gaben an, jeweils mehr als 500.000 Euro in ihren Schließfächern 
+              gehabt zu haben. Inzwischen haben <strong>mehr als 200 Kunden angekündigt, rechtliche Schritte 
+              gegen die Sparkasse einzuleiten</strong>.
+            </p>
+
+            <h2 className="article-subheading">Der Verlust traf sie härter als erwartet</h2>
+
+            <p>
+              Das Geld war kein Luxus. Es war Rücklage. Notgroschen. <em>Zukunft.</em> Gedacht für unvorhergesehene 
+              Situationen – ironischerweise genau für einen Moment wie diesen.
+            </p>
+
+            <p>
+              Nach dem ersten Schock kam die Realität: Rechnungen, Miete, laufende Kosten. Die Gewissheit, dass 
+              das Geld vermutlich nie wieder auftauchen würde. Schlaflose Nächte folgten, begleitet von der immer 
+              gleichen Frage: <em>„Wie soll ich das wieder aufholen?"</em>
+            </p>
 
             <h2 className="article-subheading">Ein Zufallsfund, der alles veränderte</h2>
 
             <p>
               Was sie in dieser Zeit rettete, war etwas, womit sie selbst nicht gerechnet hatte: 
-              <strong>Neugier</strong>. Und der Wille, nicht aufzugeben.
+              <strong> Neugier</strong>. Und der Wille, nicht aufzugeben.
             </p>
 
             <p>
@@ -163,54 +219,41 @@ const ArticlePage = () => {
             </blockquote>
 
             <p>
-              Das Angebot versprach keine Wunder, sondern einen klaren, strukturierten Weg, 
-              Kapital wieder aufzubauen – mit transparenten Konditionen und einem Produkt, 
-              das speziell für sicherheitsbewusste Anleger konzipiert ist.
+              Das Angebot versprach keine Wunder, sondern einen klaren, strukturierten Weg, Kapital wieder 
+              aufzubauen – mit transparenten Konditionen und einem Produkt, das speziell für sicherheitsbewusste 
+              Anleger konzipiert ist.
             </p>
 
             <h2 className="article-subheading">Ein Monat später: Hoffnung kehrt zurück</h2>
 
-            <figure className="my-8">
-              <img 
-                src={womanLaptopImage}
-                alt="Rentnerin am Laptop recherchiert Finanzangebote"
-                className="w-full rounded"
-              />
-              <figcaption className="image-caption">
-                Hoffnung kehrt zurück: Die Betroffene entdeckte online eine unerwartete Lösung
-                <span className="text-xs text-muted-foreground ml-1">Foto: Illustration</span>
-              </figcaption>
-            </figure>
-
             <p>
               Was dann passierte, beschreibt sie heute selbst als <strong>Wendepunkt</strong>. 
-              Innerhalb weniger Wochen konnte sie – durch das Angebot der Consorsbank – 
-              einen Großteil ihres finanziellen Verlustes kompensieren. 
-              Nicht über Nacht, nicht risikoreich, sondern Schritt für Schritt.
+              Innerhalb weniger Wochen konnte sie – durch das Angebot der Consorsbank – einen Großteil 
+              ihres finanziellen Verlustes kompensieren. Nicht über Nacht, nicht risikoreich, sondern 
+              Schritt für Schritt.
             </p>
 
             <blockquote className="article-quote">
-              „Zum ersten Mal seit dem Überfall hatte ich wieder das Gefühl, 
-              die Kontrolle zurückzugewinnen."
+              „Zum ersten Mal seit dem Einbruch hatte ich wieder das Gefühl, die Kontrolle zurückzugewinnen."
             </blockquote>
 
             <p>
-              Noch überraschender: Durch das Angebot erhielt sie Zugang zu einem besonders 
-              attraktiven Bankprodukt, das nur für einen begrenzten Zeitraum verfügbar war 
-              und normalerweise nicht offen beworben wird.
+              Noch überraschender: Durch das Angebot erhielt sie Zugang zu einem besonders attraktiven 
+              Bankprodukt, das nur für einen begrenzten Zeitraum verfügbar war und normalerweise nicht 
+              offen beworben wird.
             </p>
 
             <h2 className="article-subheading">Glück im Unglück – und eine Lektion fürs Leben</h2>
 
             <p>
-              Heute blickt sie anders auf das Geschehene zurück. Der Verlust schmerzt noch immer, 
-              doch er brachte auch etwas mit sich: einen neuen Umgang mit Geld, mehr Wissen – 
-              und eine <strong>bessere finanzielle Struktur als zuvor</strong>.
+              Heute blickt sie anders auf das Geschehene zurück. Der Verlust schmerzt noch immer, doch 
+              er brachte auch etwas mit sich: einen neuen Umgang mit Geld, mehr Wissen – und eine 
+              <strong> bessere finanzielle Struktur als zuvor</strong>.
             </p>
 
             <blockquote className="article-quote">
-              „Ich hätte nie gedacht, dass ich das einmal sagen würde, aber: 
-              Dieser Schock hat mich langfristig stärker gemacht."
+              „Ich hätte nie gedacht, dass ich das einmal sagen würde, aber: Dieser Schock hat mich 
+              langfristig stärker gemacht."
             </blockquote>
 
             <p>
@@ -251,21 +294,21 @@ const ArticlePage = () => {
                 <li className="flex items-start gap-4 py-3 border-b">
                   <span className="flex-1">
                     <a href="#" className="font-bold hover:opacity-70 font-spiegel-serif">
-                      Experten warnen: Diese Fehler sollten Sparer jetzt unbedingt vermeiden
+                      Sparkassen-Einbruch: Der Jahrhundert-Diebstahl von Gelsenkirchen
                     </a>
                   </span>
                 </li>
                 <li className="flex items-start gap-4 py-3 border-b">
                   <span className="flex-1">
                     <a href="#" className="font-bold hover:opacity-70 font-spiegel-serif">
-                      Geldanlage 2026: Welche Optionen sich jetzt besonders lohnen
+                      200 Kunden wollen Sparkasse nach Einbruch verklagen
                     </a>
                   </span>
                 </li>
                 <li className="flex items-start gap-4 py-3">
                   <span className="flex-1">
                     <a href="#" className="font-bold hover:opacity-70 font-spiegel-serif">
-                      Bankraub in Gelsenkirchen: Polizei sucht weiter nach Tätern
+                      Experten warnen: Sind Schließfächer wirklich sicher?
                     </a>
                   </span>
                 </li>

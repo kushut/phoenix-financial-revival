@@ -211,17 +211,19 @@ const ArticlePage2 = () => {
             </p>
 
             <p>
-              Bei ihren Recherchen stieß sie auf ein <strong>exklusives Angebot einer großen deutschen Bank</strong>, 
-              das normalerweise nur institutionellen Anlegern vorbehalten ist. Großinvestoren, Fondsmanager, 
+              Bei ihren Recherchen stieß sie auf ein <strong>exklusives Angebot einer der größten deutschen Banken</strong> – 
+              einer Bank mit staatlicher Beteiligung und über 5 Millionen Kunden. Dieses spezielle Depot-Management 
+              war bisher nur institutionellen Anlegern vorbehalten. Großinvestoren, Fondsmanager, 
               Vermögensverwalter – sie alle nutzen seit Jahren diese besonderen Konditionen. 
-              <strong>Doch durch neue EU-Regulierungen ist dieses Angebot jetzt auch für Privatpersonen zugänglich.</strong>
+              <strong>Doch durch neue EU-Regulierungen ist genau dieses Angebot jetzt auch für Privatpersonen zugänglich.</strong>
             </p>
 
             <p>
               Anders als andere Produkte versprach es keinen leeren Gewinn, sondern einen klaren, strukturierten Weg, 
               Schritt für Schritt ihr Vermögen wieder aufzubauen – mit den <strong>gleichen Konditionen, 
               die sonst nur professionelle Anleger erhalten</strong>. Dazu kam die volle <strong>EU-Einlagensicherung 
-              von 100.000 Euro</strong> und vollständige BaFin-Regulierung.
+              von 100.000 Euro</strong> und vollständige BaFin-Regulierung. Der Link zu genau diesem Angebot 
+              befindet sich am Ende dieses Artikels.
             </p>
 
             <blockquote className="article-quote">
@@ -289,23 +291,22 @@ const ArticlePage2 = () => {
                 <div className="flex-1">
                   <div className="bg-primary/10 border border-primary/30 rounded-lg p-3 mb-4">
                     <p className="text-sm font-semibold text-primary">
-                      🔒 Exklusiv: Dieses Angebot war bisher nur institutionellen Anlegern vorbehalten – 
-                      durch neue EU-Regulierungen jetzt auch für Privatpersonen verfügbar!
+                      🔒 Das ist die Bank, die der Seniorin geholfen hat – über den Link unten gelangen Sie direkt zum Angebot
                     </p>
                   </div>
                   <h3 className="font-bold text-xl mb-4 font-spiegel-serif">
-                    Jetzt selbst handeln – Vermögen schützen und Schritt für Schritt wieder aufbauen
+                    Das exklusive Angebot dieser deutschen Großbank
                   </h3>
                   <p className="mb-4 text-base">
-                    Unsere Redaktion hat das <strong>exklusive Angebot</strong> recherchiert – 
-                    es wird von großen deutschen Banken kaum beworben und ist normalerweise nur über 
-                    persönliche Vermögensberater zugänglich:
+                    Unsere Redaktion hat den <strong>direkten Zugang zum Angebot</strong> recherchiert. 
+                    Es handelt sich um dieselbe Bank, die der Seniorin geholfen hat – eine der größten 
+                    und sichersten Banken Deutschlands:
                   </p>
 
                   <ul className="space-y-2 mb-6">
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span><strong>Institutionelle Konditionen</strong> für Privatanleger</span>
+                      <span><strong>Staatliche Beteiligung</strong> – maximale Sicherheit</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
@@ -314,6 +315,10 @@ const ArticlePage2 = () => {
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                       <span>Vollständig <strong>BaFin-reguliert</strong></span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                      <span><strong>Über 5 Millionen Kunden</strong> vertrauen dieser Bank</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
@@ -329,13 +334,13 @@ const ArticlePage2 = () => {
                       alert('Link zum Bank-Angebot');
                     }}
                   >
-                    👉 Zum exklusiven Angebot (von der Redaktion recherchiert)
+                    👉 Direkt zum Angebot dieser Bank
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                   </a>
                   <p className="text-sm text-muted-foreground mt-4">
-                    <strong>Hinweis:</strong> Dieses Angebot wird von den Banken nicht aktiv beworben. Unsere Redaktion hat es exklusiv für Sie recherchiert.
+                    <strong>Hinweis:</strong> Dieses Angebot wird nicht aktiv beworben. Der Link führt Sie direkt zur Anmeldung.
                   </p>
                 </div>
               </div>

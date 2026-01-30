@@ -47,12 +47,12 @@ const Index = () => {
             to="/maschmeyer-investment-geheimnis" 
             className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
           >
-            <span className="category-tag text-xs sm:text-sm">Maschmeyer-Interview</span>
+            <span className="category-tag text-xs sm:text-sm">Exklusiv-Interview</span>
             <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
-              „Bis zu 17% im Monat" – Carsten Maschmeyer enthüllt geheimes Bank-Angebot
+              „Bis zu 17% im Monat" – Bekannter „Löwen"-Investor enthüllt geheimes Bank-Angebot
             </h2>
             <p className="text-muted-foreground mt-2 text-sm sm:text-base">
-              Der „Höhle der Löwen"-Investor spricht über ein exklusives Angebot einer deutschen Großbank.
+              Der Multi-Milliardär (65) spricht über ein exklusives Angebot einer deutschen Großbank.
             </p>
           </Link>
 

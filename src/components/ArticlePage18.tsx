@@ -160,20 +160,22 @@ const ArticlePage18 = () => {
             </ul>
           </div>
 
-          {/* Exclusive Access Box */}
-          <div className="bg-primary/10 border-2 border-primary rounded-lg p-6 my-8">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="font-bold text-primary">🔒 Exklusiver Redaktions-Zugang</span>
+          {/* Soft CTA Box - more subtle social engineering */}
+          <div className="bg-secondary/30 border border-border rounded-lg p-6 my-8">
+            <p className="text-sm sm:text-base mb-4">
+              <strong>Anmerkung der Redaktion:</strong> Nach Veröffentlichung dieses Artikels haben uns zahlreiche Leser gefragt, wie auch sie Zugang zu diesem Programm erhalten können. Wir haben daher bei der Bank nachgefragt und einen direkten Informationsweg für interessierte Leser eingerichtet.
+            </p>
+            <p className="text-sm text-muted-foreground mb-4">
+              Bitte beachten Sie: Die Plätze sind aufgrund der begrenzten Kapazitäten der Händler limitiert. Die Bank behält sich vor, das Programm ohne Vorankündigung zu schließen.
+            </p>
+            <div className="border-t border-border pt-4 mt-4">
+              <p className="text-xs text-muted-foreground mb-3">
+                Wenn Sie sich selbst ein Bild machen möchten:
+              </p>
+              <OfferButton className="text-sm sm:text-base px-5 py-2.5">
+                Unverbindlich informieren →
+              </OfferButton>
             </div>
-            <p className="text-sm mb-4">
-              Dieses Angebot wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum <strong>nicht öffentlich beworbenen Programm</strong> dieser deutschen Großbank. Das Angebot ist auf der regulären Website <strong>nicht auffindbar</strong>.
-            </p>
-            <p className="text-xs text-muted-foreground mb-4">
-              Hinweis: Begrenzte Plätze im aktuellen Quartal. Vollständige Einlagensicherung.
-            </p>
-            <OfferButton className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full">
-              👉 Zum versteckten Angebot dieser Großbank
-            </OfferButton>
           </div>
 
           <footer className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-border">

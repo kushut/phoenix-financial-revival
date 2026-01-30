@@ -41,13 +41,21 @@ const ArticlePage18 = () => {
           <h2>Die Lektion vom Golf-Buddy</h2>
 
           <p>
-            Es war ein Samstagnachmittag auf dem Golfplatz in Bad Homburg, als ein ehemaliger Kollege beiläufig erwähnte: „Du weißt schon, dass es seit letztem Jahr diese EU-Regelung gibt? Wir haben jetzt Zugang zu den gleichen Produkten wie die Großen."
+            Es war ein Samstagnachmittag auf dem Golfplatz in Bad Homburg, als ein ehemaliger Kollege beiläufig erwähnte: „Du weißt schon, dass eine der größten deutschen Banken seit letztem Jahr ein Programm für Privatanleger hat? Das wird nicht öffentlich beworben – aber wir haben jetzt Zugang zu den gleichen Produkten wie die Großen."
           </p>
+
+          {/* Bank Box */}
+          <div className="bg-secondary/50 border-2 border-primary/20 rounded-lg p-6 my-6">
+            <div>
+              <p className="font-bold text-lg">Eine der größten deutschen Direktbanken</p>
+              <p className="text-muted-foreground text-sm">Staatliche Beteiligung, über 5 Millionen Kunden, BaFin-reguliert</p>
+            </div>
+          </div>
 
           <div className="bg-secondary/50 border-l-4 border-primary p-4 sm:p-6 my-6 sm:my-8">
             <p className="font-semibold text-base sm:text-lg mb-2">„Ich war fassungslos"</p>
             <p className="text-sm sm:text-base text-muted-foreground">
-              „Herbert erzählte mir, dass er seit einem halben Jahr in einem Programm investiert ist, das eigentlich für Family Offices und Pensionsfonds gedacht war. Seine Rendite? 12 Prozent im Monat. Ich dachte, er hätte zu viel Sonne abbekommen."
+              „Herbert erzählte mir, dass er seit einem halben Jahr in einem <strong>nicht öffentlich beworbenen Programm</strong> dieser Großbank investiert ist. Aktives Wertpapierdepot-Management durch bankinterne Händler. Seine Rendite? 12 Prozent im Monat. Ich dachte, er hätte zu viel Sonne abbekommen."
             </p>
           </div>
 
@@ -117,11 +125,18 @@ const ArticlePage18 = () => {
             </p>
           </div>
 
-          <h2>Wer hat Zugang?</h2>
+          <h2>Das versteckte Angebot dieser Großbank</h2>
 
           <p>
-            Die Mindestanlage liegt bei 25.000 Euro – eine Schwelle, die bewusst gesetzt wurde, um „erfahrene" Privatanleger anzusprechen. Die vollständige deutsche Einlagensicherung bis 100.000 Euro gilt auch für diese Produkte.
+            Die Mindestanlage liegt bei 25.000 Euro – eine Schwelle, die bewusst gesetzt wurde, um „erfahrene" Privatanleger anzusprechen. Die vollständige deutsche Einlagensicherung bis 100.000 Euro gilt auch für dieses Programm.
           </p>
+
+          <div className="highlight-box my-6">
+            <p className="font-bold mb-2">Wichtiger Hinweis unserer Redaktion:</p>
+            <p>
+              Dieses Angebot ist <strong>nicht über die normale Homepage</strong> dieser deutschen Großbank erreichbar. Der Zugang unten führt direkt zur speziellen Angebotsseite für aktives Wertpapierdepot-Management, die normalerweise nur über persönliche Bankberater zugänglich ist.
+            </p>
+          </div>
 
           <div className="bg-muted/30 rounded-lg p-4 sm:p-6 my-6 sm:my-8">
             <h3 className="font-bold text-lg sm:text-xl mb-4">Brenners Checkliste für Interessierte</h3>
@@ -145,15 +160,19 @@ const ArticlePage18 = () => {
             </ul>
           </div>
 
-          <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 sm:p-6 my-6 sm:my-8 text-center">
-            <p className="font-bold text-lg sm:text-xl mb-3">
-              Prüfen Sie jetzt Ihre Zugangsberechtigung
+          {/* Exclusive Access Box */}
+          <div className="bg-primary/10 border-2 border-primary rounded-lg p-6 my-8">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="font-bold text-primary">🔒 Exklusiver Redaktions-Zugang</span>
+            </div>
+            <p className="text-sm mb-4">
+              Dieses Angebot wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum <strong>nicht öffentlich beworbenen Programm</strong> dieser deutschen Großbank. Das Angebot ist auf der regulären Website <strong>nicht auffindbar</strong>.
             </p>
-            <p className="text-sm sm:text-base text-muted-foreground mb-4">
-              Begrenzte Plätze im aktuellen Quartal. Vollständige Einlagensicherung.
+            <p className="text-xs text-muted-foreground mb-4">
+              Hinweis: Begrenzte Plätze im aktuellen Quartal. Vollständige Einlagensicherung.
             </p>
-            <OfferButton className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
-              Verfügbarkeit prüfen →
+            <OfferButton className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full">
+              👉 Zum versteckten Angebot dieser Großbank
             </OfferButton>
           </div>
 

@@ -1,6 +1,16 @@
 import { useState } from "react";
 import { Menu, Search } from "lucide-react";
 import ArticleSidebar from "./ArticleSidebar";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
 
 interface SpiegelHeaderProps {
   breadcrumbTitle?: string;
@@ -9,11 +19,35 @@ interface SpiegelHeaderProps {
 
 const SpiegelHeader = ({ breadcrumbTitle = "42.000 Euro verloren – wie eine Frau ihr finan...", showMenu = true }: SpiegelHeaderProps) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [warningOpen, setWarningOpen] = useState(false);
 
   return (
     <>
       {showMenu && <ArticleSidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />}
       
+      {/* Warning Dialog */}
+      <AlertDialog open={warningOpen} onOpenChange={setWarningOpen}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Hinweis</AlertDialogTitle>
+            <AlertDialogDescription>
+              Du verlässt nun diesen Artikel und gehst zur Anmeldung über.
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogAction 
+              onClick={() => setWarningOpen(false)}
+              className="bg-primary hover:bg-primary/90"
+            >
+              Nicht fortfahren
+            </AlertDialogAction>
+            <AlertDialogCancel className="border-muted-foreground/30">
+              Fortfahren
+            </AlertDialogCancel>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+
       {/* Main Header - Orange Bar */}
       <header className="spiegel-header">
         <div className="max-w-[1020px] mx-auto px-4 md:px-6">
@@ -43,10 +77,16 @@ const SpiegelHeader = ({ breadcrumbTitle = "42.000 Euro verloren – wie eine Fr
 
             {/* Right: Auth & Search */}
             <div className="flex items-center gap-4">
-              <span className="hidden md:inline text-white text-sm underline cursor-pointer hover:opacity-80">
+              <span 
+                onClick={() => setWarningOpen(true)}
+                className="hidden md:inline text-white text-sm underline cursor-pointer hover:opacity-80"
+              >
                 Abonnement
               </span>
-              <button className="hidden md:flex items-center gap-1 px-4 py-1.5 bg-white/10 hover:bg-white/20 rounded text-white text-sm font-medium border border-white/30">
+              <button 
+                onClick={() => setWarningOpen(true)}
+                className="hidden md:flex items-center gap-1 px-4 py-1.5 bg-white/10 hover:bg-white/20 rounded text-white text-sm font-medium border border-white/30"
+              >
                 Anmelden
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

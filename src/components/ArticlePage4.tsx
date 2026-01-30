@@ -11,7 +11,7 @@ const ArticlePage4 = () => {
       id: 1,
       author: "Markus T.",
       time: "vor 1 Stunde",
-      text: "Frank Thelen ist für mich der glaubwürdigste Investor in Deutschland. Wenn er das empfiehlt, probiere ich es aus.",
+      text: "Der Tech-Investor ist für mich der glaubwürdigste in Deutschland. Wenn er das empfiehlt, probiere ich es aus.",
       likes: 156
     },
     {
@@ -25,7 +25,7 @@ const ArticlePage4 = () => {
       id: 3,
       author: "Stefan R.",
       time: "vor 3 Stunden",
-      text: "Als Tech-Enthusiast vertraue ich Thelens Einschätzungen. Der Mann hat ein Gespür für gute Investments.",
+      text: "Als Tech-Enthusiast vertraue ich seinen Einschätzungen. Der Mann hat ein Gespür für gute Investments.",
       likes: 134
     },
     {
@@ -53,7 +53,7 @@ const ArticlePage4 = () => {
       id: 7,
       author: "Patrick W.",
       time: "vor 7 Stunden",
-      text: "Als Softwareentwickler schätze ich Thelens analytischen Ansatz. Solide recherchiert!",
+      text: "Als Softwareentwickler schätze ich seinen analytischen Ansatz. Solide recherchiert!",
       likes: 145
     },
     {
@@ -87,12 +87,12 @@ const ArticlePage4 = () => {
         
         {/* Title */}
         <h1 className="article-title mt-3 mb-4">
-          „Das ist wie ein Cheat-Code für Privatanleger" – Frank Thelen über sein neues Lieblings-Investment
+          „Das ist wie ein Cheat-Code für Privatanleger" – Bekannter Tech-Investor über sein neues Lieblings-Investment
         </h1>
 
         {/* Lead */}
         <p className="article-lead text-muted-foreground mb-6">
-          Der Tech-Investor und ehemalige „Die Höhle der Löwen"-Juror erklärt, warum er auf ein exklusives Angebot einer großen deutschen Bank setzt – und warum es bisher kaum jemand kennt.
+          Der erfolgreiche Startup-Investor (49) und ehemalige „Die Höhle der Löwen"-Juror erklärt, warum er auf ein exklusives Angebot einer großen deutschen Bank setzt – und warum es bisher kaum jemand kennt.
         </p>
 
         {/* Meta Info */}
@@ -127,29 +127,29 @@ const ArticlePage4 = () => {
         <figure className="mb-8">
           <img 
             src={frankThelen} 
-            alt="Frank Thelen im Interview" 
+            alt="Bekannter Tech-Investor im Interview" 
             className="w-full rounded-lg"
           />
           <figcaption className="image-caption">
-            Frank Thelen (49), Tech-Investor und Gründer von Freigeist Capital, hat ein verstecktes Bankangebot entdeckt
+            Der bekannte „Löwen"-Investor (49), Tech-Unternehmer und Gründer von Freigeist Capital, hat ein verstecktes Bankangebot entdeckt
           </figcaption>
         </figure>
 
         {/* Article Body */}
         <div className="article-body">
           <p>
-            <strong>Frank Thelen</strong> ist einer der bekanntesten Tech-Investoren Deutschlands. Als Gründer von Freigeist Capital investiert er in Zukunftstechnologien wie Flugtaxis, Kernfusion und künstliche Intelligenz. Durch „Die Höhle der Löwen" wurde er einem Millionenpublikum bekannt – als der Investor, der keine halben Sachen macht.
+            <strong>Der 49-jährige Tech-Visionär</strong> ist einer der bekanntesten Startup-Investoren Deutschlands. Als Gründer von Freigeist Capital investiert er in Zukunftstechnologien wie Flugtaxis, Kernfusion und künstliche Intelligenz. Durch „Die Höhle der Löwen" wurde er einem Millionenpublikum bekannt – als der Investor, der keine halben Sachen macht.
           </p>
 
           <p>
-            Doch jetzt spricht Thelen über etwas, das selbst in seinen Kreisen kaum bekannt ist: Ein <strong>exklusives Angebot einer der größten deutschen Banken</strong> für aktives Wertpapierdepot-Management – mit Renditen, die selbst ihn überrascht haben.
+            Doch jetzt spricht der TV-bekannte Unternehmer über etwas, das selbst in seinen Kreisen kaum bekannt ist: Ein <strong>exklusives Angebot einer der größten deutschen Banken</strong> für aktives Wertpapierdepot-Management – mit Renditen, die selbst ihn überrascht haben.
           </p>
 
           <blockquote className="article-quote">
             „Ich analysiere jeden Tag Investments. Aber als ich dieses Angebot gefunden habe, dachte ich zuerst: Das kann nicht sein. Solche Konditionen gibt es normalerweise nur für die ganz Großen."
           </blockquote>
 
-          <h2 className="article-subheading">Der Tech-Investor wird zum Bank-Enthusiasten</h2>
+          <h2 className="article-subheading">Der Startup-Guru wird zum Bank-Enthusiasten</h2>
 
           {/* Bank Box */}
           <div className="bg-secondary/50 border-2 border-primary/20 rounded-lg p-6 my-6">
@@ -160,18 +160,18 @@ const ArticlePage4 = () => {
           </div>
 
           <p>
-            Thelen, der normalerweise in Startups und Zukunftstechnologien investiert, hat eine neue Leidenschaft entdeckt: <strong>Professionelles Trading durch bankinterne Experten</strong>. Diese große deutsche Direktbank bietet ausgewählten Kunden Zugang zu einem Programm, das sonst nur Hedgefonds und institutionellen Großanlegern zur Verfügung steht.
+            Der Freigeist-Gründer, der normalerweise in Startups und Zukunftstechnologien investiert, hat eine neue Leidenschaft entdeckt: <strong>Professionelles Trading durch bankinterne Experten</strong>. Diese große deutsche Direktbank bietet ausgewählten Kunden Zugang zu einem Programm, das sonst nur Hedgefonds und institutionellen Großanlegern zur Verfügung steht.
           </p>
 
           <p>
-            „Als Technologie-Investor bin ich es gewohnt, Dinge zu hinterfragen", erklärt Thelen. „Aber hier stimmt einfach alles: Die Strategie, die Sicherheit, die Rendite. Das ist wie ein Cheat-Code für Privatanleger."
+            „Als Technologie-Investor bin ich es gewohnt, Dinge zu hinterfragen", erklärt der 49-Jährige. „Aber hier stimmt einfach alles: Die Strategie, die Sicherheit, die Rendite. Das ist wie ein Cheat-Code für Privatanleger."
           </p>
 
           {/* Feature Box */}
           <div className="info-box">
             <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
               <Rocket className="w-5 h-5 text-primary" />
-              Was Frank Thelen überzeugt hat:
+              Was den bekannten Investor überzeugt hat:
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
@@ -192,11 +192,11 @@ const ArticlePage4 = () => {
           <h2 className="article-subheading">„Normalerweise investiere ich in die Zukunft – aber das hier ist die Gegenwart"</h2>
 
           <p>
-            Thelen erklärt seinen ungewöhnlichen Schritt: „Meine Investments in Lilium, 10xDNA oder Kernfusion sind langfristig angelegt. Aber dieses Angebot liefert Ergebnisse <strong>jetzt</strong>. Das ist eine perfekte Ergänzung zu meinem Portfolio."
+            Der ehemalige „Löwen"-Juror erklärt seinen ungewöhnlichen Schritt: „Meine Investments in Lilium, 10xDNA oder Kernfusion sind langfristig angelegt. Aber dieses Angebot liefert Ergebnisse <strong>jetzt</strong>. Das ist eine perfekte Ergänzung zu meinem Portfolio."
           </p>
 
           <p>
-            Der entscheidende Punkt für Thelen: Das Angebot ist nicht öffentlich zugänglich. „Diese Bank bewirbt das nicht. Man muss wissen, dass es existiert – und den richtigen Zugang haben. Normalerweise braucht man einen persönlichen Vermögensberater oder muss institutioneller Anleger sein."
+            Der entscheidende Punkt für den Tech-Investor: Das Angebot ist nicht öffentlich zugänglich. „Diese Bank bewirbt das nicht. Man muss wissen, dass es existiert – und den richtigen Zugang haben. Normalerweise braucht man einen persönlichen Vermögensberater oder muss institutioneller Anleger sein."
           </p>
 
           <blockquote className="article-quote">
@@ -206,7 +206,7 @@ const ArticlePage4 = () => {
           <h2 className="article-subheading">Wie unsere Redaktion das versteckte Angebot fand</h2>
 
           <p>
-            Nach dem Gespräch mit Thelen machte sich unser Wirtschaftsteam auf die Suche. Das Ergebnis: Der Zugang zum Angebot ist auf der normalen Website <strong>praktisch unsichtbar</strong>. Nur durch intensive Recherche und Kontakte zur Bank konnten wir den direkten Zugang ausfindig machen.
+            Nach dem Gespräch mit dem Startup-Investor machte sich unser Wirtschaftsteam auf die Suche. Das Ergebnis: Der Zugang zum Angebot ist auf der normalen Website <strong>praktisch unsichtbar</strong>. Nur durch intensive Recherche und Kontakte zur Bank konnten wir den direkten Zugang ausfindig machen.
           </p>
 
           <div className="highlight-box">
@@ -216,10 +216,10 @@ const ArticlePage4 = () => {
             </p>
           </div>
 
-          <h2 className="article-subheading">Thelens Erfahrungsbericht</h2>
+          <h2 className="article-subheading">Der Erfahrungsbericht des „Löwen"-Investors</h2>
 
           <p>
-            „Ich habe mit einem überschaubaren Betrag angefangen – das empfehle ich jedem", berichtet Thelen. „Die ersten Wochen waren beeindruckend. Die Händler dieser Bank arbeiten mit Strategien, die ich so noch nicht gesehen habe. Algorithmus-gestütztes Trading kombiniert mit menschlicher Expertise."
+            „Ich habe mit einem überschaubaren Betrag angefangen – das empfehle ich jedem", berichtet der Freigeist-Gründer. „Die ersten Wochen waren beeindruckend. Die Händler dieser Bank arbeiten mit Strategien, die ich so noch nicht gesehen habe. Algorithmus-gestütztes Trading kombiniert mit menschlicher Expertise."
           </p>
 
           <p>
@@ -233,7 +233,7 @@ const ArticlePage4 = () => {
           <h2 className="article-subheading">Für wen eignet sich das Angebot?</h2>
 
           <p>
-            Thelen ist direkt: „Das ist nichts für Zocker. Es ist für Menschen, die:
+            Der 49-Jährige ist direkt: „Das ist nichts für Zocker. Es ist für Menschen, die:
           </p>
 
           <ul className="list-disc pl-6 mb-6 space-y-2">
@@ -250,7 +250,7 @@ const ArticlePage4 = () => {
           <h2 className="article-subheading">Die Zeit läuft</h2>
 
           <p>
-            Auf die Frage, wie lange das Angebot noch besteht, wird Thelen nachdenklich: „Die Bank hat mir gesagt, dass die Kapazitäten der Händler begrenzt sind. Es können nicht unbegrenzt viele Privatanleger aufgenommen werden. Wenn die Plätze weg sind, ist das Angebot geschlossen."
+            Auf die Frage, wie lange das Angebot noch besteht, wird der bekannte Investor nachdenklich: „Die Bank hat mir gesagt, dass die Kapazitäten der Händler begrenzt sind. Es können nicht unbegrenzt viele Privatanleger aufgenommen werden. Wenn die Plätze weg sind, ist das Angebot geschlossen."
           </p>
 
           <p>
@@ -286,7 +286,7 @@ const ArticlePage4 = () => {
         <div className="article-body">
           <blockquote className="article-quote">
             „Mein Tipp: Nicht zu lange überlegen. Solche Chancen kommen selten – und verschwinden schnell. Ich selbst bin froh, dass ich rechtzeitig eingestiegen bin."
-            <footer className="mt-2 text-base not-italic">— Frank Thelen</footer>
+            <footer className="mt-2 text-base not-italic">— Der bekannte „Löwen"-Investor</footer>
           </blockquote>
         </div>
 
@@ -344,7 +344,7 @@ const ArticlePage4 = () => {
             Verpassen Sie nicht diese einmalige Chance
           </h3>
           <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-            Frank Thelen hat den Weg gezeigt. Nutzen Sie jetzt den exklusiven Zugang zum Angebot, bevor die begrenzten Plätze vergeben sind.
+            Der bekannte Tech-Investor hat den Weg gezeigt. Nutzen Sie jetzt den exklusiven Zugang zum Angebot, bevor die begrenzten Plätze vergeben sind.
           </p>
           <OfferButton className="text-lg">
             👉 Zum versteckten Angebot

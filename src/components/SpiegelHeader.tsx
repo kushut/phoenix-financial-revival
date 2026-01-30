@@ -4,14 +4,15 @@ import ArticleSidebar from "./ArticleSidebar";
 
 interface SpiegelHeaderProps {
   breadcrumbTitle?: string;
+  showMenu?: boolean;
 }
 
-const SpiegelHeader = ({ breadcrumbTitle = "42.000 Euro verloren – wie eine Frau ihr finan..." }: SpiegelHeaderProps) => {
+const SpiegelHeader = ({ breadcrumbTitle = "42.000 Euro verloren – wie eine Frau ihr finan...", showMenu = true }: SpiegelHeaderProps) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
     <>
-      <ArticleSidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
+      {showMenu && <ArticleSidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />}
       
       {/* Main Header - Orange Bar */}
       <header className="spiegel-header">
@@ -19,13 +20,15 @@ const SpiegelHeader = ({ breadcrumbTitle = "42.000 Euro verloren – wie eine Fr
           <div className="flex items-center justify-between h-14">
             {/* Left: Menu */}
             <div className="flex items-center gap-4">
-              <button 
-                onClick={() => setSidebarOpen(true)}
-                className="flex items-center gap-2 text-white hover:opacity-80"
-              >
-                <Menu className="w-5 h-5" />
-                <span className="hidden md:inline font-semibold text-sm">Menü</span>
-              </button>
+              {showMenu && (
+                <button 
+                  onClick={() => setSidebarOpen(true)}
+                  className="flex items-center gap-2 text-white hover:opacity-80"
+                >
+                  <Menu className="w-5 h-5" />
+                  <span className="hidden md:inline font-semibold text-sm">Menü</span>
+                </button>
+              )}
             </div>
 
             {/* Center: Logo */}

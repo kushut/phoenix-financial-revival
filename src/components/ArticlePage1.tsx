@@ -2,6 +2,8 @@ import { Bookmark, Play, Share2, CheckCircle, ThumbsUp, MessageCircle } from "lu
 import heroImage from "@/assets/sparkasse-polizei.jpg";
 import lochImage from "@/assets/sparkasse-loch.jpg";
 import ehepaarImage from "@/assets/ehepaar-heinz-maria.png";
+import SpiegelHeader from "./SpiegelHeader";
+
 const ArticlePage = () => {
   const comments = [
     {
@@ -126,8 +128,10 @@ const ArticlePage = () => {
   ];
 
   return (
-    <main className="bg-white">
-      <article className="max-w-[1020px] mx-auto">
+    <div className="min-h-screen bg-background">
+      <SpiegelHeader breadcrumbTitle="65.000 Euro im Sparkassen-Fiasko verloren" showMenu={false} />
+      <main className="bg-white">
+        <article className="max-w-[1020px] mx-auto">
         {/* Article Header */}
         <header className="px-4 md:px-6 lg:px-24 pt-8 md:pt-12">
           <div className="max-w-[680px] mx-auto">
@@ -449,8 +453,9 @@ const ArticlePage = () => {
             </div>
           </div>
         </div>
-      </article>
-    </main>
+        </article>
+      </main>
+    </div>
   );
 };
 

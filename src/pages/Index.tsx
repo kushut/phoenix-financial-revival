@@ -60,12 +60,12 @@ const Index = () => {
             to="/frank-thelen-cheat-code" 
             className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
           >
-            <span className="category-tag text-xs sm:text-sm">Thelen-Interview</span>
+            <span className="category-tag text-xs sm:text-sm">Exklusiv-Interview</span>
             <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
-              „Das ist wie ein Cheat-Code" – Frank Thelen über sein neues Lieblings-Investment
+              „Das ist wie ein Cheat-Code" – Bekannter Tech-Investor über sein neues Lieblings-Investment
             </h2>
             <p className="text-muted-foreground mt-2 text-sm sm:text-base">
-              Der Tech-Investor erklärt, warum er auf ein exklusives Angebot einer Großbank setzt.
+              Der erfolgreiche „Löwen"-Investor (49) erklärt, warum er auf ein exklusives Angebot einer Großbank setzt.
             </p>
           </Link>
 

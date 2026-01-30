@@ -118,31 +118,35 @@ const ArticlePage = () => {
           </div>
         </div>
 
-        {/* Hero Image with Couple Overlay */}
-        <figure className="mt-6 px-4 md:px-6 lg:px-24">
-          <div className="relative rounded overflow-hidden">
-            <img 
-              src={heroImage} 
-              alt="Polizeieinsatz vor der Sparkasse Gelsenkirchen-Buer" 
-              className="w-full h-auto object-cover"
-            />
-            {/* Couple Image Overlay */}
-            <div className="absolute bottom-4 right-4 w-28 md:w-36 rounded-lg overflow-hidden shadow-lg border-2 border-white">
+        {/* Hero Images - Side by Side */}
+        <div className="mt-6 px-4 md:px-6 lg:px-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {/* Police Image */}
+            <figure className="rounded overflow-hidden">
+              <img 
+                src={heroImage} 
+                alt="Polizeieinsatz vor der Sparkasse Gelsenkirchen-Buer" 
+                className="w-full h-auto object-cover"
+              />
+              <figcaption className="image-caption">
+                <p>Polizeieinsatz vor der Sparkassen-Filiale</p>
+                <span className="text-xs text-muted-foreground ml-1">Foto: WDR</span>
+              </figcaption>
+            </figure>
+
+            {/* Couple Image */}
+            <figure className="rounded overflow-hidden">
               <img 
                 src={ehepaarImage} 
                 alt="Heinz und Maria - betroffenes Ehepaar" 
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
               />
-              <div className="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-xs py-1 px-2 text-center">
-                Heinz & Maria
-              </div>
-            </div>
+              <figcaption className="image-caption">
+                <p>Heinz (71) und Maria (69) verloren 65.000 Euro</p>
+              </figcaption>
+            </figure>
           </div>
-          <figcaption className="image-caption">
-            <p>Polizeieinsatz vor der Sparkassen-Filiale in Gelsenkirchen-Buer</p>
-            <span className="text-xs text-muted-foreground ml-1">Foto: WDR</span>
-          </figcaption>
-        </figure>
+        </div>
 
         {/* Article Body */}
         <div className="px-4 md:px-6 lg:px-24 mt-10">

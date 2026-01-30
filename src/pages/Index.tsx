@@ -28,10 +28,10 @@ const Index = () => {
           >
             <span className="category-tag text-sm">Seniorin-Geschichte</span>
             <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
-              42.000 Euro verloren – und wie eine Seniorin ihr Vermögen wieder stabilisierte
+              42.000 Euro verloren – und wie Hildegard Krause ihr Vermögen wieder stabilisierte
             </h2>
             <p className="text-muted-foreground mt-2">
-              Eine 69-jährige Seniorin fand nach dem Schock einen Weg zurück zur finanziellen Sicherheit.
+              Hildegard Krause (69) fand nach dem Schock einen Weg zurück zur finanziellen Sicherheit.
             </p>
           </Link>
 

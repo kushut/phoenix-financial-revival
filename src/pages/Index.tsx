@@ -34,6 +34,19 @@ const Index = () => {
               Eine 69-jährige Seniorin fand nach dem Schock einen Weg zurück zur finanziellen Sicherheit.
             </p>
           </Link>
+
+          <Link 
+            to="/site3" 
+            className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-sm">Site 3 – DKB</span>
+            <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
+              „Bis zu 17% im Monat" – Carsten Maschmeyer enthüllt geheimes Bank-Angebot
+            </h2>
+            <p className="text-muted-foreground mt-2">
+              Der „Höhle der Löwen"-Investor spricht über ein exklusives DKB-Angebot für aktives Depot-Management.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

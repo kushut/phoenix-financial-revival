@@ -134,20 +134,22 @@ const ArticlePage16 = () => {
             </p>
           </div>
 
-          {/* Exclusive Access Box - like Maschmeyer */}
-          <div className="bg-primary/10 border-2 border-primary rounded-lg p-6 my-8">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="font-bold text-primary">🔒 Exklusiver Redaktions-Zugang</span>
+          {/* Soft CTA Box */}
+          <div className="bg-secondary/30 border border-border rounded-lg p-6 my-8">
+            <p className="text-sm sm:text-base mb-4">
+              <strong>Anmerkung der Redaktion:</strong> Dr. Lange hat uns gebeten, interessierten Lesern den gleichen Zugang zu ermöglichen, den er über seinen Berater erhalten hat. Nach Rücksprache mit der Bank haben wir einen direkten Informationsweg eingerichtet.
+            </p>
+            <p className="text-sm text-muted-foreground mb-4">
+              Das Programm wird nicht aktiv beworben und ist auf der regulären Website nicht zu finden. Die Plätze sind aufgrund der Kapazitäten begrenzt.
+            </p>
+            <div className="border-t border-border pt-4 mt-4">
+              <p className="text-xs text-muted-foreground mb-3">
+                Wenn Sie sich selbst ein Bild machen möchten:
+              </p>
+              <OfferButton className="text-sm sm:text-base px-5 py-2.5">
+                Unverbindlich informieren →
+              </OfferButton>
             </div>
-            <p className="text-sm mb-4">
-              Dieses Angebot wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum <strong>nicht öffentlich beworbenen Programm</strong> dieser deutschen Großbank für aktives Wertpapierdepot-Management. Das Angebot ist auf der regulären Website <strong>nicht auffindbar</strong>.
-            </p>
-            <p className="text-xs text-muted-foreground mb-4">
-              Hinweis: Begrenzte Plätze verfügbar. Das Angebot kann jederzeit geschlossen werden.
-            </p>
-            <OfferButton className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full">
-              👉 Zum versteckten Angebot dieser Großbank
-            </OfferButton>
           </div>
 
           <footer className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-border">

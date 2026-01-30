@@ -93,7 +93,7 @@ const ArticlePage2 = () => {
 
   return (
     <main className="bg-white">
-      <SpiegelHeader />
+      <SpiegelHeader showMenu={false} />
       <article className="max-w-[1020px] mx-auto">
         {/* Article Header */}
         <header className="px-4 md:px-6 lg:px-24 pt-8 md:pt-12">

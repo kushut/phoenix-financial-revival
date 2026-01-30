@@ -22,6 +22,7 @@ import Site15 from "./pages/Site15";
 import Site16 from "./pages/Site16";
 import Site17 from "./pages/Site17";
 import Site18 from "./pages/Site18";
+import Site19 from "./pages/Site19";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
@@ -53,6 +54,7 @@ const App = () => (
           <Route path="/chefarzt-verdoppelt-50000" element={<Site16 />} />
           <Route path="/bankgeheimnis-insider-dokument" element={<Site17 />} />
           <Route path="/siemens-manager-beste-entscheidung" element={<Site18 />} />
+          <Route path="/oppositionsfuehrerin-fordert-fair-access" element={<Site19 />} />
           <Route path="/admin" element={<Admin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

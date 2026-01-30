@@ -250,6 +250,19 @@ const Index = () => {
               Wolfgang Brenner plante, von seinen Ersparnissen zu leben. Dann erfuhr er von einer Anlagemöglichkeit, die alles änderte.
             </p>
           </Link>
+
+          <Link 
+            to="/oppositionsfuehrerin-fordert-fair-access" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Politik & Finanzen</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              „Deutsche Rentner werden systematisch benachteiligt" – Oppositionsführerin fordert Zugang zu exklusiven Bankkonditionen
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Die promovierte Volkswirtin und ehemalige Goldman-Sachs-Managerin überrascht mit einer finanzpolitischen Initiative für Rentner.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

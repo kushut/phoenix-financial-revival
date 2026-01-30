@@ -125,6 +125,19 @@ const Index = () => {
               Stiftung Warentest empfiehlt Alternativen – ein Ehepaar aus Dresden zeigt, wie es besser geht.
             </p>
           </Link>
+
+          <Link 
+            to="/stiftung-warentest-warnung-sparer" 
+            className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-sm">Verbraucherschutz</span>
+            <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
+              Stiftung Warentest warnt: „Diese Anlageformen kosten Rentner jährlich Milliarden"
+            </h2>
+            <p className="text-muted-foreground mt-2">
+              Die Verbraucherschützer kritisieren teure Bankprodukte – und entdecken eine überraschende Ausnahme.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

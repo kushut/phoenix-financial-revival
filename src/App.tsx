@@ -10,6 +10,7 @@ import Site3 from "./pages/Site3";
 import Site4 from "./pages/Site4";
 import Site5 from "./pages/Site5";
 import Site6 from "./pages/Site6";
+import Site7 from "./pages/Site7";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/frank-thelen-cheat-code" element={<Site4 />} />
           <Route path="/eu-bankenregeln-fair-access" element={<Site5 />} />
           <Route path="/vw-ingenieur-finanzielle-freiheit" element={<Site6 />} />
+          <Route path="/krankenschwester-entdeckt-bank-geheimnis" element={<Site7 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

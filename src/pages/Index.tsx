@@ -86,6 +86,19 @@ const Index = () => {
               Rainer Hoffmann wurde nach 28 Jahren gekündigt. Ein Gespräch mit seinem Bankberater veränderte alles.
             </p>
           </Link>
+
+          <Link 
+            to="/krankenschwester-entdeckt-bank-geheimnis" 
+            className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-sm">Exklusiv-Bericht</span>
+            <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
+              Nach 30 Jahren Schichtdienst: Krankenschwester entdeckt „geheimes" Bank-Angebot
+            </h2>
+            <p className="text-muted-foreground mt-2">
+              Petra Schneider wollte nur ihr Erspartes sicher anlegen. Was sie fand, veränderte ihr Leben.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

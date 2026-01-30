@@ -18,7 +18,7 @@ const ArticlePage20 = () => {
 
         {/* Headline */}
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold font-spiegel-serif leading-tight mb-4">
-          „Das Geld gehört dem deutschen Volk, nicht den internationalen Fonds" – Bekannte Wirtschaftspolitikerin im Exklusiv-Interview
+          „Unsere Rentner werden betrogen" – Bekannte Wirtschaftspolitikerin fordert Gerechtigkeit für deutsche Senioren
         </h1>
 
         {/* Teaser */}

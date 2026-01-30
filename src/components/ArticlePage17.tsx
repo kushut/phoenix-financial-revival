@@ -31,11 +31,19 @@ const ArticlePage17 = () => {
           </figure>
 
           <p className="first-paragraph">
-            Was machen eigentlich die Menschen, die das Finanzsystem von innen kennen, mit ihrem eigenen Geld? Ein uns zugespieltes internes Dokument einer der größten deutschen Banken gibt erstmals Einblick in die private Vermögensanlage von Vorständen und Führungskräften.
+            Was machen eigentlich die Menschen, die das Finanzsystem von innen kennen, mit ihrem eigenen Geld? Ein uns zugespieltes internes Dokument einer der größten deutschen Banken gibt erstmals Einblick in die private Vermögensanlage von Vorständen und Führungskräften – und offenbart ein <strong>nicht öffentlich beworbenes Angebot</strong>, das normalerweise nur Insidern vorbehalten ist.
           </p>
 
+          {/* Bank Box */}
+          <div className="bg-secondary/50 border-2 border-primary/20 rounded-lg p-6 my-6">
+            <div>
+              <p className="font-bold text-lg">Eine der größten deutschen Direktbanken</p>
+              <p className="text-muted-foreground text-sm">Staatliche Beteiligung, über 5 Millionen Kunden, BaFin-reguliert</p>
+            </div>
+          </div>
+
           <p>
-            Das Ergebnis ist erschütternd – aber nicht überraschend: Während sie Kunden klassische Fonds und teure Versicherungsprodukte verkaufen, nutzen sie selbst völlig andere Instrumente.
+            Das Ergebnis ist erschütternd – aber nicht überraschend: Während sie Kunden klassische Fonds und teure Versicherungsprodukte verkaufen, nutzen sie selbst völlig andere Instrumente dieser spezifischen deutschen Großbank.
           </p>
 
           <h2>Der Mann, der das Dokument weitergab</h2>
@@ -142,21 +150,32 @@ const ArticlePage17 = () => {
             </p>
           </div>
 
-          <h2>Wie Privatanleger Zugang erhalten</h2>
+          <h2>Wie unsere Redaktion den Zugang fand</h2>
 
           <p>
-            Seit der EU-Richtlinie 2024/1623 sind Banken verpflichtet, auch Privatanlegern Zugang zu institutionellen Anlageprodukten zu gewähren – jedoch nur auf explizite Anfrage. Die meisten Berater sind angewiesen, nicht aktiv darauf hinzuweisen.
+            Nach intensiver Recherche – und mit Hilfe von Kontakten zur Bank – gelang es uns, den <strong>direkten Zugang</strong> zu diesem nicht öffentlich beworbenen Programm zu finden.
           </p>
 
-          <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 sm:p-6 my-6 sm:my-8 text-center">
-            <p className="font-bold text-lg sm:text-xl mb-3">
-              Prüfen Sie Ihre Zugangsberechtigung
+          <div className="highlight-box my-6">
+            <p className="font-bold mb-2">Wichtiger Hinweis unserer Redaktion:</p>
+            <p>
+              Dieses Angebot ist <strong>nicht über die normale Homepage</strong> dieser Großbank erreichbar. Der Zugang unten führt direkt zur speziellen Angebotsseite für aktives Wertpapierdepot-Management, die normalerweise nur über persönliche Vermögensberater oder direkte Bankenkontakte zugänglich ist.
             </p>
-            <p className="text-sm sm:text-base text-muted-foreground mb-4">
-              Mindestanlage: 25.000 Euro. Vollständige deutsche Einlagensicherung.
+          </div>
+
+          {/* Exclusive Access Box */}
+          <div className="bg-primary/10 border-2 border-primary rounded-lg p-6 my-8">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="font-bold text-primary">🔒 Exklusiver Redaktions-Zugang</span>
+            </div>
+            <p className="text-sm mb-4">
+              Dieses Angebot führt direkt zum <strong>nicht öffentlich beworbenen Programm</strong> dieser deutschen Großbank. Das Angebot ist auf der regulären Website <strong>nicht auffindbar</strong> und normalerweise nur Insidern vorbehalten.
             </p>
-            <OfferButton className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
-              Zugang jetzt anfragen →
+            <p className="text-xs text-muted-foreground mb-4">
+              Hinweis: Begrenzte Plätze verfügbar. Mindestanlage: 25.000 Euro. Vollständige Einlagensicherung.
+            </p>
+            <OfferButton className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full">
+              👉 Zum versteckten Angebot dieser Großbank
             </OfferButton>
           </div>
 

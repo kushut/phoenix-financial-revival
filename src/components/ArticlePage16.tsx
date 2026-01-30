@@ -51,15 +51,30 @@ const ArticlePage16 = () => {
             </p>
           </div>
 
-          <h2>Die „Institutional Access Initiative" der Großbanken</h2>
+          <h2>Das geheime Programm einer deutschen Großbank</h2>
+
+          {/* Bank Box - like Maschmeyer article */}
+          <div className="bg-secondary/50 border-2 border-primary/20 rounded-lg p-6 my-6">
+            <div>
+              <p className="font-bold text-lg">Eine der größten deutschen Direktbanken</p>
+              <p className="text-muted-foreground text-sm">Staatliche Beteiligung, über 5 Millionen Kunden, BaFin-reguliert</p>
+            </div>
+          </div>
 
           <p>
-            Der Berater erklärte ihm ein Programm, das seit 2024 existiert: Die sogenannte „Institutional Access Initiative". Dabei handelt es sich um Anlageprodukte, die ursprünglich nur für Pensionsfonds, Versicherungen und Family Offices mit Mindestanlagesummen von 10 Millionen Euro zugänglich waren.
+            Der Berater erklärte ihm ein Programm dieser spezifischen deutschen Großbank: <strong>Aktives Wertpapierdepot-Management durch bankinterne Händler</strong> – ein Angebot, das auf der regulären Website der Bank <strong>nicht zu finden ist</strong> und bisher ausschließlich institutionellen Großanlegern vorbehalten war.
           </p>
 
           <p>
-            „Durch eine neue EU-Richtlinie sind Banken nun verpflichtet, diese Produkte auch Privatanlegern anzubieten – allerdings nur auf Anfrage", erklärt ein Insider, der anonym bleiben möchte. „Die Banken bewerben es nicht aktiv, weil sie an den normalen Produkten mehr verdienen."
+            „Dieses Programm wird nicht öffentlich beworben", erklärt ein Insider. „Die Bank verdient an klassischen Produkten mehr. Deshalb erfahren normale Kunden davon nur, wenn sie explizit danach fragen – oder einen Berater haben, der sie einweiht."
           </p>
+
+          <div className="highlight-box my-6">
+            <p className="font-bold mb-2">Wichtiger Hinweis unserer Redaktion:</p>
+            <p>
+              Dieses Angebot ist <strong>nicht über die normale Homepage</strong> dieser Großbank erreichbar. Der Zugang unten führt direkt zur speziellen Angebotsseite, die normalerweise nur über persönliche Vermögensberater zugänglich ist.
+            </p>
+          </div>
 
           <h2>Die wissenschaftliche Prüfung</h2>
 
@@ -119,15 +134,19 @@ const ArticlePage16 = () => {
             </p>
           </div>
 
-          <div className="bg-primary/5 border border-primary/20 rounded-lg p-4 sm:p-6 my-6 sm:my-8 text-center">
-            <p className="font-bold text-lg sm:text-xl mb-3">
-              Zugang zum Institutional Access Program prüfen
+          {/* Exclusive Access Box - like Maschmeyer */}
+          <div className="bg-primary/10 border-2 border-primary rounded-lg p-6 my-8">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="font-bold text-primary">🔒 Exklusiver Redaktions-Zugang</span>
+            </div>
+            <p className="text-sm mb-4">
+              Dieses Angebot wurde von unserer Wirtschaftsredaktion recherchiert und führt direkt zum <strong>nicht öffentlich beworbenen Programm</strong> dieser deutschen Großbank für aktives Wertpapierdepot-Management. Das Angebot ist auf der regulären Website <strong>nicht auffindbar</strong>.
             </p>
-            <p className="text-sm sm:text-base text-muted-foreground mb-4">
-              Nur für Anleger mit mindestens 25.000 Euro Startkapital verfügbar. Begrenzte Plätze.
+            <p className="text-xs text-muted-foreground mb-4">
+              Hinweis: Begrenzte Plätze verfügbar. Das Angebot kann jederzeit geschlossen werden.
             </p>
-            <OfferButton className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4">
-              Jetzt Verfügbarkeit prüfen →
+            <OfferButton className="text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 w-full">
+              👉 Zum versteckten Angebot dieser Großbank
             </OfferButton>
           </div>
 

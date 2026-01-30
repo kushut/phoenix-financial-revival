@@ -3,6 +3,7 @@ import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Award, Rocket } from "lucide-react";
 import dkbLogo from "@/assets/dkb-logo.png";
+import frankThelen from "@/assets/frank-thelen.png";
 
 const ArticlePage4 = () => {
   const comments = [
@@ -122,17 +123,13 @@ const ArticlePage4 = () => {
           </div>
         </div>
 
-        {/* Hero Image - Placeholder for Frank Thelen */}
+        {/* Hero Image */}
         <figure className="mb-8">
-          <div className="bg-gradient-to-br from-secondary to-muted p-8 rounded-lg flex items-center justify-center">
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-primary/20 flex items-center justify-center">
-                <span className="text-4xl font-bold text-primary">FT</span>
-              </div>
-              <p className="font-spiegel-serif text-xl font-bold">Frank Thelen</p>
-              <p className="text-muted-foreground">Tech-Investor & Gründer</p>
-            </div>
-          </div>
+          <img 
+            src={frankThelen} 
+            alt="Frank Thelen im Interview" 
+            className="w-full rounded-lg"
+          />
           <figcaption className="image-caption">
             Frank Thelen (49), Tech-Investor und Gründer von Freigeist Capital, hat ein verstecktes Bankangebot entdeckt
           </figcaption>

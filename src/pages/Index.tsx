@@ -270,7 +270,7 @@ const Index = () => {
           >
             <span className="category-tag text-xs sm:text-sm">Exklusiv-Interview</span>
             <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
-              „Unsere Rentner werden betrogen" – Bekannte Wirtschaftspolitikerin fordert Gerechtigkeit für Senioren
+              „Unsere Rentner werden betrogen" – Bekannte Parteichefin fordert Gerechtigkeit für Senioren
             </h2>
             <p className="text-muted-foreground mt-2 text-sm sm:text-base">
               Die promovierte Ökonomin fordert: Rentner sollen endlich von den gleichen Renditen profitieren wie Großinvestoren.

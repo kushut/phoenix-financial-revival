@@ -18,7 +18,7 @@ const ArticlePage3 = () => {
       id: 2,
       author: "Petra W.",
       time: "vor 3 Stunden", 
-      text: "Wenn sogar Maschmeyer das empfiehlt, muss da was dran sein. Der Mann hat Milliarden verdient.",
+      text: "Wenn sogar der Löwen-Star das empfiehlt, muss da was dran sein. Der Mann hat Milliarden verdient.",
       likes: 134
     },
     {
@@ -87,12 +87,12 @@ const ArticlePage3 = () => {
         
         {/* Title */}
         <h1 className="article-title mt-3 mb-4">
-          „Bis zu 17% im Monat" – Wie Carsten Maschmeyer ein geheimes Bank-Angebot entdeckte
+          „Bis zu 17% im Monat" – Wie der bekannte „Löwen"-Investor ein geheimes Bank-Angebot entdeckte
         </h1>
 
         {/* Lead */}
         <p className="article-lead text-muted-foreground mb-6">
-          Der bekannte Investor und „Die Höhle der Löwen"-Juror spricht erstmals über ein exklusives Angebot einer großen deutschen Bank, das bisher nur institutionellen Anlegern vorbehalten war – und jetzt auch für Privatpersonen zugänglich ist.
+          Der Multi-Milliardär und „Die Höhle der Löwen"-Star (65) spricht erstmals über ein exklusives Angebot einer großen deutschen Bank, das bisher nur institutionellen Anlegern vorbehalten war – und jetzt auch für Privatpersonen zugänglich ist.
         </p>
 
         {/* Meta Info */}
@@ -127,22 +127,22 @@ const ArticlePage3 = () => {
         <figure className="mb-8">
           <img 
             src={maschmeyer} 
-            alt="Carsten Maschmeyer im Interview" 
+            alt="Der bekannte Investor im Interview" 
             className="w-full rounded-lg"
           />
           <figcaption className="image-caption">
-            Carsten Maschmeyer (65), bekannt aus „Die Höhle der Löwen", hat ein exklusives Bankangebot entdeckt
+            Der Multi-Milliardär (65), bekannt als „Höhle der Löwen"-Investor, hat ein exklusives Bankangebot entdeckt
           </figcaption>
         </figure>
 
         {/* Article Body */}
         <div className="article-body">
           <p>
-            <strong>Carsten Maschmeyer</strong> gehört zu den bekanntesten Investoren Deutschlands. Als Gründer des AWD-Finanzvertriebs wurde er zum Milliardär, als Juror bei „Die Höhle der Löwen" erreicht er ein Millionenpublikum. Doch was viele nicht wissen: Der 65-Jährige ist ständig auf der Suche nach Anlageformen, die selbst ihm neue Möglichkeiten eröffnen.
+            <strong>Der bekannte „Löwen"-Investor</strong> gehört zu den erfolgreichsten Unternehmern Deutschlands. Als Gründer eines der größten Finanzvertriebe wurde er zum Milliardär, als Juror bei „Die Höhle der Löwen" erreicht er ein Millionenpublikum. Doch was viele nicht wissen: Der 65-Jährige ist ständig auf der Suche nach Anlageformen, die selbst ihm neue Möglichkeiten eröffnen.
           </p>
 
           <p>
-            In einem exklusiven Interview spricht Maschmeyer nun erstmals über eine Entdeckung, die selbst ihn überrascht hat: Ein Angebot einer der größten deutschen Banken für <strong>aktives Wertpapierdepot-Management durch bankinterne Händler</strong> – mit Renditen von bis zu 17% im Monat.
+            In einem exklusiven Interview spricht der TV-bekannte Investor nun erstmals über eine Entdeckung, die selbst ihn überrascht hat: Ein Angebot einer der größten deutschen Banken für <strong>aktives Wertpapierdepot-Management durch bankinterne Händler</strong> – mit Renditen von bis zu 17% im Monat.
           </p>
 
           <blockquote className="article-quote">
@@ -188,7 +188,7 @@ const ArticlePage3 = () => {
           <h2 className="article-subheading">„Normalerweise braucht man Millionen, um Zugang zu bekommen"</h2>
 
           <p>
-            Maschmeyer erklärt die Hintergründe: „Professionelles Trading-Management mit solchen Konditionen ist in der Finanzwelt bekannt – aber eben nur in bestimmten Kreisen. Normalerweise müssen Sie Millionen mitbringen oder institutioneller Anleger sein, um überhaupt angesprochen zu werden."
+            Der Milliardär erklärt die Hintergründe: „Professionelles Trading-Management mit solchen Konditionen ist in der Finanzwelt bekannt – aber eben nur in bestimmten Kreisen. Normalerweise müssen Sie Millionen mitbringen oder institutioneller Anleger sein, um überhaupt angesprochen zu werden."
           </p>
 
           <p>
@@ -202,7 +202,7 @@ const ArticlePage3 = () => {
           <h2 className="article-subheading">Wie die Redaktion das versteckte Angebot fand</h2>
 
           <p>
-            Nach dem Interview mit Maschmeyer machte sich unsere Wirtschaftsredaktion auf die Suche nach dem besagten Angebot. Nach intensiver Recherche – und mit Hilfe von Kontakten zur Bank – gelang es uns tatsächlich, den <strong>direkten Zugang</strong> zu finden.
+            Nach dem Interview mit dem „Löwen"-Star machte sich unsere Wirtschaftsredaktion auf die Suche nach dem besagten Angebot. Nach intensiver Recherche – und mit Hilfe von Kontakten zur Bank – gelang es uns tatsächlich, den <strong>direkten Zugang</strong> zu finden.
           </p>
 
           <div className="highlight-box">
@@ -212,14 +212,14 @@ const ArticlePage3 = () => {
             </p>
           </div>
 
-          <h2 className="article-subheading">Maschmeyers persönliche Erfahrung</h2>
+          <h2 className="article-subheading">Die persönliche Erfahrung des Investors</h2>
 
           <p>
-            Der Investor berichtet von seinen eigenen Erfahrungen: „Ich habe das Angebot natürlich selbst getestet, bevor ich darüber spreche. Die Ergebnisse waren beeindruckend. Die Händler dieser Bank arbeiten mit Strategien, die normalerweise nur den Profis vorbehalten sind – Arbitrage, Momentum-Trading, gezielte Absicherungsgeschäfte."
+            Der „Löwen"-Juror berichtet von seinen eigenen Erfahrungen: „Ich habe das Angebot natürlich selbst getestet, bevor ich darüber spreche. Die Ergebnisse waren beeindruckend. Die Händler dieser Bank arbeiten mit Strategien, die normalerweise nur den Profis vorbehalten sind – Arbitrage, Momentum-Trading, gezielte Absicherungsgeschäfte."
           </p>
 
           <p>
-            Besonders wichtig für Maschmeyer: die Sicherheit. „Viele Menschen haben Angst vor der Börse, weil sie an Spekulanten denken. Aber hier ist alles durch die <strong>gesetzliche Einlagensicherung von 100.000 Euro</strong> abgesichert. Das ist ein enormer Unterschied zu vielen anderen Angeboten."
+            Besonders wichtig für den Multi-Milliardär: die Sicherheit. „Viele Menschen haben Angst vor der Börse, weil sie an Spekulanten denken. Aber hier ist alles durch die <strong>gesetzliche Einlagensicherung von 100.000 Euro</strong> abgesichert. Das ist ein enormer Unterschied zu vielen anderen Angeboten."
           </p>
 
           <blockquote className="article-quote">
@@ -229,7 +229,7 @@ const ArticlePage3 = () => {
           <h2 className="article-subheading">Für wen ist dieses Angebot geeignet?</h2>
 
           <p>
-            Laut Maschmeyer eignet sich das Angebot besonders für Menschen, die:
+            Laut dem TV-bekannten Investor eignet sich das Angebot besonders für Menschen, die:
           </p>
 
           <ul className="list-disc pl-6 mb-6 space-y-2">
@@ -240,13 +240,13 @@ const ArticlePage3 = () => {
           </ul>
 
           <p>
-            „Es ist nicht für jeden", betont Maschmeyer. „Man sollte nur Geld investieren, das man nicht kurzfristig braucht. Aber für Menschen, die langfristig denken und mehr aus ihrem Geld machen wollen, ist das eine echte Chance."
+            „Es ist nicht für jeden", betont der 65-Jährige. „Man sollte nur Geld investieren, das man nicht kurzfristig braucht. Aber für Menschen, die langfristig denken und mehr aus ihrem Geld machen wollen, ist das eine echte Chance."
           </p>
 
           <h2 className="article-subheading">Das Zeitfenster schließt sich</h2>
 
           <p>
-            Auf die Frage, wie lange das Angebot noch verfügbar sein wird, bleibt Maschmeyer vage: „Die Bank hat mir gesagt, dass sie nur eine begrenzte Anzahl von Privatanlegern aufnehmen können. Die Kapazitäten der Händler sind begrenzt. Sobald die Plätze vergeben sind, ist Schluss."
+            Auf die Frage, wie lange das Angebot noch verfügbar sein wird, bleibt der Milliardär vage: „Die Bank hat mir gesagt, dass sie nur eine begrenzte Anzahl von Privatanlegern aufnehmen können. Die Kapazitäten der Händler sind begrenzt. Sobald die Plätze vergeben sind, ist Schluss."
           </p>
 
           <p>
@@ -282,7 +282,7 @@ const ArticlePage3 = () => {
         <div className="article-body">
           <blockquote className="article-quote">
             „Mein Rat an jeden, der das hier liest: Schauen Sie sich das Angebot an, solange es noch verfügbar ist. Solche Chancen kommen nicht oft – und sie verschwinden schnell wieder."
-            <footer className="mt-2 text-base not-italic">— Carsten Maschmeyer</footer>
+            <footer className="mt-2 text-base not-italic">— Der „Höhle der Löwen"-Investor</footer>
           </blockquote>
         </div>
 
@@ -340,7 +340,7 @@ const ArticlePage3 = () => {
             Verpassen Sie nicht diese einmalige Chance
           </h3>
           <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-            Carsten Maschmeyer hat den Weg gezeigt. Nutzen Sie jetzt den exklusiven Zugang zum Angebot, bevor die begrenzten Plätze vergeben sind.
+            Der bekannte „Löwen"-Investor hat den Weg gezeigt. Nutzen Sie jetzt den exklusiven Zugang zum Angebot, bevor die begrenzten Plätze vergeben sind.
           </p>
           <OfferButton className="text-lg">
             👉 Zum versteckten Angebot

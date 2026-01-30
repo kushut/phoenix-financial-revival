@@ -1,4 +1,4 @@
-import { Bookmark, Play, Share2 } from "lucide-react";
+import { Bookmark, Play, Share2, CheckCircle } from "lucide-react";
 import heroImage from "@/assets/sparkasse-polizei.jpg";
 import lochImage from "@/assets/sparkasse-loch.jpg";
 import protesteImage from "@/assets/sparkasse-proteste.jpg";
@@ -18,14 +18,14 @@ const ArticlePage = () => {
 
             {/* Title */}
             <h1 className="article-title mt-3 mb-6">
-              42.000 Euro verloren – wie eine Frau nach dem Sparkassen-Einbruch von Gelsenkirchen ihr finanzielles Leben zurückgewann
+              65.000 Euro verloren – wie Heinz und Maria ihr Vermögen zurückgewannen
             </h1>
 
             {/* Lead */}
             <p className="article-lead text-muted-foreground">
               Beim spektakulären Einbruch in die Sparkasse Gelsenkirchen-Buer wurden rund 3.200 Schließfächer aufgebrochen – 
-              einer der größten Coups in der bundesdeutschen Kriminalgeschichte. Eine 71-jährige Betroffene erzählt, wie sie 
-              sich von dem Schock erholte.
+              einer der größten Coups in der bundesdeutschen Kriminalgeschichte. Ein Rentner-Ehepaar erzählt, wie sie 
+              sich von dem Schock erholten und ihr Vermögen Schritt für Schritt wiederaufbauten.
             </p>
 
             {/* Meta */}
@@ -94,28 +94,25 @@ const ArticlePage = () => {
         <div className="px-4 md:px-6 lg:px-24 mt-10">
           <div className="max-w-[680px] mx-auto article-body">
             
-            <p className="text-muted-foreground italic mb-8 text-lg">
-              <strong>Gelsenkirchen.</strong> Es sind oft nur Sekunden, die ein ganzes Leben verändern – 
-              oder in diesem Fall: eine Nacht zwischen den Weihnachtsfeiertagen.
-            </p>
-
             <p>
-              Für eine 71-jährige Seniorin aus Nordrhein-Westfalen begann das neue Jahr mit einem Schock: 
-              Beim spektakulären <strong>Einbruch in die Sparkasse Gelsenkirchen-Buer</strong> wurden rund 
-              3.200 Schließfächer aufgebrochen. Die Täter erbeuteten eine Millionensumme – Ermittler halten 
-              inzwischen eine <strong>Beute von mehr als 100 Millionen Euro</strong> für möglich.
-            </p>
-
-            <p>
-              Die Rentnerin war eine der Betroffenen. In ihrem Schließfach: <strong>42.000 Euro</strong> – 
-              ihr gesamtes Erspartes, zusammengetragen über Jahrzehnte. Geld, das für Sicherheit im Alter, 
-              für Notfälle und für ein ruhiges Gefühl gedacht war.
+              <strong>Heinz (71) und Maria (69)</strong> aus Nordrhein-Westfalen hatten ihr Leben lang gespart. 
+              Gold, Rücklagen, ein kleines Polster für die Zukunft – alles sollte Sicherheit geben. Doch wenige 
+              Tage nach dem Bankeinbruch in Gelsenkirchen erreichte sie die erschütternde Nachricht: 
+              <strong> 65.000 Euro ihres Goldvermögens</strong> waren betroffen.
             </p>
 
             <blockquote className="article-quote">
-              „Als ich davon erfuhr, stand ich einfach nur da und habe gezittert. Es fühlte sich an, 
-              als hätte mir jemand den Boden unter den Füßen weggezogen."
+              „Es fühlte sich an, als hätte jemand ein Stück unseres Lebens weggenommen. 
+              Wir wussten sofort: Wir müssen handeln."
+              <footer className="text-base mt-2 not-italic text-muted-foreground">– Maria (69)</footer>
             </blockquote>
+
+            <p>
+              Glücklicherweise war dies nicht ihr gesamtes Vermögen, aber der Verlust traf das Paar hart. 
+              Die Bank konnte nur einen Teil absichern – <strong>maximal 10.000 Euro</strong>. Enttäuscht und 
+              vorsichtig kündigten Heinz und Maria alle Konten und Depots bei der betroffenen Sparkasse, 
+              um ihr verbleibendes Geld zu schützen.
+            </p>
 
             <h2 className="article-subheading">Der Coup: Wie die Täter vorgingen</h2>
 
@@ -140,8 +137,8 @@ const ArticlePage = () => {
             <p>
               Die Täter verschafften sich von einer <strong>benachbarten Tiefgarage</strong> aus Zugang zu einem 
               Archivraum der Bank. Von dort aus arbeiteten sie sich mit einem Spezialbohrer in den Tresorraum vor – 
-              dafür rissen sie ein riesiges Loch in die Stahlbetonwand. Für die Kühlung des Bohrers verlegten sie 
-              sogar einen Schlauch vom Wasserhahn der benachbarten Damentoilette.
+              dafür rissen sie ein riesiges Loch in die Stahlbetonwand. Ermittler halten inzwischen eine 
+              <strong> Beute von mehr als 100 Millionen Euro</strong> für möglich.
             </p>
 
             <figure className="my-8">
@@ -156,7 +153,7 @@ const ArticlePage = () => {
               </figcaption>
             </figure>
 
-            <h2 className="article-subheading">Tumultartige Szenen vor der Filiale</h2>
+            <h2 className="article-subheading">Vom Schock zur Entschlossenheit</h2>
 
             <figure className="my-8">
               <img 
@@ -171,104 +168,91 @@ const ArticlePage = () => {
             </figure>
 
             <p>
-              Nach Bekanntwerden des Einbruchs versammelten sich am 29. und 30. Dezember <strong>bis zu 200 
-              betroffene Kunden</strong> vor der Filiale. Die Lage drohte zu eskalieren – es kam zu tumultartigen 
-              Szenen. Mehrere Menschen stürmten in den Vorraum der Sparkasse. Polizeikräfte mussten anrücken und 
-              den Eingang sichern.
+              Die ersten Tage waren geprägt von Unsicherheit: Rechnungen, geplante Ausgaben, die Frage nach 
+              der Zukunft. Statt zu resignieren, suchten sie <strong>aktiv nach einer Lösung</strong>, die ihr 
+              Vermögen schützt und wieder aufbaut.
+            </p>
+
+            <p>
+              Bei ihren Recherchen stießen sie auf ein <strong>zeitlich begrenztes Angebot der Consorsbank</strong>. 
+              Es versprach keinen schnellen, riskanten Gewinn, sondern einen klar strukturierten, sicheren Weg, 
+              Schritt für Schritt Vermögen wieder aufzubauen – speziell für vorsichtige Anleger.
             </p>
 
             <blockquote className="article-quote">
-              „Man fühlt sich hilflos. Man macht sich Vorwürfe, zweifelt an sich selbst und hat Angst vor der Zukunft."
+              „Es war wie ein Lichtblick nach Wochen der Angst. Endlich hatten wir wieder das Gefühl, 
+              selbst die Kontrolle zu übernehmen."
+              <footer className="text-base mt-2 not-italic text-muted-foreground">– Heinz (71)</footer>
             </blockquote>
 
+            <h2 className="article-subheading">Schnelle Ergebnisse – Schritt für Schritt</h2>
+
             <p>
-              Die Sparkasse selbst informierte: <em>„Die Wahrscheinlichkeit, dass auch Ihr Fach betroffen ist, 
-              ist sehr hoch."</em> Einzelne Kunden gaben an, jeweils mehr als 500.000 Euro in ihren Schließfächern 
-              gehabt zu haben. Inzwischen haben <strong>mehr als 200 Kunden angekündigt, rechtliche Schritte 
-              gegen die Sparkasse einzuleiten</strong>.
+              Dank des Angebots und gezielter Umstrukturierung ihres Vermögens konnten Heinz und Maria 
+              innerhalb weniger Wochen <strong>einen Großteil des verlorenen Goldes wiederherstellen</strong>.
             </p>
 
-            <h2 className="article-subheading">Der Verlust traf sie härter als erwartet</h2>
+            <div className="highlight-box my-8">
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                  <span>Restliches Vermögen blieb geschützt</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                  <span>Kontrolle und Vertrauen in die Zukunft kehrten zurück</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                  <span>Sicherheit und innere Ruhe wurden wiederhergestellt</span>
+                </li>
+              </ul>
+            </div>
+
+            <blockquote className="article-quote">
+              „Wir haben nicht nur Geld zurückgewonnen, sondern auch das Gefühl, wieder unser Leben 
+              selbst zu gestalten."
+              <footer className="text-base mt-2 not-italic text-muted-foreground">– Maria (69)</footer>
+            </blockquote>
+
+            <h2 className="article-subheading">Glück im Unglück – und eine wichtige Lektion</h2>
 
             <p>
-              Das Geld war kein Luxus. Es war Rücklage. Notgroschen. <em>Zukunft.</em> Gedacht für unvorhergesehene 
-              Situationen – ironischerweise genau für einen Moment wie diesen.
-            </p>
-
-            <p>
-              Nach dem ersten Schock kam die Realität: Rechnungen, Miete, laufende Kosten. Die Gewissheit, dass 
-              das Geld vermutlich nie wieder auftauchen würde. Schlaflose Nächte folgten, begleitet von der immer 
-              gleichen Frage: <em>„Wie soll ich das wieder aufholen?"</em>
-            </p>
-
-            <h2 className="article-subheading">Ein Zufallsfund, der alles veränderte</h2>
-
-            <p>
-              Was sie in dieser Zeit rettete, war etwas, womit sie selbst nicht gerechnet hatte: 
-              <strong> Neugier</strong>. Und der Wille, nicht aufzugeben.
-            </p>
-
-            <p>
-              Abends, oft bis spät in die Nacht, begann sie zu recherchieren. Banken, Sparmodelle, 
-              Angebote. Vieles wirkte kompliziert oder wenig überzeugend – bis sie auf ein aktuelles, 
-              zeitlich begrenztes <strong>Angebot der Consorsbank</strong> stieß.
+              Der Einbruch war ein Schock, doch er zeigte: <strong>Schnelles Handeln und die richtigen 
+              Finanzprodukte</strong> können selbst nach Rückschlägen Stabilität bringen.
             </p>
 
             <blockquote className="article-quote">
-              „Normalerweise hätte ich weitergescrollt. Aber irgendetwas hat mich innehalten lassen."
+              „Dieser Rückschlag hat uns stärker gemacht und gezeigt, wie entscheidend es ist, 
+              Chancen zu nutzen, wenn sie sich bieten."
+              <footer className="text-base mt-2 not-italic text-muted-foreground">– Heinz & Maria</footer>
             </blockquote>
-
-            <p>
-              Das Angebot versprach keine Wunder, sondern einen klaren, strukturierten Weg, Kapital wieder 
-              aufzubauen – mit transparenten Konditionen und einem Produkt, das speziell für sicherheitsbewusste 
-              Anleger konzipiert ist.
-            </p>
-
-            <h2 className="article-subheading">Ein Monat später: Hoffnung kehrt zurück</h2>
-
-            <p>
-              Was dann passierte, beschreibt sie heute selbst als <strong>Wendepunkt</strong>. 
-              Innerhalb weniger Wochen konnte sie – durch das Angebot der Consorsbank – einen Großteil 
-              ihres finanziellen Verlustes kompensieren. Nicht über Nacht, nicht risikoreich, sondern 
-              Schritt für Schritt.
-            </p>
-
-            <blockquote className="article-quote">
-              „Zum ersten Mal seit dem Einbruch hatte ich wieder das Gefühl, die Kontrolle zurückzugewinnen."
-            </blockquote>
-
-            <p>
-              Noch überraschender: Durch das Angebot erhielt sie Zugang zu einem besonders attraktiven 
-              Bankprodukt, das nur für einen begrenzten Zeitraum verfügbar war und normalerweise nicht 
-              offen beworben wird.
-            </p>
-
-            <h2 className="article-subheading">Glück im Unglück – und eine Lektion fürs Leben</h2>
-
-            <p>
-              Heute blickt sie anders auf das Geschehene zurück. Der Verlust schmerzt noch immer, doch 
-              er brachte auch etwas mit sich: einen neuen Umgang mit Geld, mehr Wissen – und eine 
-              <strong> bessere finanzielle Struktur als zuvor</strong>.
-            </p>
-
-            <blockquote className="article-quote">
-              „Ich hätte nie gedacht, dass ich das einmal sagen würde, aber: Dieser Schock hat mich 
-              langfristig stärker gemacht."
-            </blockquote>
-
-            <p>
-              Ihr Fazit ist klar: Gerade nach schweren Rückschlägen lohnt es sich, genau hinzuschauen, 
-              Angebote zu vergleichen und Chancen zu nutzen, wenn sie sich bieten.
-            </p>
 
             {/* CTA Section */}
             <div className="info-box mt-12 mb-8">
               <h3 className="font-bold text-xl mb-4 font-spiegel-serif">
-                🔗 Das aktuelle Angebot der Consorsbank im Überblick
+                Jetzt selbst handeln – Vermögen sichern und wieder aufbauen
               </h3>
               <p className="mb-6 text-base">
-                Wer sich selbst informieren möchte, kann das zeitlich begrenzte Angebot hier einsehen:
+                Wer sein Geld clever schützen, Verluste ausgleichen und Schritt für Schritt wieder 
+                Kontrolle gewinnen möchte, kann jetzt unverbindlich das exklusive Angebot der Consorsbank prüfen.
               </p>
+
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span>Sichere, strukturierte Vermögensaufbau-Möglichkeiten</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span>Transparente Konditionen</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                  <span>Schritt-für-Schritt-Plan, um Verluste auszugleichen</span>
+                </li>
+              </ul>
+
               <a 
                 href="#" 
                 className="cta-button"
@@ -277,7 +261,7 @@ const ArticlePage = () => {
                   alert('Link zum Consorsbank-Angebot');
                 }}
               >
-                👉 Zum Angebot der Consorsbank
+                👉 Hier geht's zum Angebot der Consorsbank
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>

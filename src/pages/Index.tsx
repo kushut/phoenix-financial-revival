@@ -15,7 +15,7 @@ const Index = () => {
           >
             <span className="category-tag text-sm">Site 1</span>
             <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
-              65.000 Euro verloren – wie Heinz und Maria ihr Vermögen zurückgewannen
+              65.000 Euro im Gelsenkirchener Sparkassen-Fiasko verloren – wie Heinz und Maria ihr Vermögen zurückgewannen
             </h2>
             <p className="text-muted-foreground mt-2">
               Beim Einbruch in die Sparkasse Gelsenkirchen-Buer wurden rund 3.200 Schließfächer aufgebrochen.

@@ -10,10 +10,10 @@ const Index = () => {
         
         <div className="space-y-6">
           <Link 
-            to="/site1" 
+            to="/gelsenkirchener-sparkassen-fiasko" 
             className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
           >
-            <span className="category-tag text-sm">Site 1</span>
+            <span className="category-tag text-sm">Sparkassen-Fiasko</span>
             <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
               65.000 Euro im Gelsenkirchener Sparkassen-Fiasko verloren – wie Heinz und Maria ihr Vermögen zurückgewannen
             </h2>
@@ -23,10 +23,10 @@ const Index = () => {
           </Link>
 
           <Link 
-            to="/site2" 
+            to="/42000-euro-verloren" 
             className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
           >
-            <span className="category-tag text-sm">Site 2</span>
+            <span className="category-tag text-sm">Seniorin-Geschichte</span>
             <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
               42.000 Euro verloren – und wie eine Seniorin ihr Vermögen wieder stabilisierte
             </h2>
@@ -36,10 +36,10 @@ const Index = () => {
           </Link>
 
           <Link 
-            to="/site3" 
+            to="/maschmeyer-investment-geheimnis" 
             className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
           >
-            <span className="category-tag text-sm">Site 3 – DKB</span>
+            <span className="category-tag text-sm">Maschmeyer-Interview</span>
             <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
               „Bis zu 17% im Monat" – Carsten Maschmeyer enthüllt geheimes Bank-Angebot
             </h2>
@@ -49,10 +49,10 @@ const Index = () => {
           </Link>
 
           <Link 
-            to="/site4" 
+            to="/frank-thelen-cheat-code" 
             className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
           >
-            <span className="category-tag text-sm">Site 4 – DKB</span>
+            <span className="category-tag text-sm">Thelen-Interview</span>
             <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
               „Das ist wie ein Cheat-Code" – Frank Thelen über sein neues Lieblings-Investment
             </h2>
@@ -62,10 +62,10 @@ const Index = () => {
           </Link>
 
           <Link 
-            to="/site5" 
+            to="/eu-bankenregeln-fair-access" 
             className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
           >
-            <span className="category-tag text-sm">Site 5 – EU-Regulierung</span>
+            <span className="category-tag text-sm">EU-Regulierung</span>
             <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
               EU-Gesetz zwingt Banken zur Fairness: Institutionelle Renditen jetzt für alle
             </h2>

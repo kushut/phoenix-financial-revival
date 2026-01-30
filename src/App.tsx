@@ -14,6 +14,11 @@ import Site7 from "./pages/Site7";
 import Site8 from "./pages/Site8";
 import Site9 from "./pages/Site9";
 import Site10 from "./pages/Site10";
+import Site11 from "./pages/Site11";
+import Site12 from "./pages/Site12";
+import Site13 from "./pages/Site13";
+import Site14 from "./pages/Site14";
+import Site15 from "./pages/Site15";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
@@ -37,6 +42,11 @@ const App = () => (
           <Route path="/rentner-verdoppelt-alterseinkommen" element={<Site8 />} />
           <Route path="/finanztest-warnung-rentner" element={<Site9 />} />
           <Route path="/stiftung-warentest-warnung-sparer" element={<Site10 />} />
+          <Route path="/witwe-entdeckt-letzten-brief" element={<Site11 />} />
+          <Route path="/lehrerin-verdient-mehr-als-im-beruf" element={<Site12 />} />
+          <Route path="/goldene-hochzeit-ohne-geldsorgen" element={<Site13 />} />
+          <Route path="/arzt-ueberzeugt-sich-selbst" element={<Site14 />} />
+          <Route path="/oma-wird-lieblingsoma" element={<Site15 />} />
           <Route path="/admin" element={<Admin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

@@ -146,6 +146,71 @@ const Index = () => {
               Die Verbraucherschützer kritisieren teure Bankprodukte – und entdecken eine überraschende Ausnahme.
             </p>
           </Link>
+
+          <Link 
+            to="/witwe-entdeckt-letzten-brief" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Schicksalswende</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              Nach dem Tod ihres Mannes: Wie Elfriede (73) durch seinen letzten Brief finanziell unabhängig wurde
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Im Nachlass ihres verstorbenen Mannes fand die Witwe einen Umschlag mit einer Notiz.
+            </p>
+          </Link>
+
+          <Link 
+            to="/lehrerin-verdient-mehr-als-im-beruf" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Bildung & Finanzen</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              40 Jahre Lehrerin, 1.600 Euro Rente: Wie Gisela Hoffmann jetzt monatlich mehr verdient als früher im Beruf
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Die pensionierte Grundschullehrerin aus Bremen entdeckte durch eine ehemalige Kollegin ein Angebot.
+            </p>
+          </Link>
+
+          <Link 
+            to="/goldene-hochzeit-ohne-geldsorgen" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Goldene Hochzeit</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              Goldene Hochzeit ohne Geldsorgen: Wie Horst und Ingeborg nach 50 Jahren endlich sorgenfrei leben
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Das Ehepaar aus Leipzig wollte ihre goldene Hochzeit eigentlich absagen.
+            </p>
+          </Link>
+
+          <Link 
+            to="/arzt-ueberzeugt-sich-selbst" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Medizin & Finanzen</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              „Als Arzt war ich der größte Skeptiker" – Wie Dr. Helmut Weber seine Meinung änderte
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Der pensionierte Internist prüfte das Angebot wie eine Diagnose – mit wissenschaftlicher Genauigkeit.
+            </p>
+          </Link>
+
+          <Link 
+            to="/oma-wird-lieblingsoma" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Familie & Finanzen</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              „Oma, du bist reich!" – Wie Renate Fischer (74) zur Lieblingsgroßmutter wurde
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Die Rentnerin aus Nürnberg konnte ihren Enkeln jahrelang nicht mal ein Eis kaufen.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

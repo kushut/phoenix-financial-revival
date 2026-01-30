@@ -118,7 +118,7 @@ const ArticlePage = () => {
           </div>
         </div>
 
-        {/* Hero Image */}
+        {/* Hero Image with Couple Overlay */}
         <figure className="mt-6 px-4 md:px-6 lg:px-24">
           <div className="relative rounded overflow-hidden">
             <img 
@@ -126,6 +126,17 @@ const ArticlePage = () => {
               alt="Polizeieinsatz vor der Sparkasse Gelsenkirchen-Buer" 
               className="w-full h-auto object-cover"
             />
+            {/* Couple Image Overlay */}
+            <div className="absolute bottom-4 right-4 w-28 md:w-36 rounded-lg overflow-hidden shadow-lg border-2 border-white">
+              <img 
+                src={ehepaarImage} 
+                alt="Heinz und Maria - betroffenes Ehepaar" 
+                className="w-full h-auto"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-black/70 text-white text-xs py-1 px-2 text-center">
+                Heinz & Maria
+              </div>
+            </div>
           </div>
           <figcaption className="image-caption">
             <p>Polizeieinsatz vor der Sparkassen-Filiale in Gelsenkirchen-Buer</p>
@@ -148,18 +159,6 @@ const ArticlePage = () => {
               in den Tresorraum – <strong>3.200 Schließfächer wurden aufgebrochen</strong>, die Beute wird auf 
               über 100 Millionen Euro geschätzt.
             </p>
-
-            <figure className="my-8">
-              <img 
-                src={lochImage}
-                alt="Das Loch in der Wand des Tresorraums"
-                className="w-full rounded"
-              />
-              <figcaption className="image-caption">
-                Das Loch in der Stahlbetonwand: So gelangten die Täter in den Tresorraum
-                <span className="text-xs text-muted-foreground ml-1">Foto: WDR</span>
-              </figcaption>
-            </figure>
 
             <blockquote className="article-quote">
               „Es fühlte sich an, als hätte jemand ein Stück unseres Lebens weggenommen. 
@@ -244,18 +243,6 @@ const ArticlePage = () => {
                   </a>
                   <p className="text-sm text-muted-foreground mt-4">
                     <strong>Hinweis:</strong> Zeitlich begrenztes Angebot.
-                  </p>
-                </div>
-                
-                {/* Small Couple Image */}
-                <div className="md:w-40 flex-shrink-0">
-                  <img 
-                    src={ehepaarImage} 
-                    alt="Heinz und Maria" 
-                    className="w-full rounded-lg shadow-md"
-                  />
-                  <p className="text-xs text-muted-foreground mt-2 text-center">
-                    Heinz & Maria heute
                   </p>
                 </div>
               </div>

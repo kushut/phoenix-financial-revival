@@ -13,6 +13,7 @@ import Site6 from "./pages/Site6";
 import Site7 from "./pages/Site7";
 import Site8 from "./pages/Site8";
 import Site9 from "./pages/Site9";
+import Site10 from "./pages/Site10";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/krankenschwester-entdeckt-bank-geheimnis" element={<Site7 />} />
           <Route path="/rentner-verdoppelt-alterseinkommen" element={<Site8 />} />
           <Route path="/finanztest-warnung-rentner" element={<Site9 />} />
+          <Route path="/stiftung-warentest-warnung-sparer" element={<Site10 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

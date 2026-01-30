@@ -263,6 +263,19 @@ const Index = () => {
               Die promovierte Volkswirtin und ehemalige Goldman-Sachs-Managerin überrascht mit einer finanzpolitischen Initiative für Rentner.
             </p>
           </Link>
+
+          <Link 
+            to="/wirtschaftspolitikerin-exklusiv-interview" 
+            className="block p-4 sm:p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-xs sm:text-sm">Exklusiv-Interview</span>
+            <h2 className="text-lg sm:text-xl font-bold mt-2 font-spiegel-serif leading-snug">
+              „Das Geld gehört dem deutschen Volk" – Bekannte Wirtschaftspolitikerin im Exklusiv-Interview
+            </h2>
+            <p className="text-muted-foreground mt-2 text-sm sm:text-base">
+              Die promovierte Ökonomin fordert: Rentner sollen endlich von den gleichen Renditen profitieren wie Großinvestoren.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

@@ -103,12 +103,12 @@ const ArticlePage2 = () => {
             </span>
 
             <h1 className="article-title mt-3 mb-6">
-              42.000 Euro verloren – und wie eine Seniorin ihr Vermögen wieder stabilisierte
+              42.000 Euro verloren – und wie Hildegard Krause (69) ihr Vermögen wieder stabilisierte
             </h1>
 
             <p className="article-lead text-muted-foreground">
-              Für eine 69-jährige Seniorin aus Nordrhein-Westfalen wurde der Sparkassen-Einbruch zum Albtraum. 
-              Doch sie gab nicht auf – und fand einen Weg zurück zur finanziellen Sicherheit.
+              Für Hildegard Krause aus Nordrhein-Westfalen wurde der Sparkassen-Einbruch zum Albtraum. 
+              Doch die 69-Jährige gab nicht auf – und fand einen Weg zurück zur finanziellen Sicherheit.
             </p>
 
             <div className="flex items-center gap-4 text-sm text-muted-foreground mt-6">
@@ -167,11 +167,11 @@ const ArticlePage2 = () => {
             <figure className="rounded overflow-hidden">
               <img 
                 src={seniorinImage} 
-                alt="Betroffene Seniorin" 
+                alt="Hildegard Krause" 
                 className="w-full h-auto object-cover"
               />
               <figcaption className="image-caption">
-                <p>Die betroffene Seniorin (69) hat ihr Vermögen stabilisiert</p>
+                <p>Hildegard Krause (69) hat ihr Vermögen stabilisiert</p>
               </figcaption>
             </figure>
           </div>
@@ -182,7 +182,7 @@ const ArticlePage2 = () => {
           <div className="max-w-[680px] mx-auto article-body">
             
             <p>
-              Für eine <strong>69-jährige Seniorin</strong> aus Nordrhein-Westfalen begann der Tag wie jeder andere. 
+              Für <strong>Hildegard Krause (69)</strong> aus Nordrhein-Westfalen begann der Tag wie jeder andere. 
               Sie kümmerte sich um alltägliche Angelegenheiten, plante Einkäufe, prüfte ihre Finanzen – doch wenige 
               Tage später erreichte sie eine Nachricht, die ihr Herz schwer machte: Beim Bankeinbruch in Gelsenkirchen 
               war ein erheblicher Teil ihres Goldvermögens betroffen – <strong>42.000 Euro</strong>.
@@ -191,7 +191,7 @@ const ArticlePage2 = () => {
             <blockquote className="article-quote">
               „Es war ein großer Schock. Ich wusste sofort, dass ich schnell handeln musste, 
               um den Schaden nicht noch größer werden zu lassen."
-              <footer className="text-base mt-2 not-italic text-muted-foreground">– Betroffene Seniorin (69)</footer>
+              <footer className="text-base mt-2 not-italic text-muted-foreground">– Hildegard Krause (69)</footer>
             </blockquote>
 
             <p>
@@ -230,7 +230,7 @@ const ArticlePage2 = () => {
               „Als ich verstanden habe, dass dieses Programm normalerweise nur für Profi-Anleger 
               gedacht ist, wusste ich: Das ist eine einmalige Chance. Ich konnte wieder aktiv werden, 
               anstatt mich machtlos zu fühlen."
-              <footer className="text-base mt-2 not-italic text-muted-foreground">– Betroffene Seniorin (69)</footer>
+              <footer className="text-base mt-2 not-italic text-muted-foreground">– Hildegard Krause</footer>
             </blockquote>
 
             <h2 className="article-subheading">Innerhalb weniger Wochen: ein Großteil des Verlustes wiederhergestellt</h2>
@@ -245,11 +245,11 @@ const ArticlePage2 = () => {
             <blockquote className="article-quote">
               „Es ist ein unglaubliches Gefühl, wieder Kontrolle über mein Geld zu haben. 
               Ich konnte nicht nur einen großen Teil des Verlustes ausgleichen, sondern auch meine finanzielle Sicherheit stärken."
-              <footer className="text-base mt-2 not-italic text-muted-foreground">– Betroffene Seniorin (69)</footer>
+              <footer className="text-base mt-2 not-italic text-muted-foreground">– Hildegard Krause</footer>
             </blockquote>
 
             <div className="highlight-box my-8">
-              <h3 className="font-bold text-lg mb-4 font-spiegel-serif">Was die Seniorin erreicht hat:</h3>
+              <h3 className="font-bold text-lg mb-4 font-spiegel-serif">Was Hildegard Krause erreicht hat:</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
@@ -273,7 +273,7 @@ const ArticlePage2 = () => {
             <h2 className="article-subheading">Glück im Unglück – eine neue Perspektive auf Finanzen</h2>
 
             <p>
-              Die Seniorin blickt heute anders auf die Situation zurück. Der Einbruch war ein Schock, aber er hat 
+              Hildegard Krause blickt heute anders auf die Situation zurück. Der Einbruch war ein Schock, aber er hat 
               ihr auch gezeigt, wie wichtig schnelles Handeln, Übersicht und die Nutzung passender Finanzangebote 
               sein kann. Sie hat nicht nur ihr Geld stabilisiert, sondern auch ein Finanzprodukt kennengelernt, 
               das ihr langfristig Sicherheit und Flexibilität bietet.
@@ -282,7 +282,7 @@ const ArticlePage2 = () => {
             <blockquote className="article-quote">
               „Ich hätte nie gedacht, dass ich das einmal sagen würde, aber dieser Rückschlag hat mich langfristig 
               stärker gemacht und mir gezeigt, wie wichtig es ist, Chancen aktiv zu nutzen."
-              <footer className="text-base mt-2 not-italic text-muted-foreground">– Betroffene Seniorin (69)</footer>
+              <footer className="text-base mt-2 not-italic text-muted-foreground">– Hildegard Krause</footer>
             </blockquote>
 
             {/* CTA Section */}
@@ -291,7 +291,7 @@ const ArticlePage2 = () => {
                 <div className="flex-1">
                   <div className="bg-primary/10 border border-primary/30 rounded-lg p-3 mb-4">
                     <p className="text-sm font-semibold text-primary">
-                      🔒 Das ist die Bank, die der Seniorin geholfen hat – über den Link unten gelangen Sie direkt zum Angebot
+                      🔒 Das ist die Bank, die Hildegard Krause geholfen hat – über den Link unten gelangen Sie direkt zum Angebot
                     </p>
                   </div>
                   <h3 className="font-bold text-xl mb-4 font-spiegel-serif">

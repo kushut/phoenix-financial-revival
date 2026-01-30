@@ -296,26 +296,6 @@ const ArticlePage = () => {
               </div>
             </div>
 
-            {/* Related Articles */}
-            <div className="related-box">
-              <h4 className="related-title">Mehr zum Thema</h4>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-4 py-3 border-b">
-                  <span className="flex-1">
-                    <a href="#" className="font-bold hover:opacity-70 font-spiegel-serif">
-                      Sparkassen-Einbruch: 200 Kunden wollen klagen
-                    </a>
-                  </span>
-                </li>
-                <li className="flex items-start gap-4 py-3">
-                  <span className="flex-1">
-                    <a href="#" className="font-bold hover:opacity-70 font-spiegel-serif">
-                      Experten warnen: Sind Schließfächer wirklich sicher?
-                    </a>
-                  </span>
-                </li>
-              </ul>
-            </div>
 
           </div>
         </div>

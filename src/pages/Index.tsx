@@ -47,6 +47,19 @@ const Index = () => {
               Der „Höhle der Löwen"-Investor spricht über ein exklusives DKB-Angebot für aktives Depot-Management.
             </p>
           </Link>
+
+          <Link 
+            to="/site4" 
+            className="block p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors"
+          >
+            <span className="category-tag text-sm">Site 4 – DKB</span>
+            <h2 className="text-xl font-bold mt-2 font-spiegel-serif">
+              „Das ist wie ein Cheat-Code" – Frank Thelen über sein neues Lieblings-Investment
+            </h2>
+            <p className="text-muted-foreground mt-2">
+              Der Tech-Investor erklärt, warum er auf ein exklusives DKB-Angebot setzt.
+            </p>
+          </Link>
         </div>
       </div>
     </div>

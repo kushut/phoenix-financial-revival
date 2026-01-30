@@ -211,14 +211,21 @@ const ArticlePage2 = () => {
             </p>
 
             <p>
-              Bei ihren Recherchen stieß sie auf ein aktuelles, <strong>zeitlich begrenztes Angebot der Consorsbank</strong>. 
+              Bei ihren Recherchen stieß sie auf ein <strong>exklusives Angebot der Consorsbank</strong>, 
+              das normalerweise nur institutionellen Anlegern vorbehalten ist. Großinvestoren, Fondsmanager, 
+              Vermögensverwalter – sie alle nutzen seit Jahren diese besonderen Konditionen. 
+              <strong>Doch für kurze Zeit ist dieses Angebot auch für Privatpersonen zugänglich.</strong>
+            </p>
+
+            <p>
               Anders als andere Produkte versprach es keinen leeren Gewinn, sondern einen klaren, strukturierten Weg, 
-              Schritt für Schritt ihr Vermögen wieder aufzubauen – mit transparenten Konditionen und speziell auf 
-              sicherheitsbewusste Anleger zugeschnittenen Produkten.
+              Schritt für Schritt ihr Vermögen wieder aufzubauen – mit den <strong>gleichen Konditionen, 
+              die sonst nur professionelle Anleger erhalten</strong>.
             </p>
 
             <blockquote className="article-quote">
-              „Es fühlte sich an, als hätte ich endlich einen Plan. Ich konnte wieder aktiv werden, 
+              „Als ich verstanden habe, dass dieses Programm normalerweise nur für Profi-Anleger 
+              gedacht ist, wusste ich: Das ist eine einmalige Chance. Ich konnte wieder aktiv werden, 
               anstatt mich machtlos zu fühlen."
               <footer className="text-base mt-2 not-italic text-muted-foreground">– Betroffene Seniorin (69)</footer>
             </blockquote>
@@ -279,26 +286,33 @@ const ArticlePage2 = () => {
             <div className="info-box mt-12 mb-8">
               <div className="flex flex-col gap-6">
                 <div className="flex-1">
+                  <div className="bg-primary/10 border border-primary/30 rounded-lg p-3 mb-4">
+                    <p className="text-sm font-semibold text-primary">
+                      🔒 Exklusiv: Dieses Angebot war bisher nur institutionellen Anlegern vorbehalten – 
+                      jetzt für kurze Zeit auch für Privatpersonen verfügbar!
+                    </p>
+                  </div>
                   <h3 className="font-bold text-xl mb-4 font-spiegel-serif">
                     Jetzt selbst handeln – Vermögen schützen und Schritt für Schritt wieder aufbauen
                   </h3>
                   <p className="mb-4 text-base">
-                    Wer sein Geld clever sichern, Verluste ausgleichen und gleichzeitig Chancen nutzen möchte, 
-                    kann sich jetzt über das exklusive Angebot der Consorsbank informieren:
+                    Unsere Redaktion hat den <strong>exklusiven Zugangslink</strong> recherchiert – 
+                    er ist auf der Consorsbank-Website kaum zu finden und normalerweise nur über 
+                    persönliche Vermögensberater zugänglich:
                   </p>
 
                   <ul className="space-y-2 mb-6">
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Sicherheit und Transparenz</span>
+                      <span><strong>Institutionelle Konditionen</strong> für Privatanleger</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Klarer Plan zum Vermögensaufbau</span>
+                      <span>Sonst nur für Großinvestoren & Fondsmanager</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Speziell für sicherheitsbewusste Anleger</span>
+                      <span>Zeitlich <strong>streng limitiert</strong></span>
                     </li>
                   </ul>
 
@@ -310,13 +324,13 @@ const ArticlePage2 = () => {
                       alert('Link zum Consorsbank-Angebot');
                     }}
                   >
-                    👉 Zum Angebot der Consorsbank
+                    👉 Zum exklusiven Angebot (von der Redaktion recherchiert)
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                   </a>
                   <p className="text-sm text-muted-foreground mt-4">
-                    <strong>Hinweis:</strong> Das Angebot ist zeitlich begrenzt und richtet sich an ausgewählte Kunden.
+                    <strong>Hinweis:</strong> Dieser Link ist schwer zu finden. Unsere Redaktion hat ihn exklusiv für Sie herausgesucht.
                   </p>
                 </div>
               </div>

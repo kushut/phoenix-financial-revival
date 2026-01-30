@@ -245,17 +245,25 @@ const ArticlePage = () => {
               betroffenen Sparkasse und begannen, nach Alternativen zu suchen.
             </p>
 
-            <h2 className="article-subheading">Die Wende: Ein Angebot verändert alles</h2>
+            <h2 className="article-subheading">Die Wende: Ein exklusives Angebot verändert alles</h2>
 
             <p>
-              Bei ihren Recherchen stießen sie auf ein <strong>zeitlich begrenztes Angebot der Consorsbank</strong>. 
-              Zunächst waren sie skeptisch – zu oft hatte man ihnen nach dem Einbruch dubiose „Hilfsangebote" gemacht. 
-              Doch dieses war anders: <strong>transparent, seriös und von einer etablierten Bank</strong>.
+              Bei ihren Recherchen stießen sie auf ein <strong>zeitlich begrenztes Angebot der Consorsbank</strong>, 
+              das normalerweise nur institutionellen Anlegern vorbehalten ist. Großinvestoren, Fondsmanager, 
+              Vermögensverwalter – sie alle nutzen seit Jahren diese exklusiven Konditionen. 
+              <strong>Doch für kurze Zeit ist dieses Angebot auch für Privatpersonen zugänglich.</strong>
+            </p>
+
+            <p>
+              Zunächst waren Heinz und Maria skeptisch – zu oft hatte man ihnen nach dem Einbruch dubiose 
+              „Hilfsangebote" gemacht. Doch dieses war anders: <strong>transparent, seriös und von einer 
+              etablierten Bank mit über 50 Jahren Erfahrung</strong>.
             </p>
 
             <p>
               „Wir haben uns lange informiert, bevor wir den Schritt gewagt haben", erklärt Maria. 
-              „Aber als wir gesehen haben, wie das Programm funktioniert, wussten wir: Das ist unsere Chance."
+              „Als wir verstanden haben, dass dieses Programm normalerweise nur für Profi-Anleger 
+              gedacht ist, wussten wir: Das ist eine einmalige Chance, die wir nicht verpassen dürfen."
             </p>
 
             <p>
@@ -316,26 +324,33 @@ const ArticlePage = () => {
             <div className="info-box mt-12 mb-8">
               <div className="flex flex-col md:flex-row gap-6 items-start">
                 <div className="flex-1">
+                  <div className="bg-primary/10 border border-primary/30 rounded-lg p-3 mb-4">
+                    <p className="text-sm font-semibold text-primary">
+                      🔒 Exklusiv: Dieses Angebot war bisher nur institutionellen Anlegern vorbehalten – 
+                      jetzt für kurze Zeit auch für Privatpersonen verfügbar!
+                    </p>
+                  </div>
                   <h3 className="font-bold text-xl mb-4 font-spiegel-serif">
                     Jetzt selbst handeln – Vermögen sichern
                   </h3>
                   <p className="mb-4 text-base">
-                    Wer sein Geld schützen und Verluste ausgleichen möchte, kann jetzt das exklusive 
-                    Angebot der Consorsbank prüfen:
+                    Unsere Redaktion hat den <strong>exklusiven Zugangslink</strong> recherchiert – 
+                    er ist auf der Consorsbank-Website kaum zu finden und normalerweise nur über 
+                    persönliche Vermögensberater zugänglich:
                   </p>
 
                   <ul className="space-y-2 mb-6">
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Sichere Vermögensaufbau-Möglichkeiten</span>
+                      <span><strong>Institutionelle Konditionen</strong> für Privatanleger</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Transparente Konditionen</span>
+                      <span>Sonst nur für Großinvestoren & Fondsmanager</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                      <span>Schritt-für-Schritt zum Erfolg</span>
+                      <span>Zeitlich <strong>streng limitiert</strong></span>
                     </li>
                   </ul>
 
@@ -347,13 +362,13 @@ const ArticlePage = () => {
                       alert('Link zum Consorsbank-Angebot');
                     }}
                   >
-                    👉 Zum Angebot der Consorsbank
+                    👉 Zum exklusiven Angebot (von der Redaktion recherchiert)
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                   </a>
                   <p className="text-sm text-muted-foreground mt-4">
-                    <strong>Hinweis:</strong> Zeitlich begrenztes Angebot.
+                    <strong>Hinweis:</strong> Dieser Link ist schwer zu finden. Unsere Redaktion hat ihn exklusiv für Sie herausgesucht.
                   </p>
                 </div>
               </div>

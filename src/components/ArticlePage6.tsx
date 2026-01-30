@@ -1,5 +1,6 @@
 import SpiegelHeader from "./SpiegelHeader";
 import { Button } from "@/components/ui/button";
+import OfferButton from "./OfferButton";
 
 const ArticlePage6 = () => {
   const comments = [
@@ -142,9 +143,9 @@ const ArticlePage6 = () => {
                 <span>Keine Mindestlaufzeit – jederzeit kündbar</span>
               </li>
             </ul>
-            <Button className="w-full bg-[#1e3a5f] hover:bg-[#2a4a6f] text-white">
+            <OfferButton className="w-full">
               Zum versteckten Angebot →
-            </Button>
+            </OfferButton>
           </div>
 
           <h2 className="text-2xl font-bold mt-10 mb-6 font-spiegel-serif">„Ich habe mit 50.000 Euro angefangen"</h2>
@@ -213,9 +214,9 @@ const ArticlePage6 = () => {
             <p className="mb-6 opacity-90">
               Entdecken Sie das Angebot, das Rainer Hoffmanns Leben verändert hat. Kostenlos und unverbindlich.
             </p>
-            <Button className="bg-white text-[#1e3a5f] hover:bg-gray-100 text-lg px-8 py-6">
+            <OfferButton className="bg-white text-[#1e3a5f] hover:bg-gray-100 text-lg px-8 py-6">
               Jetzt zum versteckten Angebot →
-            </Button>
+            </OfferButton>
             <p className="text-sm mt-4 opacity-75">
               100.000€ Einlagensicherung • BaFin-reguliert • Jederzeit kündbar
             </p>

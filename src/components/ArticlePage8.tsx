@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { CheckCircle, Shield, TrendingUp, Clock, Users } from "lucide-react";
+import OfferButton from "./OfferButton";
 
 const ArticlePage8 = () => {
-  const affiliateLink = "https://example.com/affiliate";
 
   return (
     <div className="min-h-screen bg-background">
@@ -211,13 +211,9 @@ const ArticlePage8 = () => {
                   </p>
                 </div>
               </div>
-              <Button 
-                className="w-full mt-4" 
-                size="lg"
-                onClick={() => window.open(affiliateLink, '_blank')}
-              >
+              <OfferButton className="w-full mt-4">
                 Verfügbarkeit für meinen Wohnort prüfen
-              </Button>
+              </OfferButton>
               <p className="text-xs text-center text-muted-foreground mt-2">
                 Unverbindliche Prüfung · Keine Verpflichtung · Kostenlos
               </p>

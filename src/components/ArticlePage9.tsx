@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { CheckCircle, Shield, AlertCircle, Landmark, ArrowRight } from "lucide-react";
+import OfferButton from "./OfferButton";
 
 const ArticlePage9 = () => {
-  const affiliateLink = "https://example.com/affiliate";
 
   return (
     <div className="min-h-screen bg-background">
@@ -219,15 +219,10 @@ const ArticlePage9 = () => {
               angeboten und erfüllt alle genannten Sicherheitskriterien. Nach unserer Recherche 
               ist das Angebot derzeit für Neukunden geöffnet.
             </p>
-            <Button 
-              className="w-full group" 
-              variant="outline"
-              size="lg"
-              onClick={() => window.open(affiliateLink, '_blank')}
-            >
+            <OfferButton className="w-full">
               Zum Angebot dieser Bank
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            </Button>
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </OfferButton>
             <p className="text-xs text-center text-muted-foreground mt-3">
               Externe Seite · Wir erhalten keine Provision
             </p>

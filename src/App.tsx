@@ -21,11 +21,11 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/site1" element={<Site1 />} />
-          <Route path="/site2" element={<Site2 />} />
-          <Route path="/site3" element={<Site3 />} />
-          <Route path="/site4" element={<Site4 />} />
-          <Route path="/site5" element={<Site5 />} />
+          <Route path="/gelsenkirchener-sparkassen-fiasko" element={<Site1 />} />
+          <Route path="/42000-euro-verloren" element={<Site2 />} />
+          <Route path="/maschmeyer-investment-geheimnis" element={<Site3 />} />
+          <Route path="/frank-thelen-cheat-code" element={<Site4 />} />
+          <Route path="/eu-bankenregeln-fair-access" element={<Site5 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -104,19 +104,19 @@
   /* Article Title */
   .article-title {
     font-family: var(--font-serif);
-    @apply text-3xl md:text-4xl font-black leading-tight tracking-tight;
+    @apply text-2xl sm:text-3xl md:text-4xl font-black leading-tight tracking-tight;
   }
 
   /* Article Lead */
   .article-lead {
     font-family: var(--font-serif);
-    @apply text-lg md:text-xl leading-relaxed;
+    @apply text-base sm:text-lg md:text-xl leading-relaxed;
   }
 
   /* Article Body */
   .article-body {
     font-family: var(--font-serif);
-    @apply text-lg leading-loose;
+    @apply text-base sm:text-lg leading-relaxed sm:leading-loose;
   }
 
   .article-body p {
@@ -125,21 +125,21 @@
 
   /* Quote Block */
   .article-quote {
-    @apply border-l-4 pl-6 my-8 italic;
+    @apply border-l-4 pl-4 sm:pl-6 my-6 sm:my-8 italic;
     border-color: hsl(var(--spiegel-orange));
     font-family: var(--font-serif);
-    @apply text-xl leading-relaxed text-muted-foreground;
+    @apply text-base sm:text-xl leading-relaxed text-muted-foreground;
   }
 
   /* Subheading */
   .article-subheading {
     font-family: var(--font-serif);
-    @apply text-2xl font-bold mt-10 mb-4;
+    @apply text-xl sm:text-2xl font-bold mt-8 sm:mt-10 mb-3 sm:mb-4;
   }
 
   /* CTA Button */
   .cta-button {
-    @apply inline-flex items-center gap-2 px-8 py-4 text-lg font-bold rounded transition-all duration-200;
+    @apply inline-flex items-center justify-center gap-2 px-4 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-bold rounded transition-all duration-200 w-full sm:w-auto text-center;
     background-color: hsl(var(--spiegel-orange));
     color: white;
     @apply hover:opacity-90 hover:scale-[1.02];
@@ -189,12 +189,12 @@
 
   /* Highlight Box */
   .highlight-box {
-    @apply bg-secondary p-6 rounded my-8;
+    @apply bg-secondary p-4 sm:p-6 rounded my-6 sm:my-8;
   }
 
   /* Info Box */
   .info-box {
-    @apply border-l-4 p-6 my-8 bg-secondary;
+    @apply border-l-4 p-4 sm:p-6 my-6 sm:my-8 bg-secondary;
     border-color: hsl(var(--spiegel-orange));
   }
 }

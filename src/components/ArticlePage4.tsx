@@ -62,6 +62,41 @@ const ArticlePage4 = () => {
       time: "vor 8 Stunden",
       text: "Das versteckte Angebot war wirklich schwer zu finden. Gut, dass die Redaktion es ausgegraben hat!",
       likes: 112
+    },
+    {
+      id: 9,
+      author: "Alexander H.",
+      time: "vor 9 Stunden",
+      text: "Bin jetzt seit 9 Monaten dabei. Rendite schwankt wie erwartet, aber insgesamt sehr positiv!",
+      likes: 267
+    },
+    {
+      id: 10,
+      author: "Tanja M.",
+      time: "vor 10 Stunden",
+      text: "Toller Artikel! Habe den Link direkt an meine Eltern geschickt.",
+      likes: 43
+    },
+    {
+      id: 11,
+      author: "Frank D.",
+      time: "vor 11 Stunden",
+      text: "Nutze das Angebot seit über einem Jahr. Die Auszahlungen funktionieren problemlos. Top!",
+      likes: 356
+    },
+    {
+      id: 12,
+      author: "Simone R.",
+      time: "vor 12 Stunden",
+      text: "Hatte anfangs Zweifel, aber der BaFin-Schutz hat mich beruhigt. Bisher alles super.",
+      likes: 89
+    },
+    {
+      id: 13,
+      author: "Marcus B.",
+      time: "vor 1 Tag",
+      text: "Interessant! Werde mir das mal genauer ansehen.",
+      likes: 28
     }
   ];
 

@@ -41,6 +41,48 @@ const ArticlePage30 = () => {
       time: "vor 6 Stunden",
       text: "Das Interview war wirklich aufschlussreich. Die Dame weiß, wovon sie spricht.",
       likes: 145
+    },
+    {
+      id: 6,
+      author: "Kerstin B.",
+      time: "vor 7 Stunden",
+      text: "Bin seit 7 Monaten dabei und sehr zufrieden! Die Rendite schwankt, aber im Schnitt passt es.",
+      likes: 278
+    },
+    {
+      id: 7,
+      author: "Bernd T.",
+      time: "vor 8 Stunden",
+      text: "Schöner Artikel. Habe den Link an meine Kollegen weitergeleitet.",
+      likes: 67
+    },
+    {
+      id: 8,
+      author: "Ingeborg S.",
+      time: "vor 9 Stunden",
+      text: "Nutze das Angebot seit über einem Jahr. Konnte mir davon sogar einen neuen Fernseher kaufen 📺",
+      likes: 312
+    },
+    {
+      id: 9,
+      author: "Richard M.",
+      time: "vor 10 Stunden",
+      text: "Meine Schwester hat mir davon erzählt. Sie ist schon seit 5 Monaten dabei und sehr zufrieden.",
+      likes: 123
+    },
+    {
+      id: 10,
+      author: "Sabrina L.",
+      time: "vor 11 Stunden",
+      text: "Die Löwin ist einfach eine starke Frau. Wenn sie das empfiehlt, vertraue ich ihr.",
+      likes: 189
+    },
+    {
+      id: 11,
+      author: "Norbert F.",
+      time: "vor 1 Tag",
+      text: "Habe mich informiert – alles legitim. Werde nächste Woche einsteigen.",
+      likes: 56
     }
   ];
 

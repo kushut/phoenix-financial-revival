@@ -4,8 +4,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { CheckCircle, Shield, TrendingUp, Clock, Users } from "lucide-react";
 import OfferButton from "./OfferButton";
+import CommentSection from "./CommentSection";
 
 const ArticlePage8 = () => {
+  const comments = [
+    { id: 1, author: "Klaus H.", time: "vor 2 Stunden", text: "Sehr interessanter Artikel. Bin selbst 67 und habe mich letzte Woche angemeldet. Die Anmeldung war unkompliziert, mal sehen wie es weitergeht.", likes: 45 },
+    { id: 2, author: "Ingrid M.", time: "vor 4 Stunden", text: "Mein Mann war erst dagegen, aber nachdem ich ihm den Artikel gezeigt habe, hat er selbst recherchiert. Jetzt sind wir beide dabei.", likes: 78 },
+    { id: 3, author: "Peter W.", time: "vor 5 Stunden", text: "Klingt fast zu gut. Aber wenn die BaFin das reguliert und es eine deutsche Großbank ist, kann es ja kein Betrug sein. Werde mich mal informieren.", likes: 32 },
+    { id: 4, author: "Gisela T.", time: "vor 7 Stunden", text: "Bin seit 6 Monaten dabei und kann nur Gutes berichten. Meine Rente hat sich quasi verdoppelt!", likes: 124 },
+    { id: 5, author: "Hans-Werner K.", time: "vor 9 Stunden", text: "Unser Skatclub hat sich gemeinsam angemeldet. Jetzt reden wir nicht mehr nur über Krankheiten 😄", likes: 89 }
+  ];
 
   return (
     <div className="min-h-screen bg-background">
@@ -228,59 +236,7 @@ const ArticlePage8 = () => {
         </article>
 
         {/* Comment Section */}
-        <div className="mt-12 pt-8 border-t">
-          <h3 className="text-xl font-bold font-spiegel-serif mb-6">Kommentare (47)</h3>
-          
-          <div className="space-y-6">
-            <div className="flex gap-4">
-              <Avatar>
-                <AvatarFallback>KH</AvatarFallback>
-              </Avatar>
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="font-medium">Klaus H.</span>
-                  <span className="text-sm text-muted-foreground">vor 2 Stunden</span>
-                </div>
-                <p className="text-sm">
-                  Sehr interessanter Artikel. Bin selbst 67 und habe mich letzte Woche angemeldet. 
-                  Die Anmeldung war unkompliziert, mal sehen wie es weitergeht.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex gap-4">
-              <Avatar>
-                <AvatarFallback>IM</AvatarFallback>
-              </Avatar>
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="font-medium">Ingrid M.</span>
-                  <span className="text-sm text-muted-foreground">vor 4 Stunden</span>
-                </div>
-                <p className="text-sm">
-                  Mein Mann war erst dagegen, aber nachdem ich ihm den Artikel gezeigt habe, hat er 
-                  selbst recherchiert. Jetzt sind wir beide dabei.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex gap-4">
-              <Avatar>
-                <AvatarFallback>PW</AvatarFallback>
-              </Avatar>
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="font-medium">Peter W.</span>
-                  <span className="text-sm text-muted-foreground">vor 5 Stunden</span>
-                </div>
-                <p className="text-sm">
-                  Klingt fast zu gut. Aber wenn die BaFin das reguliert und es eine deutsche Großbank 
-                  ist, kann es ja kein Betrug sein. Werde mich mal informieren.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <CommentSection initialComments={comments} />
       </main>
     </div>
   );

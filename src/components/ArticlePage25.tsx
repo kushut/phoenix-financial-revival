@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import SpiegelHeader from "./SpiegelHeader";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, Gift, Shield, CheckCircle } from "lucide-react";
 import seniorinPortrait from "@/assets/seniorin-portrait.png";
 import OfferButton from "./OfferButton";
+import CommentSection from "./CommentSection";
 
 const ArticlePage25 = () => {
   const comments = [
@@ -205,41 +205,7 @@ const ArticlePage25 = () => {
           </p>
         </div>
 
-        <section className="mt-12 pt-8 border-t">
-          <h3 className="text-xl font-bold mb-6 font-spiegel-serif flex items-center gap-2">
-            <MessageSquare className="w-5 h-5" />
-            {comments.length} Kommentare
-          </h3>
-          
-          <div className="space-y-6">
-            {comments.map((comment) => (
-              <div key={comment.id} className="border-b pb-6 last:border-b-0">
-                <div className="flex items-start gap-3">
-                  <Avatar className="w-10 h-10">
-                    <AvatarFallback className="bg-secondary text-sm">
-                      {comment.author.split(' ').map(n => n[0]).join('')}
-                    </AvatarFallback>
-                  </Avatar>
-                  <div className="flex-1">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="font-semibold text-sm">{comment.author}</span>
-                      <span className="text-xs text-muted-foreground">{comment.time}</span>
-                    </div>
-                    <p className="text-sm leading-relaxed">{comment.text}</p>
-                    <div className="flex items-center gap-4 mt-2">
-                      <button className="text-xs text-muted-foreground hover:text-foreground flex items-center gap-1">
-                        👍 {comment.likes}
-                      </button>
-                      <button className="text-xs text-muted-foreground hover:text-foreground">
-                        Antworten
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
+        <CommentSection initialComments={comments} />
       </article>
 
       <footer className="border-t mt-12 py-8">

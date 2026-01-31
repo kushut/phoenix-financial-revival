@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { AlertTriangle, CheckCircle, Shield, TrendingUp, Lock, BadgeCheck } from "lucide-react";
 import OfferButton from "./OfferButton";
+import CommentSection from "./CommentSection";
 
 const ArticlePage10 = () => {
 

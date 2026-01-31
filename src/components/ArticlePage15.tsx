@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { CheckCircle, Shield, TrendingUp, Clock, Baby } from "lucide-react";
 import OfferButton from "./OfferButton";
+import CommentSection from "./CommentSection";
 
 const ArticlePage15 = () => {
   return (

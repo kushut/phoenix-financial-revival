@@ -1,130 +1,131 @@
-import { Bookmark, Play, Share2, CheckCircle, ThumbsUp, MessageCircle } from "lucide-react";
+import { Bookmark, Play, Share2, CheckCircle } from "lucide-react";
 import heroImage from "@/assets/sparkasse-polizei.jpg";
 import lochImage from "@/assets/sparkasse-loch.jpg";
 import ehepaarImage from "@/assets/ehepaar-heinz-maria.png";
 import SpiegelHeader from "./SpiegelHeader";
 import OfferButton from "./OfferButton";
+import CommentSection from "./CommentSection";
 
 const ArticlePage = () => {
   const comments = [
     {
-      name: "Gisela M.",
-      date: "vor 2 Stunden",
+      id: 1,
+      author: "Gisela M.",
+      time: "vor 2 Stunden",
       text: "Unglaublich, was den beiden passiert ist! Aber Respekt, dass sie so schnell gehandelt haben. Ich habe mir das Angebot auch angeschaut – wirklich sehr gute Konditionen. Werde nächste Woche wechseln.",
-      likes: 47,
-      isHighlight: true
+      likes: 47
     },
     {
-      name: "Klaus-Dieter W.",
-      date: "vor 3 Stunden", 
+      id: 2,
+      author: "Klaus-Dieter W.",
+      time: "vor 3 Stunden",
       text: "Das Angebot kann ich nur empfehlen! Bin seit 2 Wochen dabei und habe schon erste positive Ergebnisse gesehen. Besonders die transparenten Konditionen haben mich überzeugt.",
-      likes: 89,
-      isHighlight: true
+      likes: 89
     },
     {
-      name: "Renate S.",
-      date: "vor 4 Stunden",
+      id: 3,
+      author: "Renate S.",
+      time: "vor 4 Stunden",
       text: "Dieser Einbruch hat uns alle wachgerüttelt. Mein Schließfach war zum Glück nicht betroffen, aber ich habe trotzdem mein Geld zu dieser Großbank transferiert. Sicher ist sicher!",
-      likes: 34,
-      isHighlight: true
+      likes: 34
     },
     {
-      name: "Wolfgang B.",
-      date: "vor 5 Stunden",
+      id: 4,
+      author: "Wolfgang B.",
+      time: "vor 5 Stunden",
       text: "100 Millionen Euro Beute... Wahnsinn. Die Täter werden hoffentlich bald gefasst. Mein Mitleid gilt allen Betroffenen.",
-      likes: 156,
-      isHighlight: false
+      likes: 156
     },
     {
-      name: "Ingrid H.",
-      date: "vor 6 Stunden",
+      id: 5,
+      author: "Ingrid H.",
+      time: "vor 6 Stunden",
       text: "Meine Schwester war auch betroffen. Sie hat jetzt das Angebot dieser Bank genutzt und ist sehr zufrieden. Endlich wieder Ruhe und Sicherheit!",
-      likes: 28,
-      isHighlight: true
+      likes: 28
     },
     {
-      name: "Hans-Peter K.",
-      date: "vor 7 Stunden",
+      id: 6,
+      author: "Hans-Peter K.",
+      time: "vor 7 Stunden",
       text: "Skandal! Wie kann so etwas in Deutschland passieren? Die Sparkasse muss zur Verantwortung gezogen werden.",
-      likes: 203,
-      isHighlight: false
+      likes: 203
     },
     {
-      name: "Monika F.",
-      date: "vor 8 Stunden",
+      id: 7,
+      author: "Monika F.",
+      time: "vor 8 Stunden",
       text: "Habe nach diesem Artikel sofort das Angebot geprüft. Die Konditionen sind wirklich besser als bei meiner jetzigen Bank. Danke für den Tipp!",
-      likes: 52,
-      isHighlight: true
+      likes: 52
     },
     {
-      name: "Helmut R.",
-      date: "vor 9 Stunden",
+      id: 8,
+      author: "Helmut R.",
+      time: "vor 9 Stunden",
       text: "Toll, dass Heinz und Maria so offen darüber berichten. Gibt anderen Betroffenen Hoffnung. Das Angebot dieser Großbank scheint wirklich gut zu sein.",
-      likes: 41,
-      isHighlight: true
+      likes: 41
     },
     {
-      name: "Erika L.",
-      date: "vor 10 Stunden",
+      id: 9,
+      author: "Erika L.",
+      time: "vor 10 Stunden",
       text: "Bin 67 und hatte ähnliche Bedenken wie Heinz und Maria. Habe mich dann aber doch für das Angebot entschieden – beste Entscheidung seit Jahren! Schon nach 2 Wochen erste Erfolge.",
-      likes: 73,
-      isHighlight: true
+      likes: 73
     },
     {
-      name: "Dieter S.",
-      date: "vor 11 Stunden",
+      id: 10,
+      author: "Dieter S.",
+      time: "vor 11 Stunden",
       text: "Die Polizei ermittelt noch immer. Hoffentlich werden die Täter bald gefasst. Unfassbar, dass so etwas in einer deutschen Großstadt passieren kann.",
-      likes: 118,
-      isHighlight: false
+      likes: 118
     },
     {
-      name: "Ursula K.",
-      date: "vor 12 Stunden",
+      id: 11,
+      author: "Ursula K.",
+      time: "vor 12 Stunden",
       text: "Mein Mann und ich haben uns gestern bei dieser Bank angemeldet. Der Prozess war super einfach und die Beratung am Telefon sehr freundlich. Danke für diesen Artikel!",
-      likes: 56,
-      isHighlight: true
+      likes: 56
     },
     {
-      name: "Günther M.",
-      date: "vor 13 Stunden",
+      id: 12,
+      author: "Günther M.",
+      time: "vor 13 Stunden",
       text: "Als ehemaliger Sparkassen-Kunde kann ich nur sagen: Der Wechsel zu einer großen Direktbank war überfällig. Endlich transparente Gebühren und besserer Service!",
-      likes: 82,
-      isHighlight: true
+      likes: 82
     },
     {
-      name: "Brigitte W.",
-      date: "vor 14 Stunden",
+      id: 13,
+      author: "Brigitte W.",
+      time: "vor 14 Stunden",
       text: "Herzzerreißende Geschichte. Aber schön zu sehen, dass es für Heinz und Maria doch noch ein Happy End gab. Das Angebot werde ich mir auch anschauen.",
-      likes: 44,
-      isHighlight: true
+      likes: 44
     },
     {
-      name: "Karl-Heinz P.",
-      date: "vor 15 Stunden",
+      id: 14,
+      author: "Karl-Heinz P.",
+      time: "vor 15 Stunden",
       text: "Bin skeptisch bei solchen Angeboten, aber es ist ja eine der größten deutschen Banken. Hat jemand Erfahrungen gemacht?",
-      likes: 31,
-      isHighlight: false
+      likes: 31
     },
     {
-      name: "Hildegard F.",
-      date: "vor 15 Stunden",
+      id: 15,
+      author: "Hildegard F.",
+      time: "vor 15 Stunden",
       text: "@Karl-Heinz P. Ja, bin seit 3 Wochen dabei und kann es nur empfehlen! Alles sehr transparent und professionell. Meine Rente ist dort gut aufgehoben.",
-      likes: 67,
-      isHighlight: true
+      likes: 67
     },
     {
-      name: "Werner T.",
-      date: "vor 16 Stunden",
+      id: 16,
+      author: "Werner T.",
+      time: "vor 16 Stunden",
       text: "Schade, dass man erst durch so eine Katastrophe aufwacht. Aber besser spät als nie. Habe das Angebot auch genutzt und bereue es nicht.",
-      likes: 49,
-      isHighlight: true
+      likes: 49
     },
     {
-      name: "Margarete B.",
-      date: "vor 17 Stunden",
+      id: 17,
+      author: "Margarete B.",
+      time: "vor 17 Stunden",
       text: "Meine Nachbarin wurde auch Opfer des Einbruchs. Sie hat 30.000 Euro verloren. Werde ihr diesen Artikel zeigen – vielleicht hilft ihr das Angebot dieser Bank auch.",
-      likes: 38,
-      isHighlight: true
+      likes: 38
     }
   ];
 
@@ -378,47 +379,7 @@ const ArticlePage = () => {
         {/* Comments Section */}
         <div className="px-4 md:px-6 lg:px-24 mt-12">
           <div className="max-w-[680px] mx-auto">
-            <div className="border-t pt-8">
-              <div className="flex items-center gap-2 mb-6">
-                <MessageCircle className="w-5 h-5" />
-                <h3 className="font-bold text-xl font-spiegel-serif">
-                  Kommentare ({comments.length})
-                </h3>
-              </div>
-
-              <div className="space-y-6">
-                {comments.map((comment, index) => (
-                  <div 
-                    key={index} 
-                    className={`p-4 rounded-lg ${comment.isHighlight ? 'bg-primary/5 border border-primary/20' : 'bg-muted/50'}`}
-                  >
-                    <div className="flex items-center justify-between mb-2">
-                      <div className="flex items-center gap-2">
-                        <span className="font-semibold text-sm">{comment.name}</span>
-                        <span className="text-xs text-muted-foreground">{comment.date}</span>
-                      </div>
-                    </div>
-                    <p className="text-sm text-foreground">{comment.text}</p>
-                    <div className="flex items-center gap-4 mt-3">
-                      <button className="flex items-center gap-1 text-xs text-muted-foreground hover:text-primary">
-                        <ThumbsUp className="w-3 h-3" />
-                        <span>{comment.likes}</span>
-                      </button>
-                      <button className="text-xs text-muted-foreground hover:text-primary">
-                        Antworten
-                      </button>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <div className="mt-8 p-4 bg-muted/30 rounded-lg text-center">
-                <p className="text-sm text-muted-foreground mb-2">Möchten Sie auch kommentieren?</p>
-                <button className="text-primary font-semibold text-sm hover:underline">
-                  Jetzt anmelden →
-                </button>
-              </div>
-            </div>
+            <CommentSection initialComments={comments} />
           </div>
         </div>
 

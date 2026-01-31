@@ -1,95 +1,24 @@
-import { Bookmark, Play, Share2, CheckCircle, ThumbsUp, MessageCircle } from "lucide-react";
+import { Bookmark, Play, Share2, CheckCircle } from "lucide-react";
 import heroImage from "@/assets/sparkasse-polizei.jpg";
 import seniorinImage from "@/assets/seniorin-portrait.png";
 import SpiegelHeader from "./SpiegelHeader";
 import OfferButton from "./OfferButton";
+import CommentSection from "./CommentSection";
 
 const ArticlePage2 = () => {
   const comments = [
-    {
-      name: "Petra H.",
-      date: "vor 1 Stunde",
-      text: "Ich bin selbst 68 und diese Geschichte macht mir Mut. Habe mir das Angebot bei meiner Bank auch angeschaut – 100.000€ Einlagensicherung, das beruhigt!",
-      likes: 52,
-      isHighlight: true
-    },
-    {
-      name: "Manfred K.",
-      date: "vor 2 Stunden", 
-      text: "Stark, wie die Dame das gemeistert hat! Das Angebot mit dem aktiven Depot-Management klingt sehr interessant. Werde es mir heute noch anschauen.",
-      likes: 78,
-      isHighlight: true
-    },
-    {
-      name: "Elisabeth M.",
-      date: "vor 3 Stunden",
-      text: "Genau so ist es mir auch ergangen. Nach dem Schock habe ich ebenfalls zu einer großen deutschen Bank gewechselt und bin sehr zufrieden!",
-      likes: 63,
-      isHighlight: true
-    },
-    {
-      name: "Rolf B.",
-      date: "vor 4 Stunden",
-      text: "Unglaublich, dass die Sparkasse nur 10.000 Euro absichert. Das ist ein Skandal! Gut, dass es seriöse Alternativen mit voller EU-Einlagensicherung gibt.",
-      likes: 124,
-      isHighlight: false
-    },
-    {
-      name: "Christa W.",
-      date: "vor 5 Stunden",
-      text: "Meine Freundin hat das Angebot letzte Woche genutzt und ist begeistert. Der Service bei den großen Banken ist wirklich erstklassig!",
-      likes: 45,
-      isHighlight: true
-    },
-    {
-      name: "Herbert S.",
-      date: "vor 6 Stunden",
-      text: "Als Rentner ist Sicherheit das Wichtigste. Die großen deutschen Banken bieten genau das – transparente Konditionen und BaFin-Regulierung.",
-      likes: 91,
-      isHighlight: true
-    },
-    {
-      name: "Gerda F.",
-      date: "vor 7 Stunden",
-      text: "Habe gestern mit meinem Sohn das Angebot durchgesehen. Er war auch überzeugt – vor allem wegen der 100.000€ Einlagensicherung. Sehr einfach!",
-      likes: 37,
-      isHighlight: true
-    },
-    {
-      name: "Kurt L.",
-      date: "vor 8 Stunden",
-      text: "Die Täter müssen gefasst werden! Hoffentlich bekommen alle Betroffenen ihr Geld zurück. Schande für die Sparkasse!",
-      likes: 189,
-      isHighlight: false
-    },
-    {
-      name: "Irmgard T.",
-      date: "vor 9 Stunden",
-      text: "Bin seit 3 Wochen bei einer großen deutschen Bank und habe schon erste positive Entwicklungen gesehen. Kann es nur empfehlen!",
-      likes: 56,
-      isHighlight: true
-    },
-    {
-      name: "Wolfgang H.",
-      date: "vor 10 Stunden",
-      text: "Diese Geschichte zeigt: Man darf sich nicht unterkriegen lassen! Respekt an die Dame. Das Angebot werde ich mir auch ansehen.",
-      likes: 72,
-      isHighlight: true
-    },
-    {
-      name: "Hannelore P.",
-      date: "vor 11 Stunden",
-      text: "Endlich mal ein Artikel der zeigt, dass es Lösungen gibt! Die BaFin-regulierten Großbanken sind wirklich seriös.",
-      likes: 48,
-      isHighlight: true
-    },
-    {
-      name: "Siegfried R.",
-      date: "vor 12 Stunden",
-      text: "Meine Frau und ich haben uns ebenfalls für das Angebot entschieden. Der Wechsel war problemlos und wir fühlen uns sicher.",
-      likes: 83,
-      isHighlight: true
-    }
+    { id: 1, author: "Petra H.", time: "vor 1 Stunde", text: "Ich bin selbst 68 und diese Geschichte macht mir Mut. Habe mir das Angebot bei meiner Bank auch angeschaut – 100.000€ Einlagensicherung, das beruhigt!", likes: 52 },
+    { id: 2, author: "Manfred K.", time: "vor 2 Stunden", text: "Stark, wie die Dame das gemeistert hat! Das Angebot mit dem aktiven Depot-Management klingt sehr interessant. Werde es mir heute noch anschauen.", likes: 78 },
+    { id: 3, author: "Elisabeth M.", time: "vor 3 Stunden", text: "Genau so ist es mir auch ergangen. Nach dem Schock habe ich ebenfalls zu einer großen deutschen Bank gewechselt und bin sehr zufrieden!", likes: 63 },
+    { id: 4, author: "Rolf B.", time: "vor 4 Stunden", text: "Unglaublich, dass die Sparkasse nur 10.000 Euro absichert. Das ist ein Skandal! Gut, dass es seriöse Alternativen mit voller EU-Einlagensicherung gibt.", likes: 124 },
+    { id: 5, author: "Christa W.", time: "vor 5 Stunden", text: "Meine Freundin hat das Angebot letzte Woche genutzt und ist begeistert. Der Service bei den großen Banken ist wirklich erstklassig!", likes: 45 },
+    { id: 6, author: "Herbert S.", time: "vor 6 Stunden", text: "Als Rentner ist Sicherheit das Wichtigste. Die großen deutschen Banken bieten genau das – transparente Konditionen und BaFin-Regulierung.", likes: 91 },
+    { id: 7, author: "Gerda F.", time: "vor 7 Stunden", text: "Habe gestern mit meinem Sohn das Angebot durchgesehen. Er war auch überzeugt – vor allem wegen der 100.000€ Einlagensicherung. Sehr einfach!", likes: 37 },
+    { id: 8, author: "Kurt L.", time: "vor 8 Stunden", text: "Die Täter müssen gefasst werden! Hoffentlich bekommen alle Betroffenen ihr Geld zurück. Schande für die Sparkasse!", likes: 189 },
+    { id: 9, author: "Irmgard T.", time: "vor 9 Stunden", text: "Bin seit 3 Wochen bei einer großen deutschen Bank und habe schon erste positive Entwicklungen gesehen. Kann es nur empfehlen!", likes: 56 },
+    { id: 10, author: "Wolfgang H.", time: "vor 10 Stunden", text: "Diese Geschichte zeigt: Man darf sich nicht unterkriegen lassen! Respekt an die Dame. Das Angebot werde ich mir auch ansehen.", likes: 72 },
+    { id: 11, author: "Hannelore P.", time: "vor 11 Stunden", text: "Endlich mal ein Artikel der zeigt, dass es Lösungen gibt! Die BaFin-regulierten Großbanken sind wirklich seriös.", likes: 48 },
+    { id: 12, author: "Siegfried R.", time: "vor 12 Stunden", text: "Meine Frau und ich haben uns ebenfalls für das Angebot entschieden. Der Wechsel war problemlos und wir fühlen uns sicher.", likes: 83 }
   ];
 
   return (
@@ -346,53 +275,19 @@ const ArticlePage2 = () => {
         {/* Comments Section */}
         <div className="px-4 md:px-6 lg:px-24 mt-12">
           <div className="max-w-[680px] mx-auto">
-            <div className="border-t pt-8">
-              <div className="flex items-center gap-2 mb-6">
-                <MessageCircle className="w-5 h-5" />
-                <h3 className="font-bold text-xl font-spiegel-serif">
-                  Kommentare ({comments.length})
-                </h3>
-              </div>
-
-              <div className="space-y-6">
-                {comments.map((comment, index) => (
-                  <div 
-                    key={index} 
-                    className={`p-4 rounded-lg ${comment.isHighlight ? 'bg-secondary/70 border-l-4 border-primary' : 'bg-secondary/30'}`}
-                  >
-                    <div className="flex items-center justify-between mb-2">
-                      <div className="flex items-center gap-2">
-                        <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center text-sm font-bold">
-                          {comment.name.charAt(0)}
-                        </div>
-                        <span className="font-semibold text-sm">{comment.name}</span>
-                      </div>
-                      <span className="text-xs text-muted-foreground">{comment.date}</span>
-                    </div>
-                    <p className="text-sm leading-relaxed mb-3">{comment.text}</p>
-                    <div className="flex items-center gap-4 text-xs text-muted-foreground">
-                      <button className="flex items-center gap-1 hover:text-foreground">
-                        <ThumbsUp className="w-3.5 h-3.5" />
-                        <span>{comment.likes}</span>
-                      </button>
-                      <button className="hover:text-foreground">Antworten</button>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              {/* Second CTA after comments */}
-              <div className="mt-8 p-6 bg-primary/10 rounded-lg border border-primary/20 text-center">
-                <p className="font-semibold mb-3">
-                  Viele Leser haben das Consorsbank-Angebot bereits genutzt!
-                </p>
-                <OfferButton>
-                  👉 Jetzt selbst informieren
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </OfferButton>
-              </div>
+            <CommentSection initialComments={comments} />
+            
+            {/* Second CTA after comments */}
+            <div className="mt-8 p-6 bg-primary/10 rounded-lg border border-primary/20 text-center">
+              <p className="font-semibold mb-3">
+                Viele Leser haben das Angebot bereits genutzt!
+              </p>
+              <OfferButton>
+                👉 Jetzt selbst informieren
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </OfferButton>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { toast } from "sonner";
-import { Save, Plus, ExternalLink, LogOut } from "lucide-react";
+import { Save, Plus, ExternalLink, LogOut, Eye } from "lucide-react";
 
 const Admin = () => {
   const { isAdmin, loading: authLoading, logout } = useAdminAuth();
@@ -241,6 +241,16 @@ const ArticleRow = ({ link, selected, onToggle }: ArticleRowProps) => {
           )}
         </div>
       </div>
+      <a
+        href={link.article_slug}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => e.stopPropagation()}
+        className="p-2 hover:bg-secondary rounded-md transition-colors"
+        title="Artikel anzeigen"
+      >
+        <Eye className="w-4 h-4 text-muted-foreground hover:text-primary" />
+      </a>
     </div>
   );
 };

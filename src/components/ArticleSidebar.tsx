@@ -19,13 +19,13 @@ const articles = [
   },
   {
     slug: "/maschmeyer-investment-geheimnis",
-    title: "Maschmeyer enthüllt Bank-Geheimnis",
-    category: "Maschmeyer-Interview"
+    title: "Löwen-Investor enthüllt Bank-Geheimnis",
+    category: "Exklusiv-Interview"
   },
   {
     slug: "/frank-thelen-cheat-code",
-    title: "Frank Thelen: Das ist wie ein Cheat-Code",
-    category: "Thelen-Interview"
+    title: "Tech-Investor: Das ist wie ein Cheat-Code",
+    category: "Exklusiv-Interview"
   },
   {
     slug: "/eu-bankenregeln-fair-access",
@@ -81,7 +81,7 @@ const ArticleSidebar = ({ isOpen, onClose }: ArticleSidebarProps) => {
       >
         {/* Header */}
         <div className="flex items-center justify-between p-4 border-b bg-primary">
-          <span className="text-white font-black text-xl">SPIEGEL</span>
+          <span className="text-white font-black text-xl">WIRTSCHAFT</span>
           <button 
             onClick={onClose}
             className="text-white hover:opacity-80 p-1"

@@ -231,27 +231,46 @@ const ArticlePage30 = () => {
           </p>
         </div>
 
-        {/* Exclusive Access Box */}
-        <div className="bg-primary/10 border-2 border-primary rounded-lg p-6 my-8">
-          <div className="flex items-center gap-2 mb-3">
-            <Lock className="w-5 h-5 text-primary" />
-            <span className="font-bold text-primary">Exklusiver Redaktions-Zugang</span>
-          </div>
-          <p className="text-sm mb-4">
-            Unsere Wirtschaftsredaktion hat den direkten Zugang zu diesem versteckten Bankangebot recherchiert. Es ist auf der regulären Website nicht auffindbar.
-          </p>
-          <p className="text-xs text-muted-foreground">
-            Hinweis: Begrenzte Plätze verfügbar. Das Angebot kann jederzeit geschlossen werden.
-          </p>
+        {/* Security Checklist */}
+        <div className="info-box">
+          <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
+            <Shield className="w-5 h-5 text-primary" />
+            Sicherheits-Checkliste der TV-Investorin:
+          </h3>
+          <ul className="space-y-2 text-sm">
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Ist es eine deutsche Bank? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>BaFin-reguliert? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Einlagensicherung bis 100.000€? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Jederzeit kündbar? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Auszahlung funktioniert? <strong>Ja – selbst getestet ✓</strong></span>
+            </li>
+          </ul>
         </div>
 
         {/* CTA Section */}
-        <div className="my-12 text-center">
-          <OfferButton className="text-xl">
-            👉 Zum Angebot der TV-Investorin
+        <div className="bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20 rounded-lg p-6 my-8">
+          <p className="text-sm mb-4">
+            <strong>Anmerkung der Redaktion:</strong> Die bekannte TV-Investorin hat uns gebeten, ihren persönlichen Zugang zu teilen. Er ist nicht öffentlich auf der Bank-Website verfügbar.
+          </p>
+          <OfferButton className="w-full">
+            Geheimtipp der TV-Investorin nutzen →
           </OfferButton>
-          <p className="text-sm text-muted-foreground mt-4">
-            * Das Angebot ist zeitlich begrenzt und richtet sich an ausgewählte Kunden.
+          <p className="text-xs text-muted-foreground mt-3 text-center">
+            Deutsche Großbank · Einlagensicherung bis 100.000€ · Jederzeit kündbar
           </p>
         </div>
 

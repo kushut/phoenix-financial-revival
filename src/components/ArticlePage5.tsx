@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Scale, FileText, Building2 } from "lucide-react";
+import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Scale, FileText, Building2, CheckCircle } from "lucide-react";
 import OfferButton from "./OfferButton";
 
 const ArticlePage5 = () => {
@@ -284,27 +284,46 @@ const ArticlePage5 = () => {
           </p>
         </div>
 
-        {/* Exclusive Access Box */}
-        <div className="bg-primary/10 border-2 border-primary rounded-lg p-6 my-8">
-          <div className="flex items-center gap-2 mb-3">
+        {/* Security Checklist */}
+        <div className="info-box">
+          <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
             <Scale className="w-5 h-5 text-primary" />
-            <span className="font-bold text-primary">CRD VI-konformes Angebot – Exklusiver Zugang</span>
-          </div>
-          <p className="text-sm mb-4">
-            Dieses Angebot wurde durch die neue EU-Bankenrichtlinie möglich gemacht. Es wurde von unserer Redaktion recherchiert und ist auf der regulären Website dieser Großbank <strong>nicht auffindbar</strong>. Nutzen Sie den direkten Zugang, solange noch Plätze verfügbar sind.
-          </p>
-          <p className="text-xs text-muted-foreground">
-            Hinweis: Begrenzte Plätze verfügbar. Das Angebot wird geschlossen, sobald die Kapazitäten erreicht sind.
-          </p>
+            EU-Regulierungs-Checkliste (CRD VI):
+          </h3>
+          <ul className="space-y-2 text-sm">
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Ist es eine deutsche Bank? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>BaFin-reguliert? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>CRD VI / Fair Access konform? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Einlagensicherung bis 100.000€? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Jederzeit kündbar? <strong>Ja ✓</strong></span>
+            </li>
+          </ul>
         </div>
 
         {/* CTA Section */}
-        <div className="my-12 text-center">
-          <OfferButton className="text-xl">
-            👉 Zum EU-regulierten Angebot (von der Redaktion recherchiert)
+        <div className="bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20 rounded-lg p-6 my-8">
+          <p className="text-sm mb-4">
+            <strong>Anmerkung der Redaktion:</strong> Dieses Angebot wurde durch die neue EU-Bankenrichtlinie möglich gemacht. Unsere Wirtschaftsredaktion hat den direkten Zugang recherchiert. Er ist nicht öffentlich auf der Bank-Website verfügbar.
+          </p>
+          <OfferButton className="w-full">
+            EU-regulierten Zugang jetzt nutzen →
           </OfferButton>
-          <p className="text-sm text-muted-foreground mt-4">
-            * Das Angebot ist CRD VI-konform und unterliegt der deutschen Einlagensicherung.
+          <p className="text-xs text-muted-foreground mt-3 text-center">
+            Deutsche Großbank · CRD VI-konform · Einlagensicherung bis 100.000€ · Jederzeit kündbar
           </p>
         </div>
 

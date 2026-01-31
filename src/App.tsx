@@ -36,6 +36,7 @@ import Site29 from "./pages/Site29";
 import Site30 from "./pages/Site30";
 import Site31 from "./pages/Site31";
 import Admin from "./pages/Admin";
+import AdminLogin from "./pages/AdminLogin";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -80,6 +81,7 @@ const App = () => (
           <Route path="/loewin-investorin-geheimtipp" element={<Site30 />} />
           <Route path="/loewin-investorin-bank-enthuellung" element={<Site31 />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/admin-login" element={<AdminLogin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

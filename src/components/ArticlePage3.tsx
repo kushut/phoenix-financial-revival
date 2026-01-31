@@ -62,6 +62,41 @@ const ArticlePage3 = () => {
       time: "vor 9 Stunden",
       text: "Das Angebot war wirklich schwer zu finden – gut, dass die Redaktion es recherchiert hat!",
       likes: 92
+    },
+    {
+      id: 9,
+      author: "Günther R.",
+      time: "vor 10 Stunden",
+      text: "Nutze das Angebot seit 11 Monaten. Läuft sehr stabil, konnte mir ein neues E-Bike kaufen 👍",
+      likes: 287
+    },
+    {
+      id: 10,
+      author: "Beate K.",
+      time: "vor 11 Stunden",
+      text: "Super Artikel! Habe ihn gleich in unserer Familiengruppe geteilt.",
+      likes: 56
+    },
+    {
+      id: 11,
+      author: "Horst M.",
+      time: "vor 12 Stunden",
+      text: "Bin seit über einem Jahr dabei. Die Auszahlungen kommen zuverlässig. Sehr empfehlenswert!",
+      likes: 342
+    },
+    {
+      id: 12,
+      author: "Doris W.",
+      time: "vor 1 Tag",
+      text: "Der Berater war sehr geduldig und hat alle meine Fragen beantwortet. Fühle mich gut aufgehoben.",
+      likes: 98
+    },
+    {
+      id: 13,
+      author: "Peter N.",
+      time: "vor 1 Tag",
+      text: "Interessanter Ansatz. Werde mich mal informieren.",
+      likes: 34
     }
   ];
 

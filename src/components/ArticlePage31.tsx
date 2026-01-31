@@ -48,6 +48,55 @@ const ArticlePage31 = () => {
       time: "vor 6 Stunden",
       text: "Meine Freundin hat damit schon 3.000€ verdient. Jetzt bin ich auch dabei!",
       likes: 178
+    },
+    {
+      id: 7,
+      author: "Werner B.",
+      time: "vor 7 Stunden",
+      text: "Nutze das Angebot seit 13 Monaten. Kann nur Positives berichten – Auszahlungen kommen immer pünktlich!",
+      likes: 389
+    },
+    {
+      id: 8,
+      author: "Erika T.",
+      time: "vor 8 Stunden",
+      text: "Super recherchierter Artikel! Habe ihn in meiner WhatsApp-Gruppe geteilt.",
+      likes: 67
+    },
+    {
+      id: 9,
+      author: "Manfred G.",
+      time: "vor 9 Stunden",
+      text: "Mein Bruder ist seit fast 2 Jahren dabei und sehr zufrieden. Werde mich auch anmelden.",
+      likes: 234
+    },
+    {
+      id: 10,
+      author: "Christa K.",
+      time: "vor 10 Stunden",
+      text: "Ich bin beeindruckt, wie offen die Löwin über diese Dinge spricht. Mutige Frau!",
+      likes: 145
+    },
+    {
+      id: 11,
+      author: "Jörg S.",
+      time: "vor 11 Stunden",
+      text: "Die Banken sind wirklich dreist. Gut, dass sowas endlich ans Licht kommt.",
+      likes: 167
+    },
+    {
+      id: 12,
+      author: "Elisabeth R.",
+      time: "vor 1 Tag",
+      text: "Bin seit 8 Monaten dabei. Die Renditen variieren, aber unterm Strich bin ich sehr zufrieden 👍",
+      likes: 298
+    },
+    {
+      id: 13,
+      author: "Dieter H.",
+      time: "vor 1 Tag",
+      text: "Interessanter Beitrag. Werde mich mal schlau machen.",
+      likes: 45
     }
   ];
 

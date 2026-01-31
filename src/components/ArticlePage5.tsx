@@ -61,6 +61,41 @@ const ArticlePage5 = () => {
       time: "vor 8 Stunden",
       text: "Meine Enkelin hat mir den Artikel geschickt. Habe mich noch am selben Tag angemeldet. Endlich faire Chancen!",
       likes: 112
+    },
+    {
+      id: 9,
+      author: "Prof. Dr. Weber",
+      time: "vor 9 Stunden",
+      text: "Die EU-Regulierung ist ein wichtiger Schritt. Als Ökonom begrüße ich diese Entwicklung sehr.",
+      likes: 289
+    },
+    {
+      id: 10,
+      author: "Christine M.",
+      time: "vor 10 Stunden",
+      text: "Bin seit 10 Monaten dabei und kann nur Positives berichten. Die Auszahlungen kommen pünktlich!",
+      likes: 334
+    },
+    {
+      id: 11,
+      author: "Herbert K.",
+      time: "vor 11 Stunden",
+      text: "Guter Artikel, sehr informativ. Werde das mit meiner Frau besprechen.",
+      likes: 45
+    },
+    {
+      id: 12,
+      author: "Angelika S.",
+      time: "vor 12 Stunden",
+      text: "Nutze das Angebot seit fast einem Jahr. Kann es wärmstens empfehlen – sehr seriös!",
+      likes: 278
+    },
+    {
+      id: 13,
+      author: "Martin R.",
+      time: "vor 1 Tag",
+      text: "Interessant, dass die EU da endlich aktiv wird. Werde mich informieren.",
+      likes: 67
     }
   ];
 

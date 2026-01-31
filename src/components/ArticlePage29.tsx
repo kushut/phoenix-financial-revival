@@ -48,6 +48,48 @@ const ArticlePage29 = () => {
       time: "vor 6 Stunden",
       text: "Endlich mal ein Artikel, der nicht von komplizierten Aktienstrategien redet. Das hier ist für normale Leute gemacht.",
       likes: 67
+    },
+    {
+      id: 7,
+      author: "Hannelore P.",
+      time: "vor 7 Stunden",
+      text: "Bin seit 8 Monaten dabei und bekomme regelmäßig meine Auszahlungen. Super Service, sehr zufrieden!",
+      likes: 312
+    },
+    {
+      id: 8,
+      author: "Kurt E.",
+      time: "vor 8 Stunden",
+      text: "Schöner Artikel! Habe den Link an meine Schwester weitergeleitet, die auch Rentnerin ist.",
+      likes: 54
+    },
+    {
+      id: 9,
+      author: "Elfriede N.",
+      time: "vor 9 Stunden",
+      text: "Nutze das Angebot jetzt seit einem halben Jahr. Konnte mir davon sogar einen kleinen Urlaub leisten 🌴",
+      likes: 245
+    },
+    {
+      id: 10,
+      author: "Hans-Jürgen T.",
+      time: "vor 10 Stunden",
+      text: "Meine Enkelin studiert Wirtschaft und hat mir bestätigt, dass solche Angebote wirklich existieren. Bin dabei!",
+      likes: 123
+    },
+    {
+      id: 11,
+      author: "Ursula B.",
+      time: "vor 11 Stunden",
+      text: "Toller Beitrag! Endlich versteht jemand unsere Generation.",
+      likes: 87
+    },
+    {
+      id: 12,
+      author: "Rudi S.",
+      time: "vor 1 Tag",
+      text: "Bin schon seit 14 Monaten Kunde. Die Renditen schwanken zwar, aber im Durchschnitt stimmt es. Kann ich empfehlen.",
+      likes: 398
     }
   ];
 

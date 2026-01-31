@@ -23,4 +23,6 @@ jobs:
             git pull origin main
             npm install
             npm run build
+            rm -rf /var/www/site/*
+            cp -r dist/* /var/www/site/
             sudo systemctl restart nginx

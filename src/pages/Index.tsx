@@ -6,14 +6,8 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <SpiegelHeader />
       <div className="max-w-[680px] mx-auto px-3 sm:px-4 py-6 sm:py-12">
-        <div className="flex items-center justify-between mb-6 sm:mb-8">
+        <div className="mb-6 sm:mb-8">
           <h1 className="text-2xl sm:text-3xl font-bold font-spiegel-serif">Artikel-Übersicht</h1>
-          <Link 
-            to="/admin"
-            className="text-sm bg-primary text-white px-3 py-1.5 rounded hover:bg-primary/90 transition-colors"
-          >
-            Admin
-          </Link>
         </div>
         
         <div className="space-y-4 sm:space-y-6">

@@ -1,57 +1,18 @@
 import SpiegelHeader from "./SpiegelHeader";
 import { Button } from "@/components/ui/button";
 import OfferButton from "./OfferButton";
+import CommentSection from "./CommentSection";
 
 const ArticlePage7 = () => {
   const comments = [
-    {
-      author: "Krankenschwester_Köln",
-      time: "vor 1 Stunde",
-      text: "Ich habe auch 30 Jahre im Schichtdienst gearbeitet. Diese Geschichte hat mich zu Tränen gerührt. Endlich mal was, das auch für uns Normalverdiener funktioniert.",
-      likes: 312
-    },
-    {
-      author: "SkeptischerLeser_FFM",
-      time: "vor 2 Stunden",
-      text: "Habe erst gedacht: Zu schön um wahr zu sein. Aber die 100.000€ Einlagensicherung ist Fakt – das ist EU-Gesetz. Meine Frau hat mich überredet, es zu probieren.",
-      likes: 245
-    },
-    {
-      author: "RentnerPeter_Dresden",
-      time: "vor 3 Stunden",
-      text: "Meine Schwester ist auch Krankenschwester. Habe ihr diesen Artikel geschickt. Sie hat letzte Woche angefangen und ist begeistert.",
-      likes: 189
-    },
-    {
-      author: "FinanzProfi_Berlin",
-      time: "vor 4 Stunden",
-      text: "Als jemand der in der Branche arbeitet: Diese Bank ist absolut seriös. Staatlich abgesichert, BaFin-reguliert. Kein Vergleich zu irgendwelchen Krypto-Scams.",
-      likes: 423
-    },
-    {
-      author: "MutterZweierKinder",
-      time: "vor 5 Stunden",
-      text: "Danke für diesen Artikel! Habe als alleinerziehende Mutter nie gedacht, dass ich mir so etwas leisten kann. Mit 500€ gestartet, jetzt nach 4 Monaten bei 2.100€.",
-      likes: 367
-    },
-    {
-      author: "Handwerker_Hamburg",
-      time: "vor 6 Stunden",
-      text: "Mein Steuerberater hat mir das gleiche Angebot empfohlen. Er nutzt es selbst seit 8 Monaten. Wenn sogar der skeptisch ist und es trotzdem macht...",
-      likes: 198
-    },
-    {
-      author: "LehrerinSabine",
-      time: "vor 7 Stunden",
-      text: "Was mich überzeugt hat: Man kann jederzeit aussteigen. Kein Vertrag, keine Mindestlaufzeit. Habe mit 1.000€ angefangen, nur um es zu testen.",
-      likes: 276
-    },
-    {
-      author: "PensionärHelmut_71",
-      time: "vor 8 Stunden",
-      text: "Endlich verstehe ich, warum die Reichen immer reicher werden. Sie hatten Zugang zu solchen Angeboten. Jetzt haben wir ihn auch.",
-      likes: 534
-    }
+    { id: 1, author: "Krankenschwester_Köln", time: "vor 1 Stunde", text: "Ich habe auch 30 Jahre im Schichtdienst gearbeitet. Diese Geschichte hat mich zu Tränen gerührt. Endlich mal was, das auch für uns Normalverdiener funktioniert.", likes: 312 },
+    { id: 2, author: "SkeptischerLeser_FFM", time: "vor 2 Stunden", text: "Habe erst gedacht: Zu schön um wahr zu sein. Aber die 100.000€ Einlagensicherung ist Fakt – das ist EU-Gesetz. Meine Frau hat mich überredet, es zu probieren.", likes: 245 },
+    { id: 3, author: "RentnerPeter_Dresden", time: "vor 3 Stunden", text: "Meine Schwester ist auch Krankenschwester. Habe ihr diesen Artikel geschickt. Sie hat letzte Woche angefangen und ist begeistert.", likes: 189 },
+    { id: 4, author: "FinanzProfi_Berlin", time: "vor 4 Stunden", text: "Als jemand der in der Branche arbeitet: Diese Bank ist absolut seriös. Staatlich abgesichert, BaFin-reguliert. Kein Vergleich zu irgendwelchen Krypto-Scams.", likes: 423 },
+    { id: 5, author: "MutterZweierKinder", time: "vor 5 Stunden", text: "Danke für diesen Artikel! Habe als alleinerziehende Mutter nie gedacht, dass ich mir so etwas leisten kann. Mit 500€ gestartet, jetzt nach 4 Monaten bei 2.100€.", likes: 367 },
+    { id: 6, author: "Handwerker_Hamburg", time: "vor 6 Stunden", text: "Mein Steuerberater hat mir das gleiche Angebot empfohlen. Er nutzt es selbst seit 8 Monaten. Wenn sogar der skeptisch ist und es trotzdem macht...", likes: 198 },
+    { id: 7, author: "LehrerinSabine", time: "vor 7 Stunden", text: "Was mich überzeugt hat: Man kann jederzeit aussteigen. Kein Vertrag, keine Mindestlaufzeit. Habe mit 1.000€ angefangen, nur um es zu testen.", likes: 276 },
+    { id: 8, author: "PensionärHelmut_71", time: "vor 8 Stunden", text: "Endlich verstehe ich, warum die Reichen immer reicher werden. Sie hatten Zugang zu solchen Angeboten. Jetzt haben wir ihn auch.", likes: 534 }
   ];
 
   return (
@@ -273,30 +234,7 @@ const ArticlePage7 = () => {
         </article>
 
         {/* Comments Section */}
-        <section className="mt-12 border-t pt-8">
-          <h2 className="text-2xl font-bold mb-6 font-spiegel-serif">
-            {comments.length} Kommentare
-          </h2>
-          
-          <div className="space-y-6">
-            {comments.map((comment, index) => (
-              <div key={index} className="border-b pb-6 last:border-b-0">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="font-semibold text-sm">{comment.author}</span>
-                  <span className="text-muted-foreground text-sm">{comment.time}</span>
-                </div>
-                <p className="text-foreground mb-3">{comment.text}</p>
-                <div className="flex items-center gap-4 text-sm text-muted-foreground">
-                  <button className="hover:text-primary transition-colors">
-                    ▲ {comment.likes}
-                  </button>
-                  <button className="hover:text-primary transition-colors">Antworten</button>
-                  <button className="hover:text-primary transition-colors">Melden</button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
+        <CommentSection initialComments={comments} />
       </main>
     </div>
   );

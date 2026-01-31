@@ -1,57 +1,18 @@
 import SpiegelHeader from "./SpiegelHeader";
 import { Button } from "@/components/ui/button";
 import OfferButton from "./OfferButton";
+import CommentSection from "./CommentSection";
 
 const ArticlePage6 = () => {
   const comments = [
-    {
-      author: "Thomas_K_Stuttgart",
-      time: "vor 2 Stunden",
-      text: "Ich war auch lange skeptisch, aber nach dem was meiner Schwester passiert ist, habe ich es einfach ausprobiert. Bereue es keine Sekunde.",
-      likes: 234
-    },
-    {
-      author: "FinanzExpertin_MUC",
-      time: "vor 3 Stunden", 
-      text: "Als Finanzberaterin kann ich bestätigen: Diese Bank gehört zu den seriösesten in Deutschland. Das hier ist kein Scam, sondern ein legitimes Angebot.",
-      likes: 189
-    },
-    {
-      author: "SkeptischerLeser2024",
-      time: "vor 4 Stunden",
-      text: "Habe den Artikel zuerst für Werbung gehalten. Dann habe ich recherchiert – es ist tatsächlich eine der größten Direktbanken Deutschlands mit staatlicher Einlagensicherung.",
-      likes: 156
-    },
-    {
-      author: "RentnerHans_67",
-      time: "vor 5 Stunden",
-      text: "Meine Frau hat mich überredet es zu probieren. Nach 6 Wochen: Wir haben unser Urlaubsgeld verdreifacht. Fahren jetzt 3 Wochen statt 1 Woche nach Mallorca.",
-      likes: 298
-    },
-    {
-      author: "JuliaMueller_Berlin",
-      time: "vor 6 Stunden",
-      text: "Ich arbeite selbst bei einer Bank (nicht diese). Diese Art von aktivem Management wird normalerweise erst ab 500k angeboten. Dass sie das für Kleinanleger öffnen, ist wirklich ungewöhnlich.",
-      likes: 345
-    },
-    {
-      author: "VorsichtigerSparer",
-      time: "vor 7 Stunden",
-      text: "Wichtig: Man kann jederzeit aussteigen und sein Geld zurückholen. Das war für mich der entscheidende Punkt. Kein Lock-in, keine versteckten Gebühren.",
-      likes: 178
-    },
-    {
-      author: "MarkusW_Hamburg",
-      time: "vor 8 Stunden",
-      text: "Kollege hat mir davon erzählt. Dachte erst er spinnt. Jetzt mache ich seit 4 Monaten mit und verstehe, warum er so begeistert war.",
-      likes: 267
-    },
-    {
-      author: "KritischerGeist",
-      time: "vor 9 Stunden",
-      text: "Habe extra bei der BaFin nachgefragt – diese Bank ist vollständig reguliert und das Angebot ist legal. Die 100.000€ Einlagensicherung gilt auch hier.",
-      likes: 412
-    }
+    { id: 1, author: "Thomas_K_Stuttgart", time: "vor 2 Stunden", text: "Ich war auch lange skeptisch, aber nach dem was meiner Schwester passiert ist, habe ich es einfach ausprobiert. Bereue es keine Sekunde.", likes: 234 },
+    { id: 2, author: "FinanzExpertin_MUC", time: "vor 3 Stunden", text: "Als Finanzberaterin kann ich bestätigen: Diese Bank gehört zu den seriösesten in Deutschland. Das hier ist kein Scam, sondern ein legitimes Angebot.", likes: 189 },
+    { id: 3, author: "SkeptischerLeser2024", time: "vor 4 Stunden", text: "Habe den Artikel zuerst für Werbung gehalten. Dann habe ich recherchiert – es ist tatsächlich eine der größten Direktbanken Deutschlands mit staatlicher Einlagensicherung.", likes: 156 },
+    { id: 4, author: "RentnerHans_67", time: "vor 5 Stunden", text: "Meine Frau hat mich überredet es zu probieren. Nach 6 Wochen: Wir haben unser Urlaubsgeld verdreifacht. Fahren jetzt 3 Wochen statt 1 Woche nach Mallorca.", likes: 298 },
+    { id: 5, author: "JuliaMueller_Berlin", time: "vor 6 Stunden", text: "Ich arbeite selbst bei einer Bank (nicht diese). Diese Art von aktivem Management wird normalerweise erst ab 500k angeboten. Dass sie das für Kleinanleger öffnen, ist wirklich ungewöhnlich.", likes: 345 },
+    { id: 6, author: "VorsichtigerSparer", time: "vor 7 Stunden", text: "Wichtig: Man kann jederzeit aussteigen und sein Geld zurückholen. Das war für mich der entscheidende Punkt. Kein Lock-in, keine versteckten Gebühren.", likes: 178 },
+    { id: 7, author: "MarkusW_Hamburg", time: "vor 8 Stunden", text: "Kollege hat mir davon erzählt. Dachte erst er spinnt. Jetzt mache ich seit 4 Monaten mit und verstehe, warum er so begeistert war.", likes: 267 },
+    { id: 8, author: "KritischerGeist", time: "vor 9 Stunden", text: "Habe extra bei der BaFin nachgefragt – diese Bank ist vollständig reguliert und das Angebot ist legal. Die 100.000€ Einlagensicherung gilt auch hier.", likes: 412 }
   ];
 
   return (
@@ -224,30 +185,7 @@ const ArticlePage6 = () => {
         </article>
 
         {/* Comments Section */}
-        <section className="mt-12 border-t pt-8">
-          <h2 className="text-2xl font-bold mb-6 font-spiegel-serif">
-            {comments.length} Kommentare
-          </h2>
-          
-          <div className="space-y-6">
-            {comments.map((comment, index) => (
-              <div key={index} className="border-b pb-6 last:border-b-0">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="font-semibold text-sm">{comment.author}</span>
-                  <span className="text-muted-foreground text-sm">{comment.time}</span>
-                </div>
-                <p className="text-foreground mb-3">{comment.text}</p>
-                <div className="flex items-center gap-4 text-sm text-muted-foreground">
-                  <button className="hover:text-primary transition-colors">
-                    ▲ {comment.likes}
-                  </button>
-                  <button className="hover:text-primary transition-colors">Antworten</button>
-                  <button className="hover:text-primary transition-colors">Melden</button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
+        <CommentSection initialComments={comments} />
       </main>
     </div>
   );

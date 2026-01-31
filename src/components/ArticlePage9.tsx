@@ -4,8 +4,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { CheckCircle, Shield, AlertCircle, Landmark, ArrowRight } from "lucide-react";
 import OfferButton from "./OfferButton";
+import CommentSection from "./CommentSection";
 
 const ArticlePage9 = () => {
+  const comments = [
+    { id: 1, author: "Renate S.", time: "vor 1 Stunde", text: "Endlich mal ein Artikel, der nicht nur warnt, sondern auch eine Lösung zeigt. Danke dafür!", likes: 67 },
+    { id: 2, author: "Horst B.", time: "vor 3 Stunden", text: "Ich habe mich vor 3 Wochen angemeldet. Bisher läuft alles wie beschrieben. Die Anmeldung war einfacher als erwartet.", likes: 92 },
+    { id: 3, author: "Marianne W.", time: "vor 5 Stunden", text: "Mein Mann ist immer noch skeptisch, aber ich habe heimlich 5.000€ eingezahlt. Mal schauen, was er sagt, wenn ich ihm in drei Monaten die Entwicklung zeige 😉", likes: 156 },
+    { id: 4, author: "Frank N.", time: "vor 6 Stunden", text: "Wichtig: Prüft immer selbst, ob der Anbieter seriös ist! BaFin-Suche ist kostenlos. Ich habe das gemacht und konnte mich dann beruhigt anmelden.", likes: 43 },
+    { id: 5, author: "Elisabeth K.", time: "vor 8 Stunden", text: "Bin seit 8 Monaten dabei – bestes Investment meines Lebens. Mein Enkel hat mir dabei geholfen, mich anzumelden.", likes: 87 }
+  ];
 
   return (
     <div className="min-h-screen bg-background">
@@ -240,75 +248,7 @@ const ArticlePage9 = () => {
         </article>
 
         {/* Comment Section */}
-        <div className="mt-12 pt-8 border-t">
-          <h3 className="text-xl font-bold font-spiegel-serif mb-6">Kommentare (89)</h3>
-          
-          <div className="space-y-6">
-            <div className="flex gap-4">
-              <Avatar>
-                <AvatarFallback>RS</AvatarFallback>
-              </Avatar>
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="font-medium">Renate S.</span>
-                  <span className="text-sm text-muted-foreground">vor 1 Stunde</span>
-                </div>
-                <p className="text-sm">
-                  Endlich mal ein Artikel, der nicht nur warnt, sondern auch eine Lösung zeigt. 
-                  Danke dafür!
-                </p>
-              </div>
-            </div>
-
-            <div className="flex gap-4">
-              <Avatar>
-                <AvatarFallback>HB</AvatarFallback>
-              </Avatar>
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="font-medium">Horst B.</span>
-                  <span className="text-sm text-muted-foreground">vor 3 Stunden</span>
-                </div>
-                <p className="text-sm">
-                  Ich habe mich vor 3 Wochen angemeldet. Bisher läuft alles wie beschrieben. 
-                  Die Anmeldung war einfacher als erwartet.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex gap-4">
-              <Avatar>
-                <AvatarFallback>MW</AvatarFallback>
-              </Avatar>
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="font-medium">Marianne W.</span>
-                  <span className="text-sm text-muted-foreground">vor 5 Stunden</span>
-                </div>
-                <p className="text-sm">
-                  Mein Mann ist immer noch skeptisch, aber ich habe heimlich 5.000€ eingezahlt. 
-                  Mal schauen, was er sagt, wenn ich ihm in drei Monaten die Entwicklung zeige 😉
-                </p>
-              </div>
-            </div>
-
-            <div className="flex gap-4">
-              <Avatar>
-                <AvatarFallback>FN</AvatarFallback>
-              </Avatar>
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="font-medium">Frank N.</span>
-                  <span className="text-sm text-muted-foreground">vor 6 Stunden</span>
-                </div>
-                <p className="text-sm">
-                  Wichtig: Prüft immer selbst, ob der Anbieter seriös ist! BaFin-Suche ist 
-                  kostenlos. Ich habe das gemacht und konnte mich dann beruhigt anmelden.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <CommentSection initialComments={comments} />
       </main>
     </div>
   );

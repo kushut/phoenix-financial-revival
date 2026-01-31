@@ -49,7 +49,7 @@ const ArticlePage28 = () => {
         <span className="category-tag">Exklusiv</span>
         
         <h1 className="article-title mt-3 mb-4">
-          „12.800 Euro in 10 Wochen": Wie Rentner Werner (74) vom EU-Indien-Deal profitiert
+          „12.000 Euro in 10 Wochen": Wie Rentner Werner (74) vom EU-Indien-Deal profitiert
         </h1>
 
         <p className="article-lead text-muted-foreground mb-6">
@@ -99,7 +99,7 @@ const ArticlePage28 = () => {
           </p>
 
           <p>
-            „Schauen Sie hier", sagt der 74-Jährige und dreht das Display. „35.000 Euro eingezahlt. Stand heute: 47.800 Euro. In zehn Wochen."
+            „Schauen Sie hier", sagt der 74-Jährige und dreht das Display. „35.000 Euro eingezahlt. Stand heute: 47.000 Euro. In zehn Wochen."
           </p>
 
           <blockquote className="article-quote">
@@ -177,21 +177,24 @@ const ArticlePage28 = () => {
               </div>
               <div className="flex justify-between items-center border-b border-primary/20 pb-2">
                 <span>Nach 2 Wochen</span>
-                <span className="font-bold text-primary">38.200 € (+9,1%)</span>
+                <span className="font-bold text-primary">37.300 € (+6,6%)</span>
               </div>
               <div className="flex justify-between items-center border-b border-primary/20 pb-2">
                 <span>Nach 4 Wochen</span>
-                <span className="font-bold text-primary">41.500 € (+18,6%)</span>
+                <span className="font-bold text-primary">39.550 € (+13%)</span>
               </div>
               <div className="flex justify-between items-center border-b border-primary/20 pb-2">
                 <span>Nach 6 Wochen</span>
-                <span className="font-bold text-primary">44.100 € (+26%)</span>
+                <span className="font-bold text-primary">42.000 € (+20%)</span>
               </div>
               <div className="flex justify-between items-center">
                 <span>Aktuell (10 Wochen)</span>
-                <span className="font-bold text-primary">47.800 € (+36,6%)</span>
+                <span className="font-bold text-primary">47.000 € (+34,3%)</span>
               </div>
             </div>
+            <p className="text-xs text-muted-foreground mt-3">
+              Durchschnittliche Monatsrendite: ca. 13% (Schwankungen zwischen 7-17% möglich)
+            </p>
           </div>
 
           <p>
@@ -232,7 +235,7 @@ const ArticlePage28 = () => {
           <h2 className="article-subheading">Werners Rat an andere Rentner</h2>
 
           <p>
-            Heute, zehn Wochen später, hat Werner aus 35.000 Euro fast 48.000 Euro gemacht. Er hat bereits 8.000 Euro ausgezahlt – für einen neuen Fernseher und eine Kreuzfahrt mit seiner Frau.
+            Heute, zehn Wochen später, hat Werner aus 35.000 Euro 47.000 Euro gemacht – ein Plus von 12.000 Euro. Er hat bereits 5.000 Euro ausgezahlt – für einen neuen Fernseher und eine Kreuzfahrt mit seiner Frau.
           </p>
 
           <blockquote className="article-quote">

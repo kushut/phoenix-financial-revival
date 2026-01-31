@@ -107,7 +107,7 @@ const SpiegelHeader = ({ breadcrumbTitle = "42.000 Euro verloren – wie eine Fr
       <div className="bg-white border-b">
         <div className="max-w-[1020px] mx-auto px-4 md:px-6">
           <nav className="breadcrumb overflow-x-auto">
-            <a href="/" className="text-foreground hover:text-primary whitespace-nowrap">Startseite</a>
+            <span className="text-foreground whitespace-nowrap cursor-default">Startseite</span>
             <span className="breadcrumb-separator">›</span>
             <a href="#" className="text-foreground hover:text-primary whitespace-nowrap">Wirtschaft</a>
             <span className="breadcrumb-separator">›</span>

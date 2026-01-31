@@ -1,5 +1,6 @@
 import SpiegelHeader from "./SpiegelHeader";
 import OfferButton from "./OfferButton";
+import rentnerPortrait from "@/assets/rentner-portrait-2.png";
 
 const ArticlePage16 = () => {
   return (
@@ -19,14 +20,13 @@ const ArticlePage16 = () => {
           </p>
 
           <figure className="my-6 sm:my-8">
-            <div className="aspect-video bg-gradient-to-br from-secondary to-muted flex items-center justify-center">
-              <div className="text-center p-4 sm:p-8">
-                <p className="text-3xl sm:text-5xl font-bold text-primary">50.000 € → 97.400 €</p>
-                <p className="text-sm sm:text-base text-muted-foreground mt-2">Dokumentierte Vermögensentwicklung in 8 Monaten</p>
-              </div>
-            </div>
+            <img 
+              src={rentnerPortrait} 
+              alt="Dr. Friedrich Lange, ehemaliger Chefarzt" 
+              className="w-full rounded-lg"
+            />
             <figcaption className="text-xs sm:text-sm text-muted-foreground mt-2">
-              Die Entwicklung des Portfolios von Dr. Lange – verifiziert durch Kontoauszüge
+              Dr. Friedrich Lange (67) in seinem Arbeitszimmer in Heidelberg: „Ich bin Mediziner, kein Finanzexperte"
             </figcaption>
           </figure>
 

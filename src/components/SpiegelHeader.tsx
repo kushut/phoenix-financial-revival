@@ -71,7 +71,7 @@ const SpiegelHeader = ({ breadcrumbTitle = "42.000 Euro verloren – wie eine Fr
             {/* Center: Logo */}
             <div className="flex items-center gap-2 sm:gap-3">
               <span className="text-white font-black text-xl sm:text-2xl tracking-tight">
-                WIRTSCHAFT
+                SPIEGEL
               </span>
               <span className="text-white/90 font-normal text-base sm:text-lg hidden xs:inline">
                 Wirtschaft

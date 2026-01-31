@@ -1,5 +1,6 @@
 import SpiegelHeader from "./SpiegelHeader";
 import OfferButton from "./OfferButton";
+import rentnerPortrait from "@/assets/rentner-portrait-1.png";
 
 const ArticlePage17 = () => {
   return (
@@ -103,6 +104,17 @@ const ArticlePage17 = () => {
           </div>
 
           <h2>Ein Unternehmer testet das System</h2>
+
+          <figure className="my-6">
+            <img 
+              src={rentnerPortrait} 
+              alt="Bernd Schäfer, ehemaliger Unternehmer" 
+              className="w-full rounded-lg"
+            />
+            <figcaption className="text-xs text-muted-foreground mt-2">
+              Bernd Schäfer (64) aus Stuttgart: „Mein Ansatz war rein wissenschaftlich"
+            </figcaption>
+          </figure>
 
           <p>
             Nach Veröffentlichung unserer ersten Recherchen meldete sich Bernd Schäfer (64), ehemaliger Geschäftsführer eines mittelständischen Maschinenbauunternehmens aus Stuttgart. Er wollte selbst testen, ob die Produkte auch für „normale" vermögende Privatpersonen zugänglich sind.

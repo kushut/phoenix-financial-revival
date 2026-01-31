@@ -32,6 +32,9 @@ import Site25 from "./pages/Site25";
 import Site26 from "./pages/Site26";
 import Site27 from "./pages/Site27";
 import Site28 from "./pages/Site28";
+import Site29 from "./pages/Site29";
+import Site30 from "./pages/Site30";
+import Site31 from "./pages/Site31";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
@@ -73,6 +76,9 @@ const App = () => (
           <Route path="/rentner-ehepaare-versteckte-alternative" element={<Site26 />} />
           <Route path="/eu-indien-abkommen-bank-renditen" element={<Site27 />} />
           <Route path="/rentner-werner-indien-deal" element={<Site28 />} />
+          <Route path="/loewin-investorin-rentner-angebot" element={<Site29 />} />
+          <Route path="/loewin-investorin-geheimtipp" element={<Site30 />} />
+          <Route path="/loewin-investorin-bank-enthuellung" element={<Site31 />} />
           <Route path="/admin" element={<Admin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

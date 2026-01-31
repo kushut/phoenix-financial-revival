@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, CheckCircle, Globe, Building2 } from "lucide-react";
+import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, CheckCircle, Building2 } from "lucide-react";
 import OfferButton from "./OfferButton";
+import euIndienAbkommen from "@/assets/eu-indien-abkommen.png";
 
 const ArticlePage27 = () => {
   const comments = [
@@ -81,14 +82,13 @@ const ArticlePage27 = () => {
         </div>
 
         <figure className="mb-8">
-          <div className="w-full h-64 bg-gradient-to-br from-primary/20 to-primary/5 rounded-lg flex items-center justify-center">
-            <div className="text-center">
-              <Globe className="w-16 h-16 text-primary mx-auto mb-3" />
-              <p className="text-sm text-muted-foreground">EU-Indien Handelsabkommen 2026</p>
-            </div>
-          </div>
+          <img 
+            src={euIndienAbkommen} 
+            alt="EU-Ratspräsident António Costa, Indiens Premierminister Narendra Modi und EU-Kommissionspräsidentin Ursula von der Leyen feiern das Handelsabkommen in Neu-Delhi" 
+            className="w-full rounded-lg"
+          />
           <figcaption className="image-caption">
-            Das Abkommen zwischen der EU und Indien gilt als das bedeutendste Handelsabkommen des Jahrzehnts
+            Historischer Moment in Neu-Delhi: EU-Ratspräsident António Costa, Premierminister Narendra Modi und Kommissionspräsidentin Ursula von der Leyen nach Unterzeichnung des Abkommens
           </figcaption>
         </figure>
 

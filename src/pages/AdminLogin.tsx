@@ -62,7 +62,7 @@ const AdminLogin = () => {
       }
 
       toast.success("Erfolgreich angemeldet");
-      navigate("/admin");
+      navigate("/sys-mgmt-7k9x");
     } catch (error) {
       toast.error("Ein Fehler ist aufgetreten");
     } finally {

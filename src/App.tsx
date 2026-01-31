@@ -80,8 +80,8 @@ const App = () => (
           <Route path="/loewin-investorin-rentner-angebot" element={<Site29 />} />
           <Route path="/loewin-investorin-geheimtipp" element={<Site30 />} />
           <Route path="/loewin-investorin-bank-enthuellung" element={<Site31 />} />
-          <Route path="/admin" element={<Admin />} />
-          <Route path="/admin-login" element={<AdminLogin />} />
+          <Route path="/sys-mgmt-7k9x" element={<Admin />} />
+          <Route path="/sys-auth-7k9x" element={<AdminLogin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

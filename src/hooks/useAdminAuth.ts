@@ -15,7 +15,7 @@ export const useAdminAuth = () => {
         if (!session?.user) {
           setIsAdmin(false);
           setLoading(false);
-          navigate("/admin-login");
+          navigate("/sys-auth-7k9x");
           return;
         }
 
@@ -30,13 +30,13 @@ export const useAdminAuth = () => {
         if (error || !roleData) {
           setIsAdmin(false);
           await supabase.auth.signOut();
-          navigate("/admin-login");
+          navigate("/sys-auth-7k9x");
         } else {
           setIsAdmin(true);
         }
       } catch (error) {
         setIsAdmin(false);
-        navigate("/admin-login");
+        navigate("/sys-auth-7k9x");
       } finally {
         setLoading(false);
       }
@@ -47,7 +47,7 @@ export const useAdminAuth = () => {
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event) => {
       if (event === "SIGNED_OUT") {
         setIsAdmin(false);
-        navigate("/admin-login");
+        navigate("/sys-auth-7k9x");
       }
     });
 
@@ -56,7 +56,7 @@ export const useAdminAuth = () => {
 
   const logout = async () => {
     await supabase.auth.signOut();
-    navigate("/admin-login");
+    navigate("/sys-auth-7k9x");
   };
 
   return { isAdmin, loading, logout };

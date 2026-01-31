@@ -22,7 +22,3 @@ jobs:
             git pull origin main
             npm install
             npm run build
-            # Restart your web server if needed (uncomment the one you use):
-            # sudo systemctl restart nginx
-            # sudo systemctl restart apache2
-            # pm2 restart all

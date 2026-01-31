@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, Users, Shield, Star, Heart } from "lucide-react";
-import ehepaarPortrait from "@/assets/ehepaar-heinz-maria.png";
+import ehepaarPortrait from "@/assets/rentner-paar-strand.png";
 import OfferButton from "./OfferButton";
 
 const ArticlePage26 = () => {

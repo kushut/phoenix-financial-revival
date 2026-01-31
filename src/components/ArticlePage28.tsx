@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, CheckCircle, AlertTriangle } from "lucide-react";
 import OfferButton from "./OfferButton";
 import euIndienHandschlag from "@/assets/eu-indien-handschlag.png";
-import seniorinPortrait from "@/assets/seniorin-portrait.png";
+import seniorinPortrait from "@/assets/rentnerin-portrait-2.png";
 
 const ArticlePage28 = () => {
   const comments = [

@@ -30,6 +30,7 @@ import Site23 from "./pages/Site23";
 import Site24 from "./pages/Site24";
 import Site25 from "./pages/Site25";
 import Site26 from "./pages/Site26";
+import Site27 from "./pages/Site27";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
@@ -69,6 +70,7 @@ const App = () => (
           <Route path="/rentner-ehepaar-muenster-ruhestand" element={<Site24 />} />
           <Route path="/goldene-hochzeit-duesseldorf" element={<Site25 />} />
           <Route path="/rentner-ehepaare-versteckte-alternative" element={<Site26 />} />
+          <Route path="/eu-indien-abkommen-bank-renditen" element={<Site27 />} />
           <Route path="/admin" element={<Admin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

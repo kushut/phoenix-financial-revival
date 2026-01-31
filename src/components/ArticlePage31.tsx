@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import SpiegelHeader from "./SpiegelHeader";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Award, AlertTriangle } from "lucide-react";
+import { MessageSquare, Share2, Bookmark, Clock, TrendingUp, Shield, Lock, Award, AlertTriangle, CheckCircle } from "lucide-react";
 import loewinInvestorin from "@/assets/loewin-investorin-3.png";
 import OfferButton from "./OfferButton";
 
@@ -230,27 +230,46 @@ const ArticlePage31 = () => {
           </blockquote>
         </div>
 
-        {/* Exclusive Access Box */}
-        <div className="bg-primary/10 border-2 border-primary rounded-lg p-6 my-8">
-          <div className="flex items-center gap-2 mb-3">
-            <Lock className="w-5 h-5 text-primary" />
-            <span className="font-bold text-primary">Exklusiver Redaktions-Zugang</span>
-          </div>
-          <p className="text-sm mb-4">
-            Unsere Wirtschaftsredaktion hat das versteckte Angebot recherchiert und den direkten Zugang gefunden. Dieser ist auf der regulären Bank-Website <strong>nicht auffindbar</strong>.
-          </p>
-          <p className="text-xs text-muted-foreground">
-            Hinweis: Begrenzte Plätze verfügbar. Das Angebot kann jederzeit geschlossen werden.
-          </p>
+        {/* Security Checklist */}
+        <div className="info-box">
+          <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
+            <Shield className="w-5 h-5 text-primary" />
+            Sicherheits-Checkliste (was die Banken verschweigen):
+          </h3>
+          <ul className="space-y-2 text-sm">
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Ist es eine deutsche Bank? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>BaFin-reguliert? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Einlagensicherung bis 100.000€? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Jederzeit kündbar? <strong>Ja ✓</strong></span>
+            </li>
+            <li className="flex items-start gap-2">
+              <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+              <span>Wird aktiv beworben? <strong>Nein – aber genau deshalb lohnenswert ✓</strong></span>
+            </li>
+          </ul>
         </div>
 
         {/* CTA Section */}
-        <div className="my-12 text-center">
-          <OfferButton className="text-xl">
-            👉 Zum versteckten Bankangebot
+        <div className="bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20 rounded-lg p-6 my-8">
+          <p className="text-sm mb-4">
+            <strong>Anmerkung der Redaktion:</strong> Die TV-Investorin hat uns aufgefordert, dieses versteckte Angebot öffentlich zu machen. Es wird von den Banken nicht beworben – aber es existiert.
+          </p>
+          <OfferButton className="w-full">
+            Das versteckte Angebot jetzt nutzen →
           </OfferButton>
-          <p className="text-sm text-muted-foreground mt-4">
-            * Von der TV-Investorin empfohlen, von unserer Redaktion recherchiert.
+          <p className="text-xs text-muted-foreground mt-3 text-center">
+            Deutsche Großbank · Einlagensicherung bis 100.000€ · Jederzeit kündbar
           </p>
         </div>
 

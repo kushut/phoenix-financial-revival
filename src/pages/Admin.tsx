@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { useArticleLinks, ArticleLink } from "@/hooks/useArticleLinks";
+import { useAdminAuth } from "@/hooks/useAdminAuth";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
 import { toast } from "sonner";
-import { Link } from "react-router-dom";
-import { ArrowLeft, Save, Plus, ExternalLink } from "lucide-react";
+import { Save, Plus, ExternalLink, LogOut } from "lucide-react";
 
 const Admin = () => {
+  const { isAdmin, loading: authLoading, logout } = useAdminAuth();
   const { links, loading, updateLinks, addArticle } = useArticleLinks();
   const [selectedSlugs, setSelectedSlugs] = useState<string[]>([]);
   const [newUrl, setNewUrl] = useState("");
@@ -76,7 +77,7 @@ const Admin = () => {
     }
   };
 
-  if (loading) {
+  if (authLoading || loading) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
         <p className="text-muted-foreground">Lade...</p>
@@ -84,18 +85,28 @@ const Admin = () => {
     );
   }
 
+  if (!isAdmin) {
+    return null;
+  }
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="bg-primary text-white p-4">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
+          <h1 className="text-xl font-bold">Admin Dashboard</h1>
           <div className="flex items-center gap-4">
-            <Link to="/" className="hover:opacity-80">
-              <ArrowLeft className="w-5 h-5" />
-            </Link>
-            <h1 className="text-xl font-bold">Admin Dashboard</h1>
+            <span className="text-sm opacity-80">{links.length} Artikel</span>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={logout}
+              className="text-white hover:bg-white/20"
+            >
+              <LogOut className="w-4 h-4 mr-2" />
+              Abmelden
+            </Button>
           </div>
-          <span className="text-sm opacity-80">{links.length} Artikel</span>
         </div>
       </header>
 

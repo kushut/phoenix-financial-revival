@@ -70,7 +70,7 @@ const ArticlePage20 = () => {
             <div className="flex gap-3">
               <Quote className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
               <div>
-                <p className="font-bold text-primary mb-2">SPIEGEL:</p>
+                <p className="font-bold text-primary mb-2">Interviewer:</p>
                 <p className="mb-4">
                   Sie haben kürzlich gefordert, dass deutsche Rentner Zugang zu den gleichen 
                   Anlagekonditionen bekommen sollen wie institutionelle Großinvestoren. Woher kommt 
@@ -94,7 +94,7 @@ const ArticlePage20 = () => {
             <div className="flex gap-3">
               <Quote className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
               <div>
-                <p className="font-bold text-primary mb-2">SPIEGEL:</p>
+                <p className="font-bold text-primary mb-2">Interviewer:</p>
                 <p className="mb-4">
                   Sie sagen „nicht deutsch". Was meinen Sie damit genau?
                 </p>
@@ -130,7 +130,7 @@ const ArticlePage20 = () => {
             <div className="flex gap-3">
               <Quote className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
               <div>
-                <p className="font-bold text-primary mb-2">SPIEGEL:</p>
+                <p className="font-bold text-primary mb-2">Interviewer:</p>
                 <p className="mb-4">
                   Die Bundesregierung argumentiert, dass solche Produkte zu riskant für Privatanleger sind.
                 </p>
@@ -152,7 +152,7 @@ const ArticlePage20 = () => {
             <div className="flex gap-3">
               <Quote className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
               <div>
-                <p className="font-bold text-primary mb-2">SPIEGEL:</p>
+                <p className="font-bold text-primary mb-2">Interviewer:</p>
                 <p className="mb-4">
                   Sie sprechen von einer EU-Richtlinie, die das ändern soll?
                 </p>
@@ -198,7 +198,7 @@ const ArticlePage20 = () => {
             <div className="flex gap-3">
               <Quote className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
               <div>
-                <p className="font-bold text-primary mb-2">SPIEGEL:</p>
+                <p className="font-bold text-primary mb-2">Interviewer:</p>
                 <p className="mb-4">
                   Einige Banken haben bereits reagiert und bieten diese Produkte jetzt auch 
                   Privatkunden an. Was sagen Sie dazu?
@@ -220,7 +220,7 @@ const ArticlePage20 = () => {
             <div className="flex gap-3">
               <Quote className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
               <div>
-                <p className="font-bold text-primary mb-2">SPIEGEL:</p>
+                <p className="font-bold text-primary mb-2">Interviewer:</p>
                 <p className="mb-4">
                   Haben Sie selbst in solche Produkte investiert?
                 </p>
@@ -258,7 +258,7 @@ const ArticlePage20 = () => {
             <div className="flex gap-3">
               <Quote className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
               <div>
-                <p className="font-bold text-primary mb-2">SPIEGEL:</p>
+                <p className="font-bold text-primary mb-2">Interviewer:</p>
                 <p className="mb-4">
                   Was würden Sie einem Rentner sagen, der skeptisch ist?
                 </p>
@@ -280,7 +280,7 @@ const ArticlePage20 = () => {
             <div className="flex gap-3">
               <Quote className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
               <div>
-                <p className="font-bold text-primary mb-2">SPIEGEL:</p>
+                <p className="font-bold text-primary mb-2">Interviewer:</p>
                 <p className="mb-4">
                   Eine letzte Frage: Was ist Ihre Vision für deutsche Rentner in zehn Jahren?
                 </p>
@@ -319,7 +319,7 @@ const ArticlePage20 = () => {
                 Zum deutschen Bankangebot
               </OfferButton>
               <p className="text-xs text-center text-muted-foreground mt-2">
-                Deutsche Bank · Volle Einlagensicherung · Für Bürger ab 18 Jahren
+                Deutsche Großbank · Volle Einlagensicherung · Für Bürger ab 18 Jahren
               </p>
             </CardContent>
           </Card>

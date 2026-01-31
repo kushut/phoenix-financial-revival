@@ -85,7 +85,7 @@ const ArticlePage28 = () => {
         <figure className="mb-8">
           <img 
             src={euIndienHandschlag} 
-            alt="EU-Ratspräsident Costa, Premierminister Modi und Kommissionspräsidentin von der Leyen besiegeln das historische Abkommen" 
+            alt="Führende EU- und Indien-Politiker besiegeln das historische Abkommen" 
             className="w-full rounded-lg"
           />
           <figcaption className="image-caption">
@@ -125,7 +125,7 @@ const ArticlePage28 = () => {
           <h2 className="article-subheading">Was hat das Indien-Abkommen damit zu tun?</h2>
 
           <p>
-            Am 27. Januar 2026 unterzeichneten EU-Kommissionspräsidentin Ursula von der Leyen, EU-Ratspräsident António Costa und Indiens Premierminister Narendra Modi das größte Handelsabkommen der europäischen Geschichte.
+            Am 27. Januar 2026 unterzeichneten die führenden Politiker der EU und Indiens das größte Handelsabkommen der europäischen Geschichte.
           </p>
 
           <div className="info-box">

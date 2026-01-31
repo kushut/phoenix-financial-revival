@@ -84,11 +84,11 @@ const ArticlePage27 = () => {
         <figure className="mb-8">
           <img 
             src={euIndienAbkommen} 
-            alt="EU-Ratspräsident António Costa, Indiens Premierminister Narendra Modi und EU-Kommissionspräsidentin Ursula von der Leyen feiern das Handelsabkommen in Neu-Delhi" 
+            alt="Führende Politiker der EU und Indiens feiern das Handelsabkommen in Neu-Delhi" 
             className="w-full rounded-lg"
           />
           <figcaption className="image-caption">
-            Historischer Moment in Neu-Delhi: EU-Ratspräsident António Costa, Premierminister Narendra Modi und Kommissionspräsidentin Ursula von der Leyen nach Unterzeichnung des Abkommens
+            Historischer Moment in Neu-Delhi: Die führenden Vertreter der EU und Indiens nach Unterzeichnung des Abkommens
           </figcaption>
         </figure>
 
@@ -174,7 +174,7 @@ const ArticlePage27 = () => {
 
           <blockquote className="article-quote">
             „Die EU und Indien schreiben heute Geschichte."
-            <footer className="text-sm mt-2 text-muted-foreground">– EU-Kommissionspräsidentin Ursula von der Leyen, 27. Januar 2026</footer>
+            <footer className="text-sm mt-2 text-muted-foreground">– EU-Kommissionspräsidentin, 27. Januar 2026</footer>
           </blockquote>
 
           <h2 className="article-subheading">Warum Privatanleger jetzt profitieren können</h2>

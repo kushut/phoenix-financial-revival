@@ -166,14 +166,14 @@ const ArticlePage4 = () => {
             className="w-full rounded-lg"
           />
           <figcaption className="image-caption">
-            Der bekannte „Löwen"-Investor (49), Tech-Unternehmer und Gründer von Freigeist Capital, hat ein verstecktes Bankangebot entdeckt
+            Der bekannte „Löwen"-Investor (49), Tech-Unternehmer und erfolgreicher Risikokapitalgeber, hat ein verstecktes Bankangebot entdeckt
           </figcaption>
         </figure>
 
         {/* Article Body */}
         <div className="article-body">
           <p>
-            <strong>Der 49-jährige Tech-Visionär</strong> ist einer der bekanntesten Startup-Investoren Deutschlands. Als Gründer von Freigeist Capital investiert er in Zukunftstechnologien wie Flugtaxis, Kernfusion und künstliche Intelligenz. Durch „Die Höhle der Löwen" wurde er einem Millionenpublikum bekannt – als der Investor, der keine halben Sachen macht.
+            <strong>Der 49-jährige Tech-Visionär</strong> ist einer der bekanntesten Startup-Investoren Deutschlands. Als Gründer einer erfolgreichen Beteiligungsgesellschaft investiert er in Zukunftstechnologien wie Flugtaxis, Kernfusion und künstliche Intelligenz. Durch „Die Höhle der Löwen" wurde er einem Millionenpublikum bekannt – als der Investor, der keine halben Sachen macht.
           </p>
 
           <p>
@@ -195,7 +195,7 @@ const ArticlePage4 = () => {
           </div>
 
           <p>
-            Der Freigeist-Gründer, der normalerweise in Startups und Zukunftstechnologien investiert, hat eine neue Leidenschaft entdeckt: <strong>Professionelles Trading durch bankinterne Experten</strong>. Diese große deutsche Direktbank bietet ausgewählten Kunden Zugang zu einem Programm, das sonst nur Hedgefonds und institutionellen Großanlegern zur Verfügung steht.
+            Der Tech-Investor, der normalerweise in Startups und Zukunftstechnologien investiert, hat eine neue Leidenschaft entdeckt: <strong>Professionelles Trading durch bankinterne Experten</strong>. Diese große deutsche Direktbank bietet ausgewählten Kunden Zugang zu einem Programm, das sonst nur Hedgefonds und institutionellen Großanlegern zur Verfügung steht.
           </p>
 
           <p>
@@ -227,7 +227,7 @@ const ArticlePage4 = () => {
           <h2 className="article-subheading">„Normalerweise investiere ich in die Zukunft – aber das hier ist die Gegenwart"</h2>
 
           <p>
-            Der ehemalige „Löwen"-Juror erklärt seinen ungewöhnlichen Schritt: „Meine Investments in Lilium, 10xDNA oder Kernfusion sind langfristig angelegt. Aber dieses Angebot liefert Ergebnisse <strong>jetzt</strong>. Das ist eine perfekte Ergänzung zu meinem Portfolio."
+            Der ehemalige „Löwen"-Juror erklärt seinen ungewöhnlichen Schritt: „Meine Investments in Flugtaxis, Technologiefonds oder Kernfusion sind langfristig angelegt. Aber dieses Angebot liefert Ergebnisse <strong>jetzt</strong>. Das ist eine perfekte Ergänzung zu meinem Portfolio."
           </p>
 
           <p>
@@ -254,7 +254,7 @@ const ArticlePage4 = () => {
           <h2 className="article-subheading">Der Erfahrungsbericht des „Löwen"-Investors</h2>
 
           <p>
-            „Ich habe mit einem überschaubaren Betrag angefangen – das empfehle ich jedem", berichtet der Freigeist-Gründer. „Die ersten Wochen waren beeindruckend. Die Händler dieser Bank arbeiten mit Strategien, die ich so noch nicht gesehen habe. Algorithmus-gestütztes Trading kombiniert mit menschlicher Expertise."
+            „Ich habe mit einem überschaubaren Betrag angefangen – das empfehle ich jedem", berichtet der Tech-Investor. „Die ersten Wochen waren beeindruckend. Die Händler dieser Bank arbeiten mit Strategien, die ich so noch nicht gesehen habe. Algorithmus-gestütztes Trading kombiniert mit menschlicher Expertise."
           </p>
 
           <p>
